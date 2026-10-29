@@ -103,10 +103,28 @@ def check_previous_posts(timezone):
     return problems
 
 
+REMINDER_DAYS = (7, 3, 2, 1)    # checked each morning: 7 and 3 days before, the day before (~30 h), and the same day
+REMINDER_TOPICS = (20, 10, 4)    # reminders when few written topics are left
+PLATFORM_NAMES = {"tiktok": "TikTok", "instagram": "Instagram"}
+
+
+def remind_once(key, text):
+    """Send a 🔔 Telegram reminder only once per key (kept in state.json, saved by GitHub)."""
+    state = load_json(STATE_FILE, {})
+    sent = state.setdefault("reminders", [])
+    if key in sent:
+        return
+    if notify.send(text):
+        sent.append(key)
+        state["reminders"] = sent[-100:]
+        save_json(STATE_FILE, state)
+
+
 def check_accounts(config):
     """Ask Zernio whether every configured account can still post. Returns a list of problems.
 
-    Also warns 7 days before a connection that does not renew itself expires (Instagram: about 60 days).
+    A connection that does not renew itself (Instagram: about 60 days) gets 🔔 Telegram reminders
+    7 days, 3 days, the day before and the same day before it expires; once expired or cut, it becomes a problem (❌ + email).
     """
     problems = []
     for lang, lang_cfg in config["languages"].items():
@@ -115,22 +133,46 @@ def check_accounts(config):
         for platform, account_id in lang_cfg.get("accounts", {}).items():
             if not account_id:
                 continue
+            name = PLATFORM_NAMES.get(platform, platform)
             try:
                 _, h = api("GET", f"/accounts/{account_id}/health")
             except SystemExit as e:
-                problems.append(f"{platform} ({lang}): could not check the connection on Zernio: {e}")
+                problems.append(f"{name} ({lang}): could not check the connection on Zernio: {e}")
                 continue
             token = h.get("tokenStatus") or {}
             if not h.get("permissions", {}).get("canPost", h.get("canPost", True)) or h.get("needsReconnect") \
                     or h.get("status") not in (None, "healthy"):
-                problems.append(f"{platform} ({lang}): Zernio can no longer post ({h.get('status')}, "
-                                f"{h.get('disconnectReason') or 'no reason given'}). Reconnect it in the Zernio dashboard.")
+                problems.append(f"{name} ({lang}) est déconnecté de Zernio ({h.get('disconnectReason') or h.get('status')}). "
+                                f"Reconnecte-le : zernio.com → ton profil → {name} → Reconnect (1 minute).")
             elif token.get("expiresAt") and token.get("expiresIn") != "Auto-refreshes":
                 expires = datetime.fromisoformat(token["expiresAt"].replace("Z", "+00:00"))
-                if expires - datetime.now(expires.tzinfo) < timedelta(days=7):
-                    problems.append(f"{platform} ({lang}): the connection expires on {expires:%Y-%m-%d}. "
-                                    f"Reconnect it in the Zernio dashboard before then (1 minute).")
+                left = expires - datetime.now(expires.tzinfo)
+                for days in sorted(REMINDER_DAYS):  # the closest level that applies
+                    if left <= timedelta(days=days):
+                        paris = expires.astimezone(ZoneInfo(config["timezone"]))
+                        when = (f"dans {left.days} jours" if left.days >= 2 else
+                                "demain" if left >= timedelta(days=1) else "AUJOURD'HUI (dans moins de 24 h)")
+                        remind_once(f"{account_id}:{token['expiresAt']}:{days}",
+                                    f"🔔 Rappel : la connexion {name} ({h.get('username', '')}) expire {when}, "
+                                    f"le {paris:%d/%m à %Hh%M}.\nÀ faire : zernio.com → ton profil → {name} → Reconnect "
+                                    f"(1 minute). Sinon les vidéos ne partiront plus sur {name}.")
+                        break
     return problems
+
+
+def check_topics_left(lang):
+    """🔔 Telegram reminder when few written topics are left (the Monday writing task may have failed)."""
+    used = set(load_json(STATE_FILE, {}).get(lang, []))
+    written = [t for t in load_json(ROOT / "topics.json") if lang in t.get("facts", {})]
+    left = sum(1 for t in written if t["id"] not in used)
+    for limit in sorted(REMINDER_TOPICS):  # the lowest level that applies
+        if left <= limit:
+            # one reminder per level for this batch of topics (a new batch resets them)
+            remind_once(f"topics:{lang}:{len(written)}:{limit}",
+                        f"🔔 Rappel : il ne reste que {left} sujets écrits ({lang}), soit environ {left // 2} jours de vidéos.\n"
+                        f"La tâche du lundi aurait dû en écrire d'autres. Vérifie claude.ai/code/routines "
+                        f"(« Fun facts - write next topics ») ou demande à Claude d'écrire le mois suivant.")
+            break
 
 
 class Tee:
@@ -204,6 +246,8 @@ def main():
                 if config["publish_mode"] == "schedule":
                     notify.send(f"🎬 Programmée : 3 crazy facts about {info['title']}\n"
                                 f"🕗 {info['post_time'][11:16]} ({info['seconds']:.0f} s) sur TikTok + Instagram")
+        if real_run:
+            check_topics_left(lang)
 
     if problems:
         print("\nToday's videos were sent, but something needs your attention (see PROBLEM lines above). "

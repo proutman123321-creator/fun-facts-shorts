@@ -59,6 +59,11 @@ https://github.com/proutman123321-creator/fun-facts-shorts
   "Check posts and alert on Telegram", runs every 30 minutes around the posting times (about 20 seconds each).
   The bot token is the GitHub Secret `TELEGRAM_BOT_TOKEN`; your chat id is `telegram_chat_id` in `config.json`.
   Test from the PC: `.venv\Scripts\python src\notify.py test`
+- **🔔 Reminders on Telegram** (each sent once, so you are not flooded):
+  - a TikTok / Instagram connection that will expire (Instagram: about every 60 days): 7 days before,
+    3 days before, the day before (~30 h) and the same morning, with what to do (Zernio → Reconnect, 1 minute);
+  - few written topics left (the Monday task may have failed): at 20, 10 and 4 topics left.
+  A connection that is already cut is an immediate ❌ alert (and a red GitHub run with an email).
 - Temporary problems (network, Zernio busy, Pixabay down, voice service hiccup) are retried
   automatically; if no clips can be found, the video uses the plain colored background instead.
 - Cost: free (about 750 of the 2,000 free minutes per month for private projects: ~9 min a day for
