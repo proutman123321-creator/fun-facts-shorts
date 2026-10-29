@@ -3,17 +3,33 @@
 Makes vertical "3 crazy facts about ___ (+ a bonus)" videos (real stock footage, AI voice,
 animated captions) and sends the same video to TikTok + Instagram through **Zernio**.
 
-- Each video is **just over 1 minute** (62–75 s), so it can count for TikTok's Creator Rewards (videos over 1 minute).
+- Each video is **just over 1 minute** (61–70 s), so it can count for TikTok's Creator Rewards (videos over 1 minute).
 - Each language has **its own accounts** (an English account, later maybe a French account).
-- Right now: **English only**, 2 videos a day posted at **08:00** and **20:00** (Paris time),
-  on TikTok `fun_fact_for_real` and Instagram `funfact_for_real`.
-- Each video has its own topic hashtags plus the account hashtags.
+- Right now: **English only**, 2 videos a day posted around **08:00** and **20:00** (Paris time, a few random
+  minutes off), on TikTok `fun_fact_for_real` and Instagram `funfact_for_real`.
+- Each video has its own caption with keywords and 5 hashtags (Instagram's maximum since December 2025).
+
+## Video style (what each video looks like)
+- **Hook (first ~3 s):** a short surprising line, shown big on screen from the first frame and spoken right away
+  ("White chocolate isn't really chocolate. Wait for number three."). Each topic has its own `hook`.
+- **#1, #2, #3, BONUS:** a new shot, a short flash and a zoom "punch" exactly when each fact starts;
+  before the bonus, a call to comment ("comment the one you didn't know").
+- **Montage:** shots of 1.5–3.4 s (faster during the hook), each with its own camera move (zooms, pans,
+  punch-in, tilt, handheld), about 1 in 4 in slow motion. Only real footage that matches the topic
+  (no cartoons, fair rides, fashion portraits or very dark clips).
+- **Captions:** word by word, the spoken word in yellow; kept away from the app's buttons and bottom text.
+- **Voice:** slightly slowed (−4% to −10%) when a text is short, so the voice fills the minute.
+- **Music:** a royalty-free track from `assets\music`, chosen by mood for the topic's category
+  (`assets\music\moods.json`), started after its quiet intro at a different point each time, at the same
+  quiet level for every track, and dipping automatically while the voice speaks. Final sound at about −14 LUFS.
+  Tracks shorter than the video are skipped. Add or move tracks between moods any time (then push to GitHub).
 
 ## The one-year plan
 - `topic_plan.json`: **730 topics** (2 a day from 30 Oct 2026 to 29 Oct 2027) in 13 categories
   (Animals 120, History 80, Space 70, Human body 70, Science 60, Places 60, Food 50, Ocean 50,
   Inventions 50, Plants 40, Records 30, Words 30, Psychology 20), mixed so the same category never comes twice in a row.
-- `content\`: the written topics (4 facts each: 3 + bonus). Month 1 (60 topics) is written.
+- `content\`: the written topics (a hook + 4 facts each: 3 + bonus). Months 1 and 2 (120 topics) are written;
+  the weekly task "Fun facts - write next topics" (Claude, every Monday) writes the next ones automatically.
 - `topics.json`: what the videos are made from. Rebuild it after adding content: `.venv\Scripts\python src\add_content.py`
 - When fewer than 14 topics are left, the run log shows a warning: ask Claude to write the next month.
 
@@ -116,15 +132,16 @@ Everything runs on GitHub (see "Runs in the cloud" above). The PC files are only
   1. Connect the French TikTok + Instagram in Zernio (accounts 3 and 4 cost $6/month each on Zernio).
   2. Run `2-show-accounts.bat` and paste their IDs in `config.json` under `"fr"` → `"accounts"`.
   3. Set `"enabled": true` for `"fr"`.
-- **Hashtags:** every caption = the topic's hashtags (`"hashtags"` in `content\*.json`)
-  + the account's hashtags (`"hashtags"` of the language in `config.json`, e.g. `#funfactforreal`).
-- **Hook, ending, captions:** `"hook"`, `"outro"`, `"caption"` of the language in `config.json`.
+- **Hashtags:** every caption = the topic's 4 hashtags (`"hashtags"` in `content\*.json`) + `#funfacts`
+  (`"hashtags"` of the language in `config.json`). Keep the total at 5 (Instagram's limit).
+- **Hook template, ending, captions:** `"hook"` (`{teaser}` = the topic's hook), `"outro"`, `"caption"` of the language.
 - **Voices:** e.g. `en-US-AvaNeural`, `en-GB-RyanNeural`, `fr-FR-DeniseNeural`, `fr-FR-VivienneMultilingualNeural`.
-- **Minimum length:** `"min_seconds"` (62). If the voice is shorter, the "Follow for more" end card stays longer.
-- **New topics:** add a file in `content\` (same format as `month01_part1.json`: `id` from `topic_plan.json`,
-  `keywords`, `hashtags`, 4 `facts`), then run `src\add_content.py`. Topics are used once, in plan order (`state.json`).
+- **Minimum length:** `"min_seconds"` (61). The voice slows a little to reach it; any rest is a short end card.
+- **New topics:** add a file in `content\` (same format as `month02.json`: `id` from `topic_plan.json`, `hook`
+  (6–10 words, teasing fact 3), `keywords`, `hashtags`, 4 `facts` of 45–60 words), then run `src\add_content.py`.
+  Topics are used once, in plan order (`state.json`). The weekly task writes them automatically.
   `keywords` are English words used to find matching stock clips (be specific: `"octopus underwater"`, not `"octopus"`).
-- **Background music (optional):** put a royalty-free `music.mp3` in the `assets` folder. It plays quietly under the voice.
+- **Music:** add tracks to `assets\music` and list them under a mood in `assets\music\moods.json`.
 
 ## Disk space
 - Downloaded clips (`assets\clips\`) not used for 30 days are deleted automatically.
@@ -141,7 +158,9 @@ Everything runs on GitHub (see "Runs in the cloud" above). The PC files are only
 ```
 config.json          settings (mode, languages, accounts, times, voices, texts, hashtags)
 topic_plan.json      the 730 topics for one year, in posting order
-content/             the written topics (3 facts + bonus each)
+content/             the written topics (hook + 3 facts + bonus each)
+assets/music/        royalty-free background tracks + moods.json (which mood for which category)
+assets/fonts/        the free caption font (Archivo Black, SIL OFL)
 topics.json          built from content/, used to make the videos
 .env                 YOUR keys (you create it, never shared)
 src/make_video.py    builds one video

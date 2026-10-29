@@ -13,7 +13,8 @@
    "To see a rainbow, the Sun must always be behind you. The light enters raindrops in front of you, bounces inside them, and comes back toward your eyes.",
    "In a double rainbow, the second rainbow has its colors in the opposite order. And no two people ever see exactly the same rainbow, because each one depends on where you stand.",
    "Rainbows can also appear at night. On bright nights, the light of the full Moon can create a moonbow, although it usually looks white to our eyes."
-  ]
+  ],
+  "hook": "No two people ever see the same rainbow."
  },
  {
   "id": "kangaroos",
@@ -29,7 +30,8 @@
    "A baby kangaroo, called a joey, is born the size of a jelly bean. It crawls into its mother's pouch and stays there for months.",
    "Red kangaroos can cover around eight meters in a single jump, and they can hop at more than fifty kilometers per hour.",
    "A kangaroo mother can feed two babies of different ages at once, and she produces two different types of milk at the same time, one for each baby."
-  ]
+  ],
+  "hook": "A kangaroo can jump eight meters in one leap."
  },
  {
   "id": "venice",
@@ -45,7 +47,8 @@
    "The city stands on millions of wooden poles driven deep into the mud. Without oxygen under water, the wood has lasted for centuries.",
    "There are no cars in Venice. People get around on foot or by boat, and even the ambulances, the fire trucks and the mail delivery all travel on the water.",
    "Venice is slowly sinking, and floods are becoming more common. Since twenty twenty, giant mobile barriers rise from the sea floor to protect the city from the highest tides."
-  ]
+  ],
+  "hook": "In Venice, even ambulances are boats."
  },
  {
   "id": "the-mariana-trench",
@@ -58,10 +61,11 @@
   "hashtags": "#marianatrench #deepsea #ocean #mystery",
   "facts": [
    "The deepest point of the Mariana Trench is about eleven kilometers down. If you dropped Mount Everest into it, its peak would still be more than two kilometers under water.",
-   "At the bottom, the water pressure is more than one thousand times stronger than at the surface. Only specially built submarines can survive the trip.",
+   "At the bottom, the water pressure is more than one thousand times stronger than at the surface. Only specially built submarines can survive the trip. That's about eight tons pressing on every square inch.",
    "Even there, humans have left their mark. A plastic bag was spotted at almost eleven kilometers deep, one of the deepest pieces of trash ever found.",
    "Life still exists at the bottom. Scientists have found strange creatures like the Mariana snailfish, a small, almost see through fish living around eight thousand meters deep."
-  ]
+  ],
+  "hook": "We found plastic eleven kilometers under the sea."
  },
  {
   "id": "samurai",
@@ -75,9 +79,10 @@
   "facts": [
    "Samurai usually carried two swords, a long one and a short one. Wearing the pair was a privilege reserved for the samurai class.",
    "In the fifteen hundreds, there was an African samurai. His name was Yasuke, and he served one of the most powerful lords in Japan, Oda Nobunaga.",
-   "The samurai class was officially abolished in the eighteen seventies, as Japan modernized. Samurai even lost the right to carry their swords in public.",
+   "The samurai class was officially abolished in the eighteen seventies, as Japan modernized. Samurai even lost the right to carry their swords in public. Their last great stand was a rebellion in eighteen seventy seven.",
    "Samurai armor was often made of small plates of iron or leather, tied together with silk cords. That made it light and flexible enough to ride and fight in."
-  ]
+  ],
+  "hook": "Samurai once lost the right to carry their swords."
  },
  {
   "id": "bamboo",
@@ -90,10 +95,11 @@
   "hashtags": "#bamboo #plants #nature #botany",
   "facts": [
    "Some types of bamboo can grow almost one meter in a single day. It's one of the fastest growing plants on the planet.",
-   "Bamboo looks like a tree, but it's actually a giant grass, a close cousin of the grass in your garden.",
+   "Bamboo looks like a tree, but it's actually a giant grass, a close cousin of the grass in your garden. A giant panda can eat between twelve and thirty eight kilograms of it every single day.",
    "Some bamboo species flower only once every sixty to one hundred twenty years. Strangely, all the plants of that species flower at the same time around the world, and then die.",
    "Bamboo is incredibly strong for its weight. In parts of Asia it's still used as scaffolding to build skyscrapers, tied together by skilled workers."
-  ]
+  ],
+  "hook": "Some bamboo only flowers once a century."
  },
  {
   "id": "the-english-language",
@@ -109,7 +115,8 @@
    "Around one and a half billion people speak English, but most of them learned it as a second language. Only about four hundred million people grew up speaking it as their mother tongue.",
    "The sentence the quick brown fox jumps over the lazy dog contains every letter of the alphabet. That's why it was used for decades to test typewriters and fonts.",
    "English has borrowed words from hundreds of languages. Shampoo comes from Hindi, robot from Czech, and ketchup probably comes from a Chinese word for fish sauce."
-  ]
+  ],
+  "hook": "One famous sentence holds every letter of the alphabet."
  },
  {
   "id": "giraffes",
@@ -121,11 +128,12 @@
   ],
   "hashtags": "#giraffe #africa #animalfacts #wildlife",
   "facts": [
-   "A giraffe's neck has exactly the same number of bones as yours, seven. Each one is just much, much longer.",
+   "A giraffe's neck has exactly the same number of bones as yours, seven. Each one is just much, much longer. In a giraffe, a single one of those neck bones can be more than twenty five centimeters long.",
    "A giraffe's tongue is about half a meter long and dark purple. The dark color may protect it from sunburn while the giraffe eats all day.",
    "Giraffes barely sleep. In the wild, they often rest for only a few minutes at a time, and sometimes less than two hours in a whole day.",
    "A baby giraffe starts its life with a fall of almost two meters, because giraffe mothers give birth standing up. The baby can usually stand and walk within an hour."
-  ]
+  ],
+  "hook": "Giraffes barely sleep two hours a day."
  },
  {
   "id": "the-northern-lights",
@@ -141,7 +149,8 @@
    "The color depends on the gas and the height. Oxygen glows green or red, while nitrogen can make blue and purple lights, often along the bottom edge of the glowing curtain.",
    "There are southern lights too, near Antarctica. And other planets have auroras as well, like Jupiter, where they are much bigger and more powerful than ours.",
    "Sometimes the northern lights travel much farther south. In May twenty twenty four, a huge solar storm made them visible in places like Mexico and southern Europe."
-  ]
+  ],
+  "hook": "Other planets have northern lights too."
  },
  {
   "id": "laughter",
@@ -155,8 +164,9 @@
   "facts": [
    "You are around thirty times more likely to laugh when you're with other people than when you're alone. Laughter is mostly a social signal.",
    "Laughter is contagious. Just hearing someone laugh activates the parts of your brain that prepare your face to smile. That's one reason television shows used recorded laugh tracks for decades.",
-   "Rats laugh when they are tickled. Their laughter is too high pitched for us to hear, but special microphones can pick it up.",
+   "Rats laugh when they are tickled. Their laughter is too high pitched for us to hear, but special microphones can pick it up. In experiments, tickled rats even came back for more, chasing the hand that tickled them.",
    "Real laughter and fake laughter are handled differently by the brain, and most people can tell the difference just by listening, even without seeing the person."
-  ]
+  ],
+  "hook": "Rats laugh when you tickle them."
  }
 ]

@@ -21,6 +21,9 @@
         "Octopuses can change the color and even the texture of their skin in a fraction of a second to disappear into the background. And the craziest part: scientists believe most octopuses are colorblind.",
         "Octopuses are amazing escape artists. Because they have no bones, a big octopus can squeeze its whole body through a hole barely bigger than its beak, the only hard part of its body."
       ]
+    },
+    "hook": {
+      "en": "Octopuses are masters of disguise, yet they're colorblind."
     }
   },
   {
@@ -45,6 +48,9 @@
         "We always see the same side of the Moon. It spins exactly once each time it goes around the Earth, so one whole side of it is never visible from here.",
         "The Moon has moonquakes. Because the Moon is so dry and rigid, some of them can make the ground shake for more than ten minutes, much longer than most earthquakes on Earth."
       ]
+    },
+    "hook": {
+      "en": "There's a side of the Moon we never see."
     }
   },
   {
@@ -69,6 +75,9 @@
         "White chocolate is not really chocolate. It contains no cocoa solids at all, only cocoa butter, sugar and milk. That's why it doesn't taste anything like dark chocolate.",
         "For thousands of years, chocolate was only a drink, often bitter and spicy. The first solid chocolate bars were only made in England in the eighteen forties."
       ]
+    },
+    "hook": {
+      "en": "White chocolate isn't really chocolate."
     }
   },
   {
@@ -93,6 +102,9 @@
         "The brain itself cannot feel pain. It has no pain sensors, which is why surgeons can operate on some patients' brains while they are wide awake and talking.",
         "Your brain is about sixty percent fat, which makes it one of the fattiest organs in your body. That's one reason healthy fats in your food are so important for it."
       ]
+    },
+    "hook": {
+      "en": "Your brain can't feel any pain."
     }
   },
   {
@@ -117,6 +129,9 @@
         "In ancient Egypt, both men and women wore dark eye makeup. It looked great, but it also helped reduce the glare of the desert sun, and it may even have helped fight eye infections.",
         "Egyptians adored their cats. According to the Greek historian Herodotus, when a family cat died, the people of the house shaved off their eyebrows as a sign of mourning."
       ]
+    },
+    "hook": {
+      "en": "Ancient Egyptian men wore eye makeup too."
     }
   },
   {
@@ -141,6 +156,9 @@
         "Lightning can definitely strike the same place twice. The Empire State Building in New York is hit around twenty times every year, which is exactly why tall buildings have lightning rods.",
         "Thunder is the sound of air exploding. Lightning heats the air so fast that it expands violently. Count the seconds between the flash and the thunder, divide by three, and you get the distance of the storm in kilometers."
       ]
+    },
+    "hook": {
+      "en": "Lightning does strike the same place twice."
     }
   },
   {
@@ -160,11 +178,14 @@
     },
     "facts": {
       "en": [
-        "Emperor penguins are amazing divers. They can go deeper than five hundred meters and hold their breath for more than twenty minutes while hunting for fish.",
+        "Emperor penguins are amazing divers. They can go deeper than five hundred meters and hold their breath for more than twenty minutes while hunting for fish. That's deeper than one and a half Eiffel Towers stacked on top of each other.",
         "Male emperor penguins keep their egg warm on their feet for about two months, in the middle of the Antarctic winter, without eating anything at all.",
         "Penguins can drink salt water. A special gland above their eyes filters the salt out of their blood, and they simply sneeze it out.",
         "Not all penguins live in the cold. The Galapagos penguin lives right near the equator, and in South Africa, penguins waddle on sunny beaches next to tourists."
       ]
+    },
+    "hook": {
+      "en": "Penguins can drink salt water."
     }
   },
   {
@@ -189,6 +210,9 @@
         "The Great Barrier Reef in Australia is the largest structure built by living things on the planet. It's so big that it can be seen from space.",
         "Parrotfish eat coral and poop out fine white sand. A single large parrotfish can produce hundreds of kilograms of sand every year, and many tropical beaches are partly made of it."
       ]
+    },
+    "hook": {
+      "en": "Tiny animals built something you can see from space."
     }
   },
   {
@@ -213,6 +237,9 @@
         "At the summit, each breath gives you only about a third of the oxygen you would get at sea level. That's why most climbers carry oxygen bottles to reach the top.",
         "Everest is the highest mountain above sea level, but not the tallest. Mauna Kea in Hawaii is more than ten thousand meters tall if you measure it from its base on the ocean floor."
       ]
+    },
+    "hook": {
+      "en": "On top of Everest, you get a third of the oxygen."
     }
   },
   {
@@ -237,6 +264,9 @@
         "Your heart has its own electrical system. It doesn't need your brain to tell it when to beat, and it can even keep beating for a short time outside the body.",
         "The biggest heart on the planet belongs to the blue whale. It weighs around one hundred and eighty kilograms, about as much as two adult humans, and it can beat as slowly as twice a minute."
       ]
+    },
+    "hook": {
+      "en": "Your heart can beat without your brain."
     }
   },
   {
@@ -261,6 +291,9 @@
         "Cats sleep between twelve and sixteen hours a day. That means a nine year old cat has spent around five years of its life asleep, more than half of its whole life.",
         "Cats have a special organ in the roof of their mouth that lets them taste smells. When a cat sniffs something with its mouth slightly open and a funny face, it's using that organ."
       ]
+    },
+    "hook": {
+      "en": "Your cat spends most of its life asleep."
     }
   },
   {
@@ -281,10 +314,13 @@
     "facts": {
       "en": [
         "Mars has the tallest volcano in the solar system. It's called Olympus Mons, and it's about two and a half times taller than Mount Everest.",
-        "Sunsets on Mars are blue. The fine dust in the Martian air scatters blue light around the Sun, the opposite of what happens on Earth.",
+        "Sunsets on Mars are blue. The fine dust in the Martian air scatters blue light around the Sun, the opposite of what happens on Earth. NASA rovers have photographed these blue sunsets many times.",
         "Mars is red because it's rusty. Its rocks and dust are full of iron oxide, the same thing that makes old metal turn red.",
         "Mars has two tiny moons, Phobos and Deimos. Phobos is slowly spiraling closer, and in about fifty million years it will either crash into Mars or break apart into a ring."
       ]
+    },
+    "hook": {
+      "en": "Mars is red because it's rusty."
     }
   },
   {
@@ -309,6 +345,9 @@
         "The country that drinks the most coffee per person is not Italy or America, it's Finland. The average Finn drinks around four cups a day.",
         "Coffee was once banned in several places. In the sixteen hundreds, some rulers believed coffee houses were places where people gathered to criticize them and plot against them."
       ]
+    },
+    "hook": {
+      "en": "The world's biggest coffee drinkers aren't Italian."
     }
   },
   {
@@ -329,10 +368,13 @@
     "facts": {
       "en": [
         "Vikings never wore horned helmets in battle. That famous image was invented in the eighteen hundreds by costume designers for operas.",
-        "Vikings reached North America around the year one thousand, almost five hundred years before Christopher Columbus. The remains of their camp were found in Canada.",
+        "Vikings reached North America around the year one thousand, almost five hundred years before Christopher Columbus. The remains of their camp were found in Canada. The site, called L'Anse aux Meadows, is on the island of Newfoundland.",
         "Vikings were actually quite clean. Combs are one of the most common things archaeologists find, and in old Norse, Saturday was named washing day.",
         "Some historians think Vikings navigated with a special crystal called a sunstone. By looking at the sky through it, they could find the position of the Sun, even on cloudy days."
       ]
+    },
+    "hook": {
+      "en": "Vikings were much cleaner than you think."
     }
   },
   {
@@ -357,6 +399,9 @@
         "In eighteen eighty three, the eruption of Krakatoa in Indonesia made what may be the loudest sound in recorded history. People heard it almost five thousand kilometers away.",
         "Lightning can strike inside volcanic ash clouds. The tiny pieces of ash rub against each other and create static electricity, producing a terrifying show called a dirty thunderstorm."
       ]
+    },
+    "hook": {
+      "en": "A volcano made the loudest sound in history."
     }
   },
   {
@@ -377,10 +422,13 @@
     "facts": {
       "en": [
         "Dolphins sleep with only half of their brain at a time. The other half stays awake to keep breathing and to watch for danger.",
-        "Each dolphin has its own signature whistle, a bit like a name. Other dolphins use that whistle to call it.",
+        "Each dolphin has its own signature whistle, a bit like a name. Other dolphins use that whistle to call it. Scientists found that dolphins can remember the whistles of old companions for more than twenty years.",
         "Dolphins can recognize themselves in a mirror. Only a few animals can do that, like great apes, elephants and magpies.",
         "Some dolphins in Australia use sea sponges as tools. They wear them on their noses to protect themselves while digging for food on the rough sea floor, and mothers teach this trick to their babies."
       ]
+    },
+    "hook": {
+      "en": "Dolphins can recognize themselves in a mirror."
     }
   },
   {
@@ -405,6 +453,9 @@
         "Around three quarters of the animals living in the deep sea can make their own light. They use it to hunt, to hide, and to find a partner.",
         "The colossal squid lives in the deep sea and has the biggest eyes in the animal kingdom. Each eye can be as large as a dinner plate, perfect for spotting faint light in the dark."
       ]
+    },
+    "hook": {
+      "en": "Most deep sea animals make their own light."
     }
   },
   {
@@ -429,6 +480,9 @@
         "The Eiffel Tower is repainted about every seven years, by hand, with brushes. Each time it takes around sixty tonnes of paint, and the work lasts more than a year.",
         "There is a secret apartment at the top of the Eiffel Tower. Gustave Eiffel built it for himself, and he welcomed famous guests there, like the inventor Thomas Edison."
       ]
+    },
+    "hook": {
+      "en": "The Eiffel Tower is still painted by hand."
     }
   },
   {
@@ -453,6 +507,9 @@
         "In nineteen sixty four, a student named Randy Gardner stayed awake for about eleven days. By the end, he had trouble focusing, remembering things, and even saw things that weren't there.",
         "Some animals sleep in very strange ways. Sperm whales sleep vertically, floating in the ocean like giant logs, during short naps of around ten to fifteen minutes."
       ]
+    },
+    "hook": {
+      "en": "A student once stayed awake for eleven days."
     }
   },
   {
@@ -474,9 +531,12 @@
       "en": [
         "Honey never goes bad. Archaeologists found pots of honey in ancient Egyptian tombs, thousands of years old, and it was still edible.",
         "A single honeybee makes only about one twelfth of a teaspoon of honey in its whole life. Every jar is the work of thousands of bees.",
-        "Bees tell each other where to find flowers by dancing. The angle and the length of their waggle dance show the direction and the distance.",
+        "Bees tell each other where to find flowers by dancing. The angle and the length of their waggle dance show the direction and the distance. The scientist who decoded this dance, Karl von Frisch, won a Nobel Prize for it.",
         "To make just one kilogram of honey, bees must visit around four million flowers and fly a distance equal to roughly three or four trips around the Earth."
       ]
+    },
+    "hook": {
+      "en": "Bees give each other directions by dancing."
     }
   },
   {
@@ -501,6 +561,9 @@
         "The Sun contains about ninety nine point eight percent of all the mass in our solar system. All the planets together are just leftovers.",
         "The Sun is not actually yellow, it's white. It only looks yellow from the ground because our atmosphere scatters part of its blue light. Astronauts in space see it as white."
       ]
+    },
+    "hook": {
+      "en": "The Sun is almost the entire solar system."
     }
   },
   {
@@ -522,9 +585,12 @@
       "en": [
         "Botanically speaking, a banana is a berry, but a strawberry is not. A true berry grows from a single flower with one ovary.",
         "Bananas are slightly radioactive. They contain potassium, and a tiny part of it is naturally radioactive. Don't worry, you would need to eat millions at once for it to matter.",
-        "Banana plants are not trees. They have no wood at all. They are actually giant herbs, some of the biggest on the planet.",
+        "Banana plants are not trees. They have no wood at all. They are actually giant herbs, some of the biggest on the planet. What looks like a trunk is actually made of leaves rolled tightly together.",
         "Almost all the bananas we eat today are clones of a single variety called the Cavendish. Before the nineteen fifties, people ate a different banana, the Gros Michel, until a disease almost wiped it out."
       ]
+    },
+    "hook": {
+      "en": "Banana plants aren't trees at all."
     }
   },
   {
@@ -549,6 +615,9 @@
         "At its peak, the Roman Empire ruled around sixty million people. That may have been up to a quarter of everyone alive on Earth at the time.",
         "Romans had public toilets with long stone benches where people sat side by side and chatted. Instead of toilet paper, they used a sea sponge on a stick, which may have been shared."
       ]
+    },
+    "hook": {
+      "en": "Rome may have ruled a quarter of humanity."
     }
   },
   {
@@ -573,6 +642,9 @@
         "On average, every passenger plane is struck by lightning about once a year. They are built for it, and the electricity flows around the outside of the plane.",
         "The famous black box on an airplane is not black at all. It's bright orange, so that rescue teams can find it more easily after an accident."
       ]
+    },
+    "hook": {
+      "en": "Every plane gets hit by lightning about once a year."
     }
   },
   {
@@ -597,6 +669,9 @@
         "Elephants can communicate with very deep rumbles that humans can't hear. Other elephants can feel these vibrations through their feet, kilometers away.",
         "Elephants seem to recognize their dead. When they find the bones of another elephant, they often stop, touch them gently with their trunks and feet, and stay there for a while in silence."
       ]
+    },
+    "hook": {
+      "en": "Elephants can hear through their feet."
     }
   },
   {
@@ -621,6 +696,9 @@
         "Tornadoes have been seen on every continent except Antarctica. Over water, they are called waterspouts, and they can suck up water, and sometimes even fish and frogs.",
         "Some tornadoes are almost invisible. A tornado only becomes visible when it picks up dust and debris, or when water droplets condense into a funnel shaped cloud."
       ]
+    },
+    "hook": {
+      "en": "Tornadoes can suck up fish and frogs."
     }
   },
   {
@@ -645,6 +723,9 @@
         "The Greenland shark may be the longest living animal with a backbone. Scientists estimate some of them are around four hundred years old, and they only become adults at about one hundred fifty.",
         "Sharks have a sixth sense. Tiny pores on their snout detect the weak electric fields made by the muscles of other animals, even fish hiding under the sand."
       ]
+    },
+    "hook": {
+      "en": "Some sharks alive today were born centuries ago."
     }
   },
   {
@@ -669,6 +750,9 @@
         "The wreck was only found in nineteen eighty five, almost four kilometers deep. Today, bacteria are slowly eating the metal, and parts of the ship could collapse within a few decades.",
         "One of the Titanic's bakers, Charles Joughin, survived for hours in the freezing water. He said he had been drinking whisky that night, and he lived to the age of seventy eight."
       ]
+    },
+    "hook": {
+      "en": "Bacteria are eating the Titanic right now."
     }
   },
   {
@@ -693,6 +777,9 @@
         "You blink around fifteen to twenty times every minute. That adds up to several minutes with your eyes closed every hour you are awake.",
         "Each of your eyes has a blind spot, where the nerve leaves the eye to go to the brain. You never notice it, because your brain simply fills in the missing part of the picture."
       ]
+    },
+    "hook": {
+      "en": "You spend minutes every hour with your eyes closed."
     }
   },
   {
@@ -717,6 +804,9 @@
         "Saturn has more than two hundred seventy known moons, more than any other planet. One of them, Titan, has lakes and rivers, not of water, but of liquid methane.",
         "It may rain diamonds on Saturn. Scientists think lightning turns methane into soot, which gets squeezed into diamonds as it falls deeper and deeper into the planet."
       ]
+    },
+    "hook": {
+      "en": "Saturn has a moon with lakes that aren't water."
     }
   },
   {
@@ -741,6 +831,9 @@
         "In twenty seventeen, UNESCO added the art of the Neapolitan pizza maker to its list of the cultural heritage of humanity, next to traditions that are centuries old.",
         "Pizza started as cheap street food for poor workers in Naples. People bought it from street sellers and ate it folded in half, long before it became a worldwide favorite."
       ]
+    },
+    "hook": {
+      "en": "Pizza making is officially world heritage."
     }
   },
   {
@@ -765,6 +858,9 @@
         "Every year, millions of tonnes of dust from the Sahara desert fly across the Atlantic Ocean and fall on the Amazon, bringing nutrients that help the rainforest grow.",
         "The Amazon River carries more water than the next seven biggest rivers in the world combined. And yet, there isn't a single bridge that crosses it."
       ]
+    },
+    "hook": {
+      "en": "The Sahara desert feeds the Amazon rainforest."
     }
   },
   {
@@ -784,11 +880,14 @@
     },
     "facts": {
       "en": [
-        "Owls can turn their heads around two hundred seventy degrees. Special blood vessels in their neck keep blood flowing to the brain while they twist.",
+        "Owls can turn their heads around two hundred seventy degrees. Special blood vessels in their neck keep blood flowing to the brain while they twist. That's three quarters of a full circle.",
         "Owl eyes are not round balls like ours, they are shaped like tubes. They can't move them at all, which is why owls turn their whole head to look around.",
         "Owls fly almost in complete silence. Their feathers have soft, comb like edges that break up the air, so their prey never hears them coming.",
         "A group of owls is called a parliament. And many owls swallow small prey whole, then cough up a little ball of bones and fur called a pellet."
       ]
+    },
+    "hook": {
+      "en": "Owls can fly in almost total silence."
     }
   },
   {
@@ -813,6 +912,9 @@
         "One of the biggest icebergs ever recorded, called B fifteen, broke off Antarctica in the year two thousand. It was about the size of the island of Jamaica.",
         "Some icebergs are bright blue, or even striped. Very old, dense ice absorbs red light and reflects blue, which makes it glow like a giant blue gem."
       ]
+    },
+    "hook": {
+      "en": "One iceberg was as big as Jamaica."
     }
   },
   {
@@ -832,11 +934,14 @@
     },
     "facts": {
       "en": [
-        "Young sunflowers follow the Sun across the sky during the day and turn back to the east at night. Once they are fully grown, most of them stay facing east.",
+        "Young sunflowers follow the Sun across the sky during the day and turn back to the east at night. Once they are fully grown, most of them stay facing east. Scientists found this is driven by an internal clock, a bit like ours.",
         "A sunflower head is not one flower. It's made of up to two thousand tiny flowers packed together in a perfect spiral pattern.",
         "After the Chernobyl nuclear disaster, sunflowers were planted on rafts on nearby ponds. Their roots helped pull radioactive particles out of the water.",
         "The tallest sunflower ever recorded was more than nine meters tall. It was grown in Germany in twenty fourteen, taller than a three story house."
       ]
+    },
+    "hook": {
+      "en": "Sunflowers helped clean up after Chernobyl."
     }
   },
   {
@@ -861,6 +966,9 @@
         "For its size, a tiny mite from California is one of the fastest runners ever measured. It covers more than three hundred times its body length every second.",
         "Dragonflies are among the fastest insects in the world, reaching around fifty kilometers per hour. And they are deadly hunters, catching their prey in more than nine out of ten attempts."
       ]
+    },
+    "hook": {
+      "en": "The fastest runner for its size is a tiny mite."
     }
   },
   {
@@ -885,6 +993,9 @@
         "Smart dogs can learn the meaning of more than one hundred and fifty words, and some exceptional dogs have learned the names of over a thousand toys.",
         "Dogs dream, just like us. Puppies and small dogs dream more often, and when a sleeping dog twitches its paws, it may be running after something in its dream."
       ]
+    },
+    "hook": {
+      "en": "Some dogs know over a thousand words."
     }
   },
   {
@@ -904,11 +1015,14 @@
     },
     "facts": {
       "en": [
-        "A black hole's gravity is so strong that nothing can escape it, not even light. That's why it looks completely black.",
+        "A black hole's gravity is so strong that nothing can escape it, not even light. That's why it looks completely black. Scientists can only spot them by watching what happens to the stars and gas around them.",
         "If you fell into a black hole, the difference in gravity between your head and your feet would stretch you like a noodle. Scientists actually call this spaghettification.",
         "There's a giant black hole at the center of our own galaxy. It's about four million times heavier than the Sun, and scientists published the first picture of it in twenty twenty two.",
         "If the entire Earth was squeezed into a black hole, it would be smaller than a marble, only about two centimeters wide."
       ]
+    },
+    "hook": {
+      "en": "A giant black hole sits at the center of our galaxy."
     }
   },
   {
@@ -933,6 +1047,9 @@
         "The Great Pyramid is made of around two point three million stone blocks. Some of them weigh more than two elephants.",
         "The Great Pyramid is lined up almost perfectly with north, south, east and west. The error is only a tiny fraction of a degree, built more than four thousand five hundred years ago."
       ]
+    },
+    "hook": {
+      "en": "Some pyramid blocks weigh more than two elephants."
     }
   },
   {
@@ -957,6 +1074,9 @@
         "Your bones are alive. Old bone is constantly removed and replaced, so your skeleton renews itself completely roughly every ten years. That's also why a broken bone can heal and become strong again.",
         "Your strongest bone is the thigh bone, the femur. It is also the longest bone in your body, about a quarter of your height, and it can support around thirty times your body weight."
       ]
+    },
+    "hook": {
+      "en": "You get a brand new skeleton every ten years."
     }
   },
   {
@@ -981,6 +1101,9 @@
         "There is a museum dedicated only to strawberries. It's in Belgium, in the village of Wepion near the city of Namur, a place that has been famous for growing them for more than a century.",
         "Gram for gram, strawberries contain more vitamin C than oranges. A handful of them can give you most of what you need for the whole day."
       ]
+    },
+    "hook": {
+      "en": "There's a museum just for strawberries."
     }
   },
   {
@@ -1005,6 +1128,9 @@
         "According to records, the largest snowflakes ever reported fell in Montana in eighteen eighty seven. Witnesses said some were thirty eight centimeters wide, bigger than a pizza.",
         "Snow can be pink or red. A type of algae that lives in snow turns it red in summer, and people call it watermelon snow, though you definitely shouldn't eat it."
       ]
+    },
+    "hook": {
+      "en": "Snowflakes once fell as big as a pizza."
     }
   },
   {
@@ -1029,6 +1155,9 @@
         "A butterfly's colors come from thousands of tiny scales on its wings. Some of them have no pigment at all, and create color only by reflecting light.",
         "Butterflies can't fly if they are too cold. They need their flight muscles to be warm, so you will often see them resting in the sun with their wings open to heat up."
       ]
+    },
+    "hook": {
+      "en": "Some butterfly colors have no pigment at all."
     }
   },
   {
@@ -1053,6 +1182,9 @@
         "Some sections of the wall were built with a mortar made of sticky rice mixed with lime. It made the wall incredibly strong, and some of it still stands today.",
         "Building the Great Wall took more than two thousand years, across many different dynasties. So many workers died during its construction that it's sometimes called the longest cemetery on Earth."
       ]
+    },
+    "hook": {
+      "en": "The Great Wall was built with sticky rice."
     }
   },
   {
@@ -1077,6 +1209,9 @@
         "The coldest temperature ever measured on Earth was in Antarctica, in nineteen eighty three. It reached minus eighty nine point two degrees Celsius.",
         "No one is born and raised in Antarctica. The only people living there are scientists and staff at research stations, around one thousand in winter and a few thousand in summer."
       ]
+    },
+    "hook": {
+      "en": "Antarctica once hit minus eighty nine degrees."
     }
   },
   {
@@ -1101,6 +1236,9 @@
         "Today there are more mobile phone subscriptions in the world than there are people on Earth, more than eight billion. Many people simply have two phones, one for work and one for their private life.",
         "Studies have found that a phone can carry more bacteria than a toilet seat. We touch them all day, then put them right next to our face."
       ]
+    },
+    "hook": {
+      "en": "There are more phones than people on Earth."
     }
   },
   {
@@ -1125,6 +1263,9 @@
         "Jellyfish were drifting through the oceans more than five hundred million years ago. That means they are older than dinosaurs, and even older than trees.",
         "Some jellyfish glow in the dark. A glowing protein from one jellyfish became one of the most useful tools in biology, and its discovery won the Nobel Prize in Chemistry in two thousand eight."
       ]
+    },
+    "hook": {
+      "en": "Jellyfish are older than dinosaurs."
     }
   },
   {
@@ -1149,6 +1290,9 @@
         "Jupiter is so big that more than thirteen hundred Earths could fit inside it. It is more than twice as heavy as all the other planets of our solar system put together.",
         "Jupiter has dozens of moons, and one of them, Ganymede, is the biggest moon in the solar system. It's even bigger than the planet Mercury."
       ]
+    },
+    "hook": {
+      "en": "Over thirteen hundred Earths could fit inside Jupiter."
     }
   },
   {
@@ -1173,6 +1317,9 @@
         "One of the most expensive cheeses in the world is made from donkey milk in Serbia. It can cost more than one thousand euros per kilo.",
         "Some cheeses are made with the help of tiny mites. A French cheese called Mimolette gets its rough, cratered crust from cheese mites living on its surface."
       ]
+    },
+    "hook": {
+      "en": "The priciest cheese comes from donkey milk."
     }
   },
   {
@@ -1192,11 +1339,14 @@
     },
     "facts": {
       "en": [
-        "Most of your dreams are forgotten within a few minutes of waking up. That's why many people believe they don't dream, even though everyone does.",
+        "Most of your dreams are forgotten within a few minutes of waking up. That's why many people believe they don't dream, even though everyone does. Writing your dream down right after waking up helps you remember it.",
         "You have several dreams every night, mostly during a sleep stage called REM. Over a lifetime, you will spend around six years dreaming.",
         "People who were born blind still dream. Their dreams are full of sounds, smells, touch and emotions instead of images.",
         "In a lucid dream, you know that you are dreaming, and some people can even control what happens. Scientists have managed to exchange simple signals with people while they were lucid dreaming."
       ]
+    },
+    "hook": {
+      "en": "People born blind still dream."
     }
   },
   {
@@ -1221,6 +1371,9 @@
         "In a double rainbow, the second rainbow has its colors in the opposite order. And no two people ever see exactly the same rainbow, because each one depends on where you stand.",
         "Rainbows can also appear at night. On bright nights, the light of the full Moon can create a moonbow, although it usually looks white to our eyes."
       ]
+    },
+    "hook": {
+      "en": "No two people ever see the same rainbow."
     }
   },
   {
@@ -1245,6 +1398,9 @@
         "Red kangaroos can cover around eight meters in a single jump, and they can hop at more than fifty kilometers per hour.",
         "A kangaroo mother can feed two babies of different ages at once, and she produces two different types of milk at the same time, one for each baby."
       ]
+    },
+    "hook": {
+      "en": "A kangaroo can jump eight meters in one leap."
     }
   },
   {
@@ -1269,6 +1425,9 @@
         "There are no cars in Venice. People get around on foot or by boat, and even the ambulances, the fire trucks and the mail delivery all travel on the water.",
         "Venice is slowly sinking, and floods are becoming more common. Since twenty twenty, giant mobile barriers rise from the sea floor to protect the city from the highest tides."
       ]
+    },
+    "hook": {
+      "en": "In Venice, even ambulances are boats."
     }
   },
   {
@@ -1289,10 +1448,13 @@
     "facts": {
       "en": [
         "The deepest point of the Mariana Trench is about eleven kilometers down. If you dropped Mount Everest into it, its peak would still be more than two kilometers under water.",
-        "At the bottom, the water pressure is more than one thousand times stronger than at the surface. Only specially built submarines can survive the trip.",
+        "At the bottom, the water pressure is more than one thousand times stronger than at the surface. Only specially built submarines can survive the trip. That's about eight tons pressing on every square inch.",
         "Even there, humans have left their mark. A plastic bag was spotted at almost eleven kilometers deep, one of the deepest pieces of trash ever found.",
         "Life still exists at the bottom. Scientists have found strange creatures like the Mariana snailfish, a small, almost see through fish living around eight thousand meters deep."
       ]
+    },
+    "hook": {
+      "en": "We found plastic eleven kilometers under the sea."
     }
   },
   {
@@ -1314,9 +1476,12 @@
       "en": [
         "Samurai usually carried two swords, a long one and a short one. Wearing the pair was a privilege reserved for the samurai class.",
         "In the fifteen hundreds, there was an African samurai. His name was Yasuke, and he served one of the most powerful lords in Japan, Oda Nobunaga.",
-        "The samurai class was officially abolished in the eighteen seventies, as Japan modernized. Samurai even lost the right to carry their swords in public.",
+        "The samurai class was officially abolished in the eighteen seventies, as Japan modernized. Samurai even lost the right to carry their swords in public. Their last great stand was a rebellion in eighteen seventy seven.",
         "Samurai armor was often made of small plates of iron or leather, tied together with silk cords. That made it light and flexible enough to ride and fight in."
       ]
+    },
+    "hook": {
+      "en": "Samurai once lost the right to carry their swords."
     }
   },
   {
@@ -1337,10 +1502,13 @@
     "facts": {
       "en": [
         "Some types of bamboo can grow almost one meter in a single day. It's one of the fastest growing plants on the planet.",
-        "Bamboo looks like a tree, but it's actually a giant grass, a close cousin of the grass in your garden.",
+        "Bamboo looks like a tree, but it's actually a giant grass, a close cousin of the grass in your garden. A giant panda can eat between twelve and thirty eight kilograms of it every single day.",
         "Some bamboo species flower only once every sixty to one hundred twenty years. Strangely, all the plants of that species flower at the same time around the world, and then die.",
         "Bamboo is incredibly strong for its weight. In parts of Asia it's still used as scaffolding to build skyscrapers, tied together by skilled workers."
       ]
+    },
+    "hook": {
+      "en": "Some bamboo only flowers once a century."
     }
   },
   {
@@ -1365,6 +1533,9 @@
         "The sentence the quick brown fox jumps over the lazy dog contains every letter of the alphabet. That's why it was used for decades to test typewriters and fonts.",
         "English has borrowed words from hundreds of languages. Shampoo comes from Hindi, robot from Czech, and ketchup probably comes from a Chinese word for fish sauce."
       ]
+    },
+    "hook": {
+      "en": "One famous sentence holds every letter of the alphabet."
     }
   },
   {
@@ -1384,11 +1555,14 @@
     },
     "facts": {
       "en": [
-        "A giraffe's neck has exactly the same number of bones as yours, seven. Each one is just much, much longer.",
+        "A giraffe's neck has exactly the same number of bones as yours, seven. Each one is just much, much longer. In a giraffe, a single one of those neck bones can be more than twenty five centimeters long.",
         "A giraffe's tongue is about half a meter long and dark purple. The dark color may protect it from sunburn while the giraffe eats all day.",
         "Giraffes barely sleep. In the wild, they often rest for only a few minutes at a time, and sometimes less than two hours in a whole day.",
         "A baby giraffe starts its life with a fall of almost two meters, because giraffe mothers give birth standing up. The baby can usually stand and walk within an hour."
       ]
+    },
+    "hook": {
+      "en": "Giraffes barely sleep two hours a day."
     }
   },
   {
@@ -1413,6 +1587,9 @@
         "There are southern lights too, near Antarctica. And other planets have auroras as well, like Jupiter, where they are much bigger and more powerful than ours.",
         "Sometimes the northern lights travel much farther south. In May twenty twenty four, a huge solar storm made them visible in places like Mexico and southern Europe."
       ]
+    },
+    "hook": {
+      "en": "Other planets have northern lights too."
     }
   },
   {
@@ -1434,9 +1611,12 @@
       "en": [
         "You are around thirty times more likely to laugh when you're with other people than when you're alone. Laughter is mostly a social signal.",
         "Laughter is contagious. Just hearing someone laugh activates the parts of your brain that prepare your face to smile. That's one reason television shows used recorded laugh tracks for decades.",
-        "Rats laugh when they are tickled. Their laughter is too high pitched for us to hear, but special microphones can pick it up.",
+        "Rats laugh when they are tickled. Their laughter is too high pitched for us to hear, but special microphones can pick it up. In experiments, tickled rats even came back for more, chasing the hand that tickled them.",
         "Real laughter and fake laughter are handled differently by the brain, and most people can tell the difference just by listening, even without seeing the person."
       ]
+    },
+    "hook": {
+      "en": "Rats laugh when you tickle them."
     }
   },
   {
@@ -1461,6 +1641,9 @@
         "A wombat has a very tough rear end made mostly of cartilage. When a predator such as a dingo chases it, the wombat dives into its burrow and blocks the entrance with its bottom, which is hard to bite and almost impossible to pull out.",
         "The closest living relative of the wombat is the koala. Long ago there were also giant wombat relatives. The biggest known one, called Phascolonus, probably weighed around two hundred kilograms, about as much as two big men, before it died out roughly forty thousand years ago."
       ]
+    },
+    "hook": {
+      "en": "Wombats defend themselves with their butts."
     }
   },
   {
@@ -1485,6 +1668,9 @@
         "Cleopatra lived closer in time to us than to the building of the Great Pyramid. The pyramid was finished around twenty five hundred years before she died, but the first Moon landing happened only about two thousand years after her death. She truly belongs to a very late chapter of Egyptian history.",
         "Cleopatra was the last active ruler of the Ptolemy dynasty, and her death in thirty before the common era ended the age of the pharaohs. After that, Egypt became a province of the Roman Empire, and it stayed under foreign rule for centuries."
       ]
+    },
+    "hook": {
+      "en": "Cleopatra lived closer to us than to the pyramids."
     }
   },
   {
@@ -1509,6 +1695,9 @@
         "Blood inside your veins is never blue. It is always red, dark red when it carries little oxygen and bright red when it is full of oxygen. Veins only look blue through the skin because of the way light is absorbed and scattered by skin and tissue.",
         "There is a blood type so rare that it is nicknamed golden blood. It is called Rh null, and it lacks a whole group of proteins found on other red blood cells. Only a few dozen people in the world have ever been found with it."
       ]
+    },
+    "hook": {
+      "en": "Your blood is never blue."
     }
   },
   {
@@ -1533,6 +1722,9 @@
         "Even though Mercury is the closest planet to the Sun, it has ice. Spacecraft data shows water ice hiding at its poles, inside deep craters where sunlight never reaches. Those dark crater floors stay far below freezing, while the sunlit side can reach about four hundred thirty degrees Celsius.",
         "Mercury has an enormous iron core that makes up a big part of the planet. Scientists think the planet has been slowly shrinking for billions of years as that core cooled, and that its crust wrinkled into long cliffs, some taller than a mountain."
       ]
+    },
+    "hook": {
+      "en": "The closest planet to the Sun has ice."
     }
   },
   {
@@ -1557,6 +1749,9 @@
         "In front of Notre Dame cathedral, a small bronze plaque on the ground marks point zero. Distances from Paris to other towns across France are measured from this very spot. So in a way, every road in France begins on that one little circle.",
         "Long before it was called Paris, a Celtic tribe called the Parisii settled on an island in the Seine. The Romans later built a town there called Lutetia, and the city only took the name of the tribe much later."
       ]
+    },
+    "hook": {
+      "en": "France measures its distances from one spot in Paris."
     }
   },
   {
@@ -1581,6 +1776,9 @@
         "Our planet looks like a water world, because oceans cover about seventy one percent of its surface. But only around three percent of all that water is fresh, and most of the fresh water is locked away as ice in glaciers and ice sheets.",
         "The water inside you is old. A grown person is roughly sixty percent water. Because water is constantly recycled by rain, rivers, and living things, scientists say some molecules you drink today were also drunk by animals living millions of years ago."
       ]
+    },
+    "hook": {
+      "en": "Only three percent of Earth's water is fresh."
     }
   },
   {
@@ -1605,6 +1803,9 @@
         "Great civilizations in the Americas, including the Aztecs and the Inca, never used wheeled vehicles for transport. Yet archaeologists have found little clay animal toys with wheels in Mexico, so people there understood the idea. They just had no large animals to pull carts.",
         "The wheel itself was only half the invention. The hard part was the axle, because the wheel and the axle have to fit together tightly enough to turn smoothly. Scientists think early wheeled carts and the potter's wheel appeared in the same period, around five thousand years ago."
       ]
+    },
+    "hook": {
+      "en": "The Aztecs knew the wheel but only used it for toys."
     }
   },
   {
@@ -1629,6 +1830,9 @@
         "Once a year, after a full moon in late spring, many corals on the reef spawn all at the same time. They release millions of tiny egg and sperm bundles into the water at night, and it looks like an underwater snowstorm going upward.",
         "The reef is so important that it was named a World Heritage site by the United Nations in nineteen eighty one. It has been growing for a very long time, and scientists think the living part of today's reef began forming on older reef remains."
       ]
+    },
+    "hook": {
+      "en": "Once a year, the whole reef spawns at once."
     }
   },
   {
@@ -1653,6 +1857,9 @@
         "The way people say the word tea shows how they once traded with China. Countries that bought tea by land, like Russia and Turkey, say chai, from the Chinese word cha. Countries that traded by sea, like England and the Netherlands, say tea.",
         "The tea bag may have been a lucky accident. According to a popular story, around nineteen oh eight a New York tea seller mailed samples in little silk bags. Many customers dropped the whole bag into the cup, and a brand new way of making tea was born."
       ]
+    },
+    "hook": {
+      "en": "The way you say tea reveals history."
     }
   },
   {
@@ -1677,6 +1884,9 @@
         "In Utah there is a forest that is really just one living thing. It is called Pando, a quaking aspen clone with about forty seven thousand trunks joined by one root system. It weighs an estimated six thousand tonnes, and scientists think it may be thousands of years old.",
         "The tallest living tree known is a coast redwood in California named Hyperion. It stands about one hundred sixteen meters tall, taller than the Statue of Liberty from the ground to the tip of its torch, and it is thought to be six hundred to eight hundred years old."
       ]
+    },
+    "hook": {
+      "en": "One forest in Utah is a single living thing."
     }
   },
   {
@@ -1701,6 +1911,9 @@
         "Sloths are surprisingly good swimmers. They can paddle across rivers, and some reports say they can hold their breath underwater for up to forty minutes by slowing their heartbeat. On land they are slow, but in water they move much faster.",
         "Long ago, giant ground sloths roamed the Americas. The biggest, called Megatherium, weighed about as much as an elephant, up to around four tonnes, and stood on its back legs to reach tree leaves. They died out roughly eleven thousand years ago."
       ]
+    },
+    "hook": {
+      "en": "Sloths can hold their breath for forty minutes."
     }
   },
   {
@@ -1725,6 +1938,9 @@
         "Inside the skyscraper Taipei one oh one, a giant golden steel ball hangs between the eighty seventh and ninety second floors. It weighs about six hundred sixty tonnes. It swings gently the opposite way when wind or earthquakes shake the tower, keeping it steady.",
         "When the Empire State Building opened in New York in nineteen thirty one, it became the tallest building in the world. It held that title for around forty years, until the towers of the World Trade Center rose higher in the early nineteen seventies."
       ]
+    },
+    "hook": {
+      "en": "A giant golden ball protects a skyscraper."
     }
   },
   {
@@ -1749,6 +1965,9 @@
         "For a while in the nineteenth century, children learning the English alphabet recited twenty seven letters. The last one was the sign for the word and. Reciting it sounded like and per se and, and that is how the word ampersand was born.",
         "Not every alphabet is long. The Rotokas language of Papua New Guinea has one of the shortest alphabets in the world, with only twelve letters. Meanwhile, the Cambodian alphabet is one of the longest in use, with more than seventy letters, so some languages need many more symbols than others."
       ]
+    },
+    "hook": {
+      "en": "The English alphabet once had twenty seven letters."
     }
   },
   {
@@ -1773,6 +1992,9 @@
         "Women fought as gladiators too. Roman writers mention them, and a carved stone from the ancient city of Halicarnassus is thought to show two female fighters. Emperor Septimius Severus is said to have banned women from the arena around the year two hundred.",
         "Gladiators were nicknamed barley men, because they ate lots of barley and beans. Bone tests on gladiators buried in Ephesus show a mostly plant based diet. After fights, they may have drunk a drink made with plant ash, which could have helped their bones."
       ]
+    },
+    "hook": {
+      "en": "Women fought as gladiators too."
     }
   },
   {
@@ -1797,6 +2019,9 @@
         "A koala has fingerprints that look almost exactly like human fingerprints. Even under a microscope, they can be very hard to tell apart. Besides primates, koalas are the only animals known to have such prints, and scientists think they help with gripping branches.",
         "Baby koalas eat something strange. Around six or seven months old, the joey eats a soft food called pap from its mother. Pap carries the helpful gut bacteria that the baby will need to digest eucalyptus leaves for the rest of its life."
       ]
+    },
+    "hook": {
+      "en": "Koala fingerprints look just like ours."
     }
   },
   {
@@ -1821,6 +2046,9 @@
         "There is one bone in your body that is not connected to any other bone. It is a small U shaped bone in your throat called the hyoid. It floats in place, held only by muscles and ligaments, and it helps you swallow and speak.",
         "Your skeleton is also a blood factory. Inside many of your bones is a soft tissue called marrow, and scientists estimate that it makes about two million new red blood cells every single second, replacing old ones that wear out."
       ]
+    },
+    "hook": {
+      "en": "One bone in your body touches no other bone."
     }
   },
   {
@@ -1845,6 +2073,9 @@
         "Venus is the hottest planet in our solar system, even though Mercury is closer to the Sun. Its thick carbon dioxide air traps heat, so the surface stays at about four hundred sixty five degrees Celsius, hot enough to melt lead.",
         "In nineteen eighty two, the Soviet probe Venera thirteen landed on Venus. The air pressure there is about ninety times stronger than on Earth, yet the little lander sent back color pictures and kept working for about two hours before it finally failed."
       ]
+    },
+    "hook": {
+      "en": "Venus is hotter than Mercury."
     }
   },
   {
@@ -1869,6 +2100,9 @@
         "Yawning is contagious. Seeing, hearing, or even reading about a yawn can make you yawn, and you probably just felt the urge. Scientists have also seen contagious yawning in some other animals, such as chimpanzees, and it may be linked to social bonds.",
         "Nobody knows for sure why we yawn. It is not only about being sleepy, because people also yawn when bored. One popular idea is that a big yawn helps cool the brain, but scientists still argue about whether that is the real reason."
       ]
+    },
+    "hook": {
+      "en": "You're probably about to yawn right now."
     }
   },
   {
@@ -1893,6 +2127,9 @@
         "New York City may be the most linguistically diverse place on Earth. Researchers who map its languages say that more than seven hundred are spoken there, including some that are in danger of disappearing and have very few speakers left in the world.",
         "Central Park is bigger than the whole country of Monaco. The park covers about eight hundred forty three acres, while Monaco covers about five hundred, and almost every hill, lake, and rock in the park was carefully designed and built by people."
       ]
+    },
+    "hook": {
+      "en": "Over seven hundred languages are spoken in New York."
     }
   },
   {
@@ -1917,6 +2154,9 @@
         "Ice has hidden forms. Scientists have found well over a dozen different crystal structures of ice, made by squeezing and cooling water. One rare kind, called ice seven, was even discovered trapped inside natural diamonds that formed deep inside the Earth.",
         "Ice is slippery, but scientists are still debating exactly why. They agree that a very thin, watery layer on the surface makes it slick, but they do not agree on how that layer forms. The old idea of pressure melting is now thought to be too weak."
       ]
+    },
+    "hook": {
+      "en": "There are more than a dozen kinds of ice."
     }
   },
   {
@@ -1941,6 +2181,9 @@
         "The press spread very fast. By the year fifteen hundred, only about fifty years after Gutenberg, printing presses were working in around two hundred eighty cities across Europe, and millions of books had been printed, which helped ideas travel farther than ever before.",
         "The words uppercase and lowercase come from printing. Printers kept capital letters in a case placed higher up and the small letters in a lower case, so the capitals became known as upper case letters. We still use these words on every keyboard."
       ]
+    },
+    "hook": {
+      "en": "Printing spread across Europe in just fifty years."
     }
   },
   {
@@ -1965,6 +2208,9 @@
         "The solid ground has tides too. The Moon and the Sun also pull on the Earth itself, so the land beneath your feet rises and falls by roughly twenty to thirty centimeters twice a day, and you never feel a thing.",
         "Tides are slowly making our days longer. The friction of ocean tides slows down the spin of the Earth, and scientists measure that each day gets longer by about two milliseconds every hundred years. Days were shorter for the dinosaurs."
       ]
+    },
+    "hook": {
+      "en": "The ground under your feet has tides too."
     }
   },
   {
@@ -1989,6 +2235,9 @@
         "Hummingbirds can power down at night. When it is cold, they enter a deep sleep called torpor. Their heart rate and breathing drop sharply and their body cools down, which saves so much energy that they can survive until morning without any food.",
         "The bee hummingbird of Cuba is the smallest bird in the world. It is only about six centimeters long and weighs about two grams, less than a small coin. Its nest is tiny too, roughly the size of a thimble."
       ]
+    },
+    "hook": {
+      "en": "Hummingbirds almost shut down every night."
     }
   },
   {
@@ -2013,6 +2262,9 @@
         "The people who built the great pyramids of Giza were paid in bread and beer. In ancient Egypt, grain was so important that bread and beer rations worked like a salary, and workers with higher status received bigger and better portions.",
         "Sliced bread is less than a hundred years old. The first loaves of factory sliced bread were sold in nineteen twenty eight in Chillicothe, Missouri, using a machine invented by Otto Rohwedder. That is where the saying about the greatest thing since sliced bread comes from."
       ]
+    },
+    "hook": {
+      "en": "The pyramid builders were paid in bread and beer."
     }
   },
   {
@@ -2037,6 +2289,9 @@
         "The longest year in history was in forty six before the common era. When Caesar reformed the Roman calendar, the old calendar was so far off from the seasons that he added extra months, and that year lasted four hundred forty five days.",
         "The month of July is named after Julius Caesar. It used to be called Quintilis, which means the fifth month, but after he was killed in forty four before the common era, the Romans renamed it in his honor. So every summer you say his name without even noticing it."
       ]
+    },
+    "hook": {
+      "en": "One year in history lasted four hundred forty five days."
     }
   },
   {
@@ -2061,6 +2316,9 @@
         "Your tongue is not one muscle, it is a group of eight muscles woven together. It can move in almost every direction without a single bone inside to hold it up, and that is why it is so good at helping you speak and eat.",
         "When you are cold, your muscles can heat you up. Shivering is your muscles contracting very fast, over and over, which makes heat. It is one of the ways your body tries to keep warm all by itself, without you even thinking about it."
       ]
+    },
+    "hook": {
+      "en": "Your tongue is actually eight muscles."
     }
   },
   {
@@ -2085,6 +2343,9 @@
         "Despite their enormous size, giant sequoias have shallow roots. The roots go down only about one or two meters, but they spread out far across the ground, over an area as wide as a football field, and tangle with the roots of nearby trees.",
         "A giant sequoia comes with natural fire protection. The spongy bark can be up to about forty five centimeters thick and is full of a substance called tannin, so many old trees survive fires that would kill most other trees."
       ]
+    },
+    "hook": {
+      "en": "The biggest trees have surprisingly shallow roots."
     }
   },
   {
@@ -2109,6 +2370,9 @@
         "Scientists think the clouds of Uranus contain hydrogen sulfide, the gas that gives rotten eggs their smell. In twenty eighteen, astronomers using a telescope in Hawaii detected it, so if you could float in the upper air of Uranus, you would probably smell a terrible stink.",
         "Uranus was the first planet discovered with a telescope. William Herschel spotted it in seventeen eighty one and at first thought it was a comet. He wanted to name it after the British king, George the Third, but astronomers later chose a name from Greek mythology instead."
       ]
+    },
+    "hook": {
+      "en": "Uranus may smell like rotten eggs."
     }
   },
   {
@@ -2133,6 +2397,9 @@
         "Sea otters have built in pockets. Under each front leg is a loose flap of skin where an otter can store food and even a favorite rock. They use that rock as a tool to crack open hard shells like clams and snails.",
         "A sea otter must eat about a quarter of its body weight every day to stay warm. That means a heavy otter eats many kilograms of crabs, clams, and sea urchins daily, and it spends much of its day looking for food."
       ]
+    },
+    "hook": {
+      "en": "Sea otters have built in pockets."
     }
   },
   {
@@ -2157,6 +2424,9 @@
         "Hidden at the feet of Lady Liberty are broken chains and a broken shackle. Because of her long robe and how high she stands, they are hard to see from the ground, but they were meant to show freedom from oppression and slavery.",
         "The pedestal almost was not built. The money ran out, so the newspaper publisher Joseph Pulitzer asked ordinary readers to help, and more than one hundred twenty thousand people donated, most of them giving less than one dollar each. Small gifts from ordinary people built the base."
       ]
+    },
+    "hook": {
+      "en": "The Statue of Liberty hides broken chains."
     }
   },
   {
@@ -2181,6 +2451,9 @@
         "Fire behaves very differently in space. Without gravity, hot air does not rise, so flames on the International Space Station form tiny blue balls instead of the tall yellow teardrops we see on Earth. They burn cooler and can even go out by themselves.",
         "The matches we use today have a surprisingly recent history. In the eighteen twenties, an English chemist named John Walker was mixing chemicals with a stick. When he scraped a dried lump off the end, it burst into flame. He had accidentally invented the friction match, which people could strike anywhere."
       ]
+    },
+    "hook": {
+      "en": "In space, fire burns in tiny blue balls."
     }
   },
   {
@@ -2205,6 +2478,9 @@
         "More than two thousand years ago, Greeks built a machine with gears. The Antikythera mechanism, found in a shipwreck in nineteen hundred and one, used bronze wheels to track the Moon, the Sun and eclipses. As far as we know, nothing this complex was built again for over a thousand years.",
         "More than two thousand years ago, the Greek scholar Eratosthenes measured the size of the Earth. He compared the angle of the Sun's shadows in two different Egyptian cities and used simple geometry. His answer was surprisingly close to the true size of our planet."
       ]
+    },
+    "hook": {
+      "en": "Ancient Greeks built a computer with gears."
     }
   },
   {
@@ -2229,6 +2505,9 @@
         "In Japan, wild crows have been filmed using traffic to crack nuts. They drop walnuts onto the road in front of cars, wait for the cars to drive over them, and then collect the broken pieces when the traffic light turns red and cars stop.",
         "A group of crows is called a murder. Crows are also very social, and in winter thousands of them can gather to sleep together in one place. Crows belong to a family of clever birds that also includes ravens, magpies and jays."
       ]
+    },
+    "hook": {
+      "en": "Crows use cars to crack their nuts."
     }
   },
   {
@@ -2253,6 +2532,9 @@
         "The Congo River in Africa is the deepest river in the world. In some places the water is more than two hundred meters deep, so deep that the bottom is completely dark. That is deeper than a sixty story building is tall.",
         "The Nile flows north, which surprises many people, because we imagine rivers running down the map. It begins in the highlands near the equator and travels through eleven countries before reaching the Mediterranean Sea. Its water is shared by millions of people along the way."
       ]
+    },
+    "hook": {
+      "en": "The deepest river in the world is in Africa."
     }
   },
   {
@@ -2277,6 +2559,9 @@
         "The word dude is more than a century old, and it started as a joke at someone's expense. In eighteen eighties New York, a dude was an overdressed man who cared more about fashion than anything else. Over time it became a friendly word for anyone.",
         "Slang changes so fast that dictionaries chase it. In twenty twenty three, Oxford University Press chose rizz as its word of the year. Dictionary experts believe it is a shortened form of the word charisma, and young people made it popular on the internet."
       ]
+    },
+    "hook": {
+      "en": "The word dude started as a mockery."
     }
   },
   {
@@ -2301,6 +2586,9 @@
         "In nineteen twenty four, the biggest light bulb makers around the world secretly agreed to limit how long their bulbs would last. They aimed for about one thousand hours, even though longer lasting bulbs could be made. Historians call this agreement the Phoebus cartel.",
         "Old fashioned light bulbs are really tiny heaters. Only a small part of the electricity they use, roughly ten percent, becomes light, and the rest turns into heat. That is why a bulb of this kind is too hot to touch after it has been on for a while."
       ]
+    },
+    "hook": {
+      "en": "Light bulbs were made to die early on purpose."
     }
   },
   {
@@ -2325,6 +2613,9 @@
         "The highest wave ever recorded climbed five hundred twenty four meters up a mountainside. In nineteen fifty eight, a huge landslide fell into Lituya Bay in Alaska and splashed water higher than the Empire State Building. It was a giant tsunami caused by the landslide, not a normal wind wave.",
         "Giant rogue waves were once considered sailors' tall tales. Then, on the first of January nineteen ninety five, a laser sensor on an oil platform in the North Sea measured one about twenty five meters high. It was the first rogue wave ever proven by an instrument."
       ]
+    },
+    "hook": {
+      "en": "A wave once climbed over five hundred meters high."
     }
   },
   {
@@ -2349,6 +2640,9 @@
         "Your fingerprints were formed before you were born. In the womb, the skin on your fingertips folds into ridges, starting around the third month of pregnancy. Even identical twins have different fingerprints, because the exact pattern depends on tiny details of conditions in the womb.",
         "Skin thickness varies a lot over your body. Your eyelids have some of the thinnest skin, at only about half a millimeter. The skin on the soles of your feet and the palms of your hands is several times thicker, which helps protect them from constant rubbing and pressure."
       ]
+    },
+    "hook": {
+      "en": "Your fingerprints formed before you were born."
     }
   },
   {
@@ -2373,6 +2667,9 @@
         "One year on Neptune lasts about one hundred sixty five Earth years. Since its discovery in eighteen forty six, Neptune only finished its first complete trip around the Sun in twenty eleven. Nobody has ever lived through a single Neptune year.",
         "Neptune's biggest moon, Triton, orbits backward, in the opposite direction to the planet's spin. Scientists think Neptune captured it long ago from the icy outskirts of the solar system. Triton is so cold that it has geysers that spray nitrogen."
       ]
+    },
+    "hook": {
+      "en": "Neptune has finished just one year since we found it."
     }
   },
   {
@@ -2397,6 +2694,9 @@
         "Some honey can make people sick. Honey made from the nectar of certain rhododendron flowers, in places like Turkey, contains a natural poison. The ancient Greek writer Xenophon described how, around four hundred years before Christ, soldiers who ate it became dizzy and could not stand.",
         "In the mountains of Nepal, honey hunters climb down steep cliffs on rope ladders to collect honey from the largest honeybee in the world. This Himalayan giant honeybee builds enormous honeycombs, some wider than a person is tall, hanging from rock faces."
       ]
+    },
+    "hook": {
+      "en": "Some honey can actually make you sick."
     }
   },
   {
@@ -2421,6 +2721,9 @@
         "Whales descend from animals that walked on land. About fifty million years ago, their ancestors were small, four legged creatures that lived near water, like Pakicetus, whose fossils were found in Pakistan. Genetic studies show that the closest living relatives of whales today are the hippos.",
         "The bowhead whale may be the longest living mammal. Scientists think some of them reach over two hundred years old. Hunters have found old harpoon points from the eighteen hundreds inside living bowheads, a clue that these whales have swum the Arctic seas for generations."
       ]
+    },
+    "hook": {
+      "en": "The ancestors of whales walked on land."
     }
   },
   {
@@ -2445,6 +2748,9 @@
         "From nineteen twelve until nineteen forty eight, the Olympics gave medals for art. Artists competed in painting, sculpture, architecture, literature and music, and the work had to be inspired by sport. The idea was later dropped, partly because the Olympics then were meant for amateurs only.",
         "In ancient Greece, athletes competed without any clothes. The Greek word gymnos meant naked, and it is where our word gymnasium comes from. At Olympia, the prize was not money or medals, but a simple crown of wild olive leaves, though winners were treated like heroes at home."
       ]
+    },
+    "hook": {
+      "en": "The Olympics once gave medals for art."
     }
   },
   {
@@ -2469,6 +2775,9 @@
         "Big Ben is not the name of the tower. It is the nickname of the giant bell inside, which weighs around thirteen tonnes. The tower itself was called the Clock Tower until twenty twelve, when it was renamed the Elizabeth Tower.",
         "The Tower of London keeps a flock of ravens. An old story says that if the ravens ever leave, the kingdom will fall. Just in case, the tower keeps at least six ravens at all times, and they even have their own full time caretaker, called the Ravenmaster."
       ]
+    },
+    "hook": {
+      "en": "Big Ben isn't the name of the tower."
     }
   },
   {
@@ -2493,6 +2802,9 @@
         "The electrons in a wire move very slowly. They drift along at well under a millimeter per second, slower than a snail. Yet the lights come on instantly when you flip a switch, because the electric push travels through the wire at a large fraction of the speed of light.",
         "The platypus can sense electricity. Its bill is covered in sensors that detect the tiny electric signals made by the muscles of shrimp and other small animals. That lets it find food underwater while its eyes, ears and nose are all closed."
       ]
+    },
+    "hook": {
+      "en": "Electrons in your wires move slower than a snail."
     }
   },
   {
@@ -2517,6 +2829,9 @@
         "Nearly all cactuses are native to the Americas. There is one famous exception, a trailing plant called the mistletoe cactus, which also grows wild in Africa and Sri Lanka. Scientists are not sure how it got there, but they think birds may have carried its seeds across the ocean.",
         "A saguaro cactus grows very slowly. According to the National Park Service, it often takes fifty to seventy years before a saguaro sprouts its first arm, and in dry places even longer. A healthy saguaro can live for more than one hundred fifty years and grow about twelve meters tall."
       ]
+    },
+    "hook": {
+      "en": "Almost every cactus comes from the Americas."
     }
   },
   {
@@ -2541,6 +2856,9 @@
         "Horses cannot vomit. The muscle between a horse's throat tube and its stomach is incredibly strong, and the tube meets the stomach at a sharp angle. Whatever goes down stays down, which is why a bad stomach ache is such a serious matter for a horse.",
         "The height of a horse is measured in hands. The unit began as the width of a human hand, and today one hand is fixed at exactly four inches. So a horse that is sixteen hands tall stands sixty four inches high at the shoulder."
       ]
+    },
+    "hook": {
+      "en": "Horses can't throw up."
     }
   },
   {
@@ -2565,6 +2883,9 @@
         "You are far hairier than you look. Humans have about five million hair follicles over the body, and scientists found that our hair density is similar to that of a chimpanzee. The difference is that most of our body hair is extremely fine, short, and pale.",
         "Each hair follicle works like a tiny factory, and the visible hair is actually dead. Only the root below the skin is alive. That is why cutting your hair does not hurt, and why cutting it does not change how fast it grows."
       ]
+    },
+    "hook": {
+      "en": "You're almost as hairy as a chimpanzee."
     }
   },
   {
@@ -2589,6 +2910,9 @@
         "Pluto's biggest moon, Charon, is about half as wide as Pluto itself. Because of that, the two worlds circle a point in empty space between them, so they behave like a double system. Charon always shows the same face to Pluto, and Pluto always shows the same face to Charon.",
         "In twenty fifteen, the New Horizons spacecraft flew past Pluto after a journey of nine years, and revealed a giant heart shaped plain made mostly of frozen nitrogen. The bright region is called Tombaugh Regio, in honor of Clyde Tombaugh, the man who discovered Pluto."
       ]
+    },
+    "hook": {
+      "en": "Pluto and its moon circle around empty space."
     }
   },
   {
@@ -2613,6 +2937,9 @@
         "Bell wanted people to answer the phone by saying ahoy. Thomas Edison suggested the word hello instead, and hello won. Before the telephone, hello was a rare word that people mostly used to get attention, and it only became the standard greeting once phones spread.",
         "The world's first commercial telephone exchange opened in New Haven, Connecticut, on January twenty eighth, eighteen seventy eight. It started with only twenty one customers. The operator built the first switchboard from spare parts, including carriage bolts and handles from teapot lids."
       ]
+    },
+    "hook": {
+      "en": "We say hello on the phone because of Edison."
     }
   },
   {
@@ -2637,6 +2964,9 @@
         "Mock battles called tournaments could be shockingly dangerous. In the year twelve forty one, at a huge tournament near Neuss in Germany, dozens of knights and squires died, mostly from heat and choking dust inside their armor. Some records say more than eighty perished.",
         "Historians think coats of arms spread partly because armor hid faces. Once helmets covered everything, knights painted bold symbols on their shields and on the cloth worn over their armor, so friends and enemies could recognize them across a noisy, dusty battlefield or tournament field."
       ]
+    },
+    "hook": {
+      "en": "One knight tournament killed dozens of knights."
     }
   },
   {
@@ -2661,6 +2991,9 @@
         "In some species, the male bites onto a female and never lets go. His body slowly fuses with hers, and he shares her blood supply. A twenty twenty study found that these fish have lost key parts of the immune system, which would normally reject the foreign tissue.",
         "Many anglerfish can swallow prey about as big as themselves. Their stomach and jaws stretch enormously, and their long, needle like teeth point inward so nothing can wriggle free. Food is rare in the deep sea, so a hunter cannot afford to be picky."
       ]
+    },
+    "hook": {
+      "en": "Male anglerfish fuse into the female forever."
     }
   },
   {
@@ -2685,6 +3018,9 @@
         "Memories can be completely false. In a famous experiment, researchers told volunteers about a childhood event of being lost in a shopping mall, which never happened. About a quarter of the people came to remember it, and some even added details of their own.",
         "In the eighteen eighties, German psychologist Hermann Ebbinghaus tested his own memory by learning lists of nonsense syllables. He found that people forget a large part of new information within a day or two unless they review it. That pattern is called the forgetting curve."
       ]
+    },
+    "hook": {
+      "en": "Some of your memories may be completely false."
     }
   },
   {
@@ -2709,6 +3045,9 @@
         "All modern cattle may descend from a very small group of animals. A study of ancient DNA suggests that around ten thousand five hundred years ago, people in the Near East tamed roughly eighty wild aurochs, huge wild cattle, and every domestic cow today traces back to them.",
         "Cows have almost panoramic vision, with eyes on the sides of the head, so they can see nearly all the way around. But they have a blind spot right behind them and directly in front of the nose, which is why a cow can be startled from behind."
       ]
+    },
+    "hook": {
+      "en": "All cows may come from just a few animals."
     }
   },
   {
@@ -2733,6 +3072,9 @@
         "Plant an apple seed, and you will almost never get the same apple. Each seed carries a unique mix of genes, so the tree grows into something new, usually with small, sour fruit. That is why growers make more of a favorite variety by grafting a branch onto another tree.",
         "There are thousands of apple varieties in the world, from tiny sour crabapples to giant sweet ones. Growers keep many of the old types alive in special orchards, because the rare ones may carry useful traits like resistance to disease."
       ]
+    },
+    "hook": {
+      "en": "An apple seed never grows the same apple."
     }
   },
   {
@@ -2757,6 +3099,9 @@
         "The famous clock is kept on time with old coins. A small stack of pre decimal pennies sits on the pendulum, and adding or removing one coin changes the clock's speed by about four tenths of a second every day. It is a tiny adjustment with a huge effect.",
         "The famous tower leans slightly to the northwest. Measurements suggest that its top sits roughly forty centimeters off from where a perfectly straight tower would be. The tilt is so small that you cannot see it by eye, and the tower remains safe and sound."
       ]
+    },
+    "hook": {
+      "en": "Big Ben is kept on time with old coins."
     }
   },
   {
@@ -2781,6 +3126,9 @@
         "Earth's magnetic field has flipped many times. The last full reversal happened about seven hundred and eighty thousand years ago, when north and south swapped places. Rocks around the world recorded it. Scientists cannot say exactly when the next flip will come.",
         "Many animals can sense Earth's magnetic field. Scientists think that birds, sea turtles, and some fish use it like a built in compass to find their way across thousands of kilometers of open sky or sea. Exactly how their bodies detect it is still being studied by researchers."
       ]
+    },
+    "hook": {
+      "en": "Earth's north and south poles have swapped places."
     }
   },
   {
@@ -2805,6 +3153,9 @@
         "A toenail takes much longer to grow back than a fingernail. After it is lost, a big toenail may need twelve to eighteen months to return completely. This means a toenail you damage today could still be growing back more than a year from now.",
         "The pale half moon at the base of a nail is called the lunula. It is the visible end of the nail matrix, the hidden spot under the skin where new nail cells are made, pushing the older ones forward."
       ]
+    },
+    "hook": {
+      "en": "A lost toenail takes over a year to grow back."
     }
   },
   {
@@ -2829,6 +3180,9 @@
         "The biggest fish is the whale shark, which can grow more than twelve meters long. But despite its size, it eats some of the smallest food in the sea. It filters tiny plankton and fish eggs from the water, and it is harmless to people.",
         "A newborn blue whale is already enormous. Calves are born about seven meters long, around the length of a minibus, and drink hundreds of liters of rich milk every day. They grow quickly and gain weight at an astonishing pace in their first year."
       ]
+    },
+    "hook": {
+      "en": "The biggest fish eats some of the smallest food."
     }
   },
   {
@@ -2853,6 +3207,9 @@
         "For more than a century, nobody knew where the word came from. People guessed languages like Choctaw, Scottish, and even Greek. In the nineteen sixties, a professor named Allen Walker Read dug through old newspapers and proved the Boston joke was the true origin.",
         "Today, O K is probably one of the most widely understood words on Earth. It has been borrowed into countless languages, and people use it in places far from where English is spoken, even though it began as a silly, misspelled joke."
       ]
+    },
+    "hook": {
+      "en": "For a century, nobody knew where OK came from."
     }
   },
   {
@@ -2877,6 +3234,9 @@
         "Neutron stars have the strongest magnets in the universe. Some, called magnetars, have a magnetic field trillions of times stronger than a fridge magnet. In December of two thousand four, a giant flare from one, about fifty thousand light years away, briefly disturbed the upper atmosphere of Earth.",
         "The first pulsar was found in nineteen sixty seven by a student, Jocelyn Bell. Its signal was so regular that she and her team jokingly labeled it LGM one, for little green men. They soon realized that it was a natural spinning star, not aliens."
       ]
+    },
+    "hook": {
+      "en": "Neutron stars have the strongest magnets in the universe."
     }
   }
 ]

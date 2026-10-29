@@ -13,7 +13,8 @@
    "About two thirds of an octopus's brain cells are not in its head, but in its arms. Each arm can react on its own, and the suckers can actually taste whatever they touch.",
    "Octopuses can change the color and even the texture of their skin in a fraction of a second to disappear into the background. And the craziest part: scientists believe most octopuses are colorblind.",
    "Octopuses are amazing escape artists. Because they have no bones, a big octopus can squeeze its whole body through a hole barely bigger than its beak, the only hard part of its body."
-  ]
+  ],
+  "hook": "Octopuses are masters of disguise, yet they're colorblind."
  },
  {
   "id": "the-moon",
@@ -29,7 +30,8 @@
    "The footprints left by the Apollo astronauts are probably still there today. With no wind and no rain on the Moon, they could stay almost untouched for millions of years.",
    "We always see the same side of the Moon. It spins exactly once each time it goes around the Earth, so one whole side of it is never visible from here.",
    "The Moon has moonquakes. Because the Moon is so dry and rigid, some of them can make the ground shake for more than ten minutes, much longer than most earthquakes on Earth."
-  ]
+  ],
+  "hook": "There's a side of the Moon we never see."
  },
  {
   "id": "chocolate",
@@ -45,7 +47,8 @@
    "Chocolate is poisonous to dogs. It contains a substance called theobromine that humans digest easily, but dogs process it so slowly that even a small amount of dark chocolate can make them very sick.",
    "White chocolate is not really chocolate. It contains no cocoa solids at all, only cocoa butter, sugar and milk. That's why it doesn't taste anything like dark chocolate.",
    "For thousands of years, chocolate was only a drink, often bitter and spicy. The first solid chocolate bars were only made in England in the eighteen forties."
-  ]
+  ],
+  "hook": "White chocolate isn't really chocolate."
  },
  {
   "id": "the-brain",
@@ -61,7 +64,8 @@
    "Your brain is only about two percent of your body weight, but it uses around twenty percent of all your energy. Thinking is hard work, even when you are resting.",
    "The brain itself cannot feel pain. It has no pain sensors, which is why surgeons can operate on some patients' brains while they are wide awake and talking.",
    "Your brain is about sixty percent fat, which makes it one of the fattiest organs in your body. That's one reason healthy fats in your food are so important for it."
-  ]
+  ],
+  "hook": "Your brain can't feel any pain."
  },
  {
   "id": "ancient-egypt",
@@ -77,7 +81,8 @@
    "Ancient Egyptians created a calendar with three hundred sixty five days, divided into twelve months. It's one of the ancestors of the calendar we still use today.",
    "In ancient Egypt, both men and women wore dark eye makeup. It looked great, but it also helped reduce the glare of the desert sun, and it may even have helped fight eye infections.",
    "Egyptians adored their cats. According to the Greek historian Herodotus, when a family cat died, the people of the house shaved off their eyebrows as a sign of mourning."
-  ]
+  ],
+  "hook": "Ancient Egyptian men wore eye makeup too."
  },
  {
   "id": "lightning",
@@ -93,7 +98,8 @@
    "Lightning strikes somewhere on Earth around forty to fifty times every single second. That's more than a billion flashes every year.",
    "Lightning can definitely strike the same place twice. The Empire State Building in New York is hit around twenty times every year, which is exactly why tall buildings have lightning rods.",
    "Thunder is the sound of air exploding. Lightning heats the air so fast that it expands violently. Count the seconds between the flash and the thunder, divide by three, and you get the distance of the storm in kilometers."
-  ]
+  ],
+  "hook": "Lightning does strike the same place twice."
  },
  {
   "id": "penguins",
@@ -105,11 +111,12 @@
   ],
   "hashtags": "#penguins #antarctica #animalfacts #wildlife",
   "facts": [
-   "Emperor penguins are amazing divers. They can go deeper than five hundred meters and hold their breath for more than twenty minutes while hunting for fish.",
+   "Emperor penguins are amazing divers. They can go deeper than five hundred meters and hold their breath for more than twenty minutes while hunting for fish. That's deeper than one and a half Eiffel Towers stacked on top of each other.",
    "Male emperor penguins keep their egg warm on their feet for about two months, in the middle of the Antarctic winter, without eating anything at all.",
    "Penguins can drink salt water. A special gland above their eyes filters the salt out of their blood, and they simply sneeze it out.",
    "Not all penguins live in the cold. The Galapagos penguin lives right near the equator, and in South Africa, penguins waddle on sunny beaches next to tourists."
-  ]
+  ],
+  "hook": "Penguins can drink salt water."
  },
  {
   "id": "coral-reefs",
@@ -125,7 +132,8 @@
    "Coral reefs cover less than one percent of the ocean floor, but around a quarter of all ocean species depend on them at some point in their lives.",
    "The Great Barrier Reef in Australia is the largest structure built by living things on the planet. It's so big that it can be seen from space.",
    "Parrotfish eat coral and poop out fine white sand. A single large parrotfish can produce hundreds of kilograms of sand every year, and many tropical beaches are partly made of it."
-  ]
+  ],
+  "hook": "Tiny animals built something you can see from space."
  },
  {
   "id": "mount-everest",
@@ -141,7 +149,8 @@
    "The top of Everest was once at the bottom of the sea. Climbers walk on rock that contains fossils of tiny sea creatures that lived hundreds of millions of years ago.",
    "At the summit, each breath gives you only about a third of the oxygen you would get at sea level. That's why most climbers carry oxygen bottles to reach the top.",
    "Everest is the highest mountain above sea level, but not the tallest. Mauna Kea in Hawaii is more than ten thousand meters tall if you measure it from its base on the ocean floor."
-  ]
+  ],
+  "hook": "On top of Everest, you get a third of the oxygen."
  },
  {
   "id": "the-heart",
@@ -157,7 +166,8 @@
    "Every day, your heart pumps around seven thousand liters of blood through your body. That's enough to fill a small tanker truck.",
    "Your heart has its own electrical system. It doesn't need your brain to tell it when to beat, and it can even keep beating for a short time outside the body.",
    "The biggest heart on the planet belongs to the blue whale. It weighs around one hundred and eighty kilograms, about as much as two adult humans, and it can beat as slowly as twice a minute."
-  ]
+  ],
+  "hook": "Your heart can beat without your brain."
  },
  {
   "id": "cats",
@@ -173,7 +183,8 @@
    "Adult cats almost never meow at each other. They mostly meow to talk to humans, so in a way, they invented a language just for us.",
    "Cats sleep between twelve and sixteen hours a day. That means a nine year old cat has spent around five years of its life asleep, more than half of its whole life.",
    "Cats have a special organ in the roof of their mouth that lets them taste smells. When a cat sniffs something with its mouth slightly open and a funny face, it's using that organ."
-  ]
+  ],
+  "hook": "Your cat spends most of its life asleep."
  },
  {
   "id": "mars",
@@ -186,10 +197,11 @@
   "hashtags": "#mars #space #planets #astronomy",
   "facts": [
    "Mars has the tallest volcano in the solar system. It's called Olympus Mons, and it's about two and a half times taller than Mount Everest.",
-   "Sunsets on Mars are blue. The fine dust in the Martian air scatters blue light around the Sun, the opposite of what happens on Earth.",
+   "Sunsets on Mars are blue. The fine dust in the Martian air scatters blue light around the Sun, the opposite of what happens on Earth. NASA rovers have photographed these blue sunsets many times.",
    "Mars is red because it's rusty. Its rocks and dust are full of iron oxide, the same thing that makes old metal turn red.",
    "Mars has two tiny moons, Phobos and Deimos. Phobos is slowly spiraling closer, and in about fifty million years it will either crash into Mars or break apart into a ring."
-  ]
+  ],
+  "hook": "Mars is red because it's rusty."
  },
  {
   "id": "coffee",
@@ -205,7 +217,8 @@
    "Coffee beans are not really beans. They are the seeds of a small red fruit called a coffee cherry, and most cherries hold two seeds pressed together, flat side to flat side.",
    "The country that drinks the most coffee per person is not Italy or America, it's Finland. The average Finn drinks around four cups a day.",
    "Coffee was once banned in several places. In the sixteen hundreds, some rulers believed coffee houses were places where people gathered to criticize them and plot against them."
-  ]
+  ],
+  "hook": "The world's biggest coffee drinkers aren't Italian."
  },
  {
   "id": "the-vikings",
@@ -218,10 +231,11 @@
   "hashtags": "#vikings #history #scandinavia #norse",
   "facts": [
    "Vikings never wore horned helmets in battle. That famous image was invented in the eighteen hundreds by costume designers for operas.",
-   "Vikings reached North America around the year one thousand, almost five hundred years before Christopher Columbus. The remains of their camp were found in Canada.",
+   "Vikings reached North America around the year one thousand, almost five hundred years before Christopher Columbus. The remains of their camp were found in Canada. The site, called L'Anse aux Meadows, is on the island of Newfoundland.",
    "Vikings were actually quite clean. Combs are one of the most common things archaeologists find, and in old Norse, Saturday was named washing day.",
    "Some historians think Vikings navigated with a special crystal called a sunstone. By looking at the sky through it, they could find the position of the Sun, even on cloudy days."
-  ]
+  ],
+  "hook": "Vikings were much cleaner than you think."
  },
  {
   "id": "volcanoes",
@@ -237,7 +251,8 @@
    "Lava can reach about twelve hundred degrees Celsius. That's hot enough to melt many types of metal, and some very runny lava flows can move faster than a person can run.",
    "In eighteen eighty three, the eruption of Krakatoa in Indonesia made what may be the loudest sound in recorded history. People heard it almost five thousand kilometers away.",
    "Lightning can strike inside volcanic ash clouds. The tiny pieces of ash rub against each other and create static electricity, producing a terrifying show called a dirty thunderstorm."
-  ]
+  ],
+  "hook": "A volcano made the loudest sound in history."
  },
  {
   "id": "dolphins",
@@ -250,10 +265,11 @@
   "hashtags": "#dolphins #ocean #animalfacts #marinelife",
   "facts": [
    "Dolphins sleep with only half of their brain at a time. The other half stays awake to keep breathing and to watch for danger.",
-   "Each dolphin has its own signature whistle, a bit like a name. Other dolphins use that whistle to call it.",
+   "Each dolphin has its own signature whistle, a bit like a name. Other dolphins use that whistle to call it. Scientists found that dolphins can remember the whistles of old companions for more than twenty years.",
    "Dolphins can recognize themselves in a mirror. Only a few animals can do that, like great apes, elephants and magpies.",
    "Some dolphins in Australia use sea sponges as tools. They wear them on their noses to protect themselves while digging for food on the rough sea floor, and mothers teach this trick to their babies."
-  ]
+  ],
+  "hook": "Dolphins can recognize themselves in a mirror."
  },
  {
   "id": "the-deep-sea",
@@ -269,7 +285,8 @@
    "Below about one thousand meters, the ocean is completely dark. Scientists call it the midnight zone, and no sunlight ever reaches it.",
    "Around three quarters of the animals living in the deep sea can make their own light. They use it to hunt, to hide, and to find a partner.",
    "The colossal squid lives in the deep sea and has the biggest eyes in the animal kingdom. Each eye can be as large as a dinner plate, perfect for spotting faint light in the dark."
-  ]
+  ],
+  "hook": "Most deep sea animals make their own light."
  },
  {
   "id": "the-eiffel-tower",
@@ -285,7 +302,8 @@
    "The tower was supposed to be temporary. It was built for the eighteen eighty nine World's Fair, and it was saved partly because it was useful as a giant radio antenna.",
    "The Eiffel Tower is repainted about every seven years, by hand, with brushes. Each time it takes around sixty tonnes of paint, and the work lasts more than a year.",
    "There is a secret apartment at the top of the Eiffel Tower. Gustave Eiffel built it for himself, and he welcomed famous guests there, like the inventor Thomas Edison."
-  ]
+  ],
+  "hook": "The Eiffel Tower is still painted by hand."
  },
  {
   "id": "sleep",
@@ -301,7 +319,8 @@
    "During dream sleep, your body is almost completely paralyzed. It's a protection, so you don't act out your dreams and run around the room.",
    "In nineteen sixty four, a student named Randy Gardner stayed awake for about eleven days. By the end, he had trouble focusing, remembering things, and even saw things that weren't there.",
    "Some animals sleep in very strange ways. Sperm whales sleep vertically, floating in the ocean like giant logs, during short naps of around ten to fifteen minutes."
-  ]
+  ],
+  "hook": "A student once stayed awake for eleven days."
  },
  {
   "id": "honeybees",
@@ -315,9 +334,10 @@
   "facts": [
    "Honey never goes bad. Archaeologists found pots of honey in ancient Egyptian tombs, thousands of years old, and it was still edible.",
    "A single honeybee makes only about one twelfth of a teaspoon of honey in its whole life. Every jar is the work of thousands of bees.",
-   "Bees tell each other where to find flowers by dancing. The angle and the length of their waggle dance show the direction and the distance.",
+   "Bees tell each other where to find flowers by dancing. The angle and the length of their waggle dance show the direction and the distance. The scientist who decoded this dance, Karl von Frisch, won a Nobel Prize for it.",
    "To make just one kilogram of honey, bees must visit around four million flowers and fly a distance equal to roughly three or four trips around the Earth."
-  ]
+  ],
+  "hook": "Bees give each other directions by dancing."
  },
  {
   "id": "the-sun",
@@ -333,7 +353,8 @@
    "Sunlight takes about eight minutes and twenty seconds to reach us. So when you look at the Sun, you are seeing it as it was eight minutes ago.",
    "The Sun contains about ninety nine point eight percent of all the mass in our solar system. All the planets together are just leftovers.",
    "The Sun is not actually yellow, it's white. It only looks yellow from the ground because our atmosphere scatters part of its blue light. Astronauts in space see it as white."
-  ]
+  ],
+  "hook": "The Sun is almost the entire solar system."
  },
  {
   "id": "bananas",
@@ -347,9 +368,10 @@
   "facts": [
    "Botanically speaking, a banana is a berry, but a strawberry is not. A true berry grows from a single flower with one ovary.",
    "Bananas are slightly radioactive. They contain potassium, and a tiny part of it is naturally radioactive. Don't worry, you would need to eat millions at once for it to matter.",
-   "Banana plants are not trees. They have no wood at all. They are actually giant herbs, some of the biggest on the planet.",
+   "Banana plants are not trees. They have no wood at all. They are actually giant herbs, some of the biggest on the planet. What looks like a trunk is actually made of leaves rolled tightly together.",
    "Almost all the bananas we eat today are clones of a single variety called the Cavendish. Before the nineteen fifties, people ate a different banana, the Gros Michel, until a disease almost wiped it out."
-  ]
+  ],
+  "hook": "Banana plants aren't trees at all."
  },
  {
   "id": "the-roman-empire",
@@ -365,7 +387,8 @@
    "Roman concrete has survived for two thousand years. Some of it, in harbors, even got stronger over time thanks to sea water.",
    "At its peak, the Roman Empire ruled around sixty million people. That may have been up to a quarter of everyone alive on Earth at the time.",
    "Romans had public toilets with long stone benches where people sat side by side and chatted. Instead of toilet paper, they used a sea sponge on a stick, which may have been shared."
-  ]
+  ],
+  "hook": "Rome may have ruled a quarter of humanity."
  },
  {
   "id": "airplanes",
@@ -381,7 +404,8 @@
    "Food tastes blander on airplanes. The dry air and the low cabin pressure reduce your sense of taste for salty and sweet things by around a third.",
    "On average, every passenger plane is struck by lightning about once a year. They are built for it, and the electricity flows around the outside of the plane.",
    "The famous black box on an airplane is not black at all. It's bright orange, so that rescue teams can find it more easily after an accident."
-  ]
+  ],
+  "hook": "Every plane gets hit by lightning about once a year."
  },
  {
   "id": "elephants",
@@ -397,7 +421,8 @@
    "An elephant's trunk has tens of thousands of muscles. It's strong enough to pull down a tree, and precise enough to pick up a single peanut.",
    "Elephants can communicate with very deep rumbles that humans can't hear. Other elephants can feel these vibrations through their feet, kilometers away.",
    "Elephants seem to recognize their dead. When they find the bones of another elephant, they often stop, touch them gently with their trunks and feet, and stay there for a while in silence."
-  ]
+  ],
+  "hook": "Elephants can hear through their feet."
  },
  {
   "id": "tornadoes",
@@ -413,6 +438,7 @@
    "The fastest wind ever measured on Earth was inside a tornado in Oklahoma in nineteen ninety nine. Radar recorded it at around four hundred eighty kilometers per hour, faster than a Formula One car.",
    "Tornadoes have been seen on every continent except Antarctica. Over water, they are called waterspouts, and they can suck up water, and sometimes even fish and frogs.",
    "Some tornadoes are almost invisible. A tornado only becomes visible when it picks up dust and debris, or when water droplets condense into a funnel shaped cloud."
-  ]
+  ],
+  "hook": "Tornadoes can suck up fish and frogs."
  }
 ]
