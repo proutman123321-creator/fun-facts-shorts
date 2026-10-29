@@ -3,6 +3,7 @@
   "timezone": "Europe/Paris",
   "platforms": ["tiktok", "instagram"],
   "min_seconds": 62,
+  "post_time_jitter_minutes": 35,
   "languages": {
     "en": {
       "enabled": true,

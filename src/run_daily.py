@@ -10,6 +10,7 @@ Usage:
     python src/run_daily.py --dry-run    # make the videos, show what would be sent
 """
 import argparse
+import random
 import sys
 import time
 from datetime import datetime, timedelta
@@ -30,10 +31,12 @@ def clean_old_videos():
             video.unlink()
 
 
-def next_post_time(hhmm, timezone):
+def next_post_time(hhmm, timezone, jitter_minutes=0):
+    """Post time for today (or tomorrow), shifted by a random few minutes so posts don't look scheduled."""
     now = datetime.now(ZoneInfo(timezone))
     hour, minute = map(int, hhmm.split(":"))
     when = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+    when += timedelta(minutes=random.randint(-jitter_minutes, jitter_minutes))
     if when <= now + timedelta(minutes=10):
         when += timedelta(days=1)
     return when.strftime("%Y-%m-%dT%H:%M:00")
@@ -76,7 +79,7 @@ def main():
             info = make_video(lang)
             if args.no_publish:
                 continue
-            info["post_time"] = next_post_time(post_time, config["timezone"])
+            info["post_time"] = next_post_time(post_time, config["timezone"], config.get("post_time_jitter_minutes", 0))
             publish(info, dry_run=args.dry_run)
 
 
