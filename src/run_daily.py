@@ -17,7 +17,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from common import OUTPUT, ROOT, load_config
-from make_video import make_video
+from make_video import make_video, mark_used
 from publish import publish
 
 KEEP_VIDEOS_DAYS = 14
@@ -32,13 +32,17 @@ def clean_old_videos():
 
 
 def next_post_time(hhmm, timezone, jitter_minutes=0):
-    """Post time for today (or tomorrow), shifted by a random few minutes so posts don't look scheduled."""
+    """Today's post time, shifted by a random few minutes so posts don't look scheduled.
+
+    If that time has already passed (e.g. GitHub started the job very late), post in about
+    15 minutes instead of tomorrow, so tomorrow's run never ends up with two videos in one slot.
+    """
     now = datetime.now(ZoneInfo(timezone))
     hour, minute = map(int, hhmm.split(":"))
     when = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
     when += timedelta(minutes=random.randint(-jitter_minutes, jitter_minutes))
     if when <= now + timedelta(minutes=10):
-        when += timedelta(days=1)
+        when = now + timedelta(minutes=random.randint(15, 25))
     return when.strftime("%Y-%m-%dT%H:%M:00")
 
 
@@ -75,12 +79,18 @@ def main():
     for lang, lang_cfg in config["languages"].items():
         if not lang_cfg.get("enabled", True):
             continue
+        picked = []
         for post_time in lang_cfg["post_times"]:  # one new video per post time
-            info = make_video(lang)
+            info = make_video(lang, exclude=picked)
+            picked.append(info["topic_id"])
             if args.no_publish:
                 continue
             info["post_time"] = next_post_time(post_time, config["timezone"], config.get("post_time_jitter_minutes", 0))
             publish(info, dry_run=args.dry_run)
+            if not args.dry_run:
+                # only a topic that really reached Zernio counts as used, so a failure never skips
+                # a topic and a partial failure never posts the same topic twice
+                mark_used(lang, info["topic_id"])
 
 
 if __name__ == "__main__":

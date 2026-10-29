@@ -57,7 +57,8 @@ jobs:
             *) python src/run_daily.py --no-publish ;;
           esac
 
-      - name: Keep the videos for 7 days (Actions page > this run > Artifacts)
+      # 3 days keeps total storage under the free 500 MB for private projects (~70 MB of videos a day)
+      - name: Keep the videos for 3 days (Actions page > this run > Artifacts)
         if: always()
         uses: actions/upload-artifact@v7
         with:
@@ -66,13 +67,18 @@ jobs:
             output/*/video.mp4
             output/*/info.json
             run-log.txt
-          retention-days: 7
+          retention-days: 3
           if-no-files-found: ignore
 
+      # runs even if the job failed halfway, so a video that was already sent is never sent again
       - name: Save which topics were used
-        if: success() && (github.event.inputs.mode || 'run') == 'run'
+        if: always() && (github.event.inputs.mode || 'run') == 'run'
         run: |
           git config user.name "fun-facts-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
-          git diff --cached --quiet || (git commit -m "Used topics $(date -u +%F)" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Used topics $(date -u +%F)"
+          # the weekly writing task may have pushed new topics meanwhile
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
+          exit 1

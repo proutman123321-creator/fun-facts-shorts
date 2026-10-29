@@ -36,11 +36,11 @@ WHITE = (255, 255, 255)
 
 # ---------- choosing the topic ----------
 
-def pick_topic(lang, topic_id=None):
+def pick_topic(lang, topic_id=None, exclude=()):
     topics = load_json(ROOT / "topics.json")
     if topic_id:
         return next(t for t in topics if t["id"] == topic_id)
-    used = set(load_json(STATE_FILE, {}).get(lang, []))
+    used = set(load_json(STATE_FILE, {}).get(lang, [])) | set(exclude)
     for topic in topics:  # topics.json is in posting order
         if topic["id"] not in used and lang in topic.get("facts", {}):
             return topic
@@ -364,10 +364,11 @@ def render(words, spans, voice_wav, out_mp4, lang_cfg, badge_text, seed, total, 
     return total
 
 
-def make_video(lang, topic_id=None):
+def make_video(lang, topic_id=None, exclude=()):
+    """Make the video for the next unused topic. The caller marks it as used once it is published."""
     config = load_config()
     lang_cfg = config["languages"][lang]
-    topic = pick_topic(lang, topic_id)
+    topic = pick_topic(lang, topic_id, exclude)
     title = topic["title"][lang]
     facts = topic["facts"][lang]
 
@@ -403,8 +404,7 @@ def make_video(lang, topic_id=None):
     info = {"lang": lang, "topic_id": topic["id"], "video": str(video), "caption": caption,
             "seconds": round(seconds, 1)}
     save_json(folder / "info.json", info)
-    mark_used(lang, topic["id"])
-    left = remaining_topics(lang)
+    left = remaining_topics(lang) - len(exclude) - 1
     print(f"[{lang}] Done: {video} ({seconds:.1f}s). Topics left: {left}")
     if left <= 14:
         print(f"[{lang}] WARNING: only {left} topics left (about {left // 2} days). Ask Claude for the next batch.")
