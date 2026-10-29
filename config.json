@@ -38,7 +38,7 @@
       "badge": "3 CRAZY FACTS: {title}",
       "end_card": "FOLLOW FOR MORE",
       "caption": "3 crazy facts about {title} 🤯 Which one surprised you the most? 👇",
-      "hashtags": "#funfacts #didyouknow #facts #funfactforreal"
+      "hashtags": "#funfacts"
     },
     "fr": {
       "enabled": false,
@@ -69,7 +69,7 @@
       "badge": "3 ANECDOTES : {title}",
       "end_card": "ABONNE-TOI",
       "caption": "3 anecdotes folles sur {title} 🤯 Laquelle t'a le plus surpris ? 👇",
-      "hashtags": "#lesaviezvous #anecdote #culturegenerale"
+      "hashtags": "#lesaviezvous"
     }
   }
 }
