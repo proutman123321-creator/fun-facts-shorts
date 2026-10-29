@@ -408,7 +408,7 @@ def make_video(lang, topic_id=None, exclude=()):
     # topic hashtags for this video, then the account's own hashtags
     hashtags = f"{topic.get('hashtags', {}).get(lang, '')} {lang_cfg['hashtags']}".strip()
     caption = f"{lang_cfg['caption'].format(title=title)}\n\n{hashtags}"
-    info = {"lang": lang, "topic_id": topic["id"], "video": str(video), "caption": caption,
+    info = {"lang": lang, "topic_id": topic["id"], "title": title, "video": str(video), "caption": caption,
             "seconds": round(seconds, 1)}
     save_json(folder / "info.json", info)
     left = remaining_topics(lang) - len(exclude) - 1

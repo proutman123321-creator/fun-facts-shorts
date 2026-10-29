@@ -1,0 +1,41 @@
+# Every 30 minutes around the posting times: asks Zernio whether the scheduled videos went live
+# and sends a Telegram message (published with links, or the problem). Takes about 20 seconds.
+name: Check posts and alert on Telegram
+
+on:
+  schedule:
+    # 05:00-08:30 and 17:00-20:30 UTC covers the morning and evening posts, winter and summer time
+    - cron: "*/30 5-8,17-20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write  # to save notified.json (posts already reported)
+
+concurrency:
+  group: post-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Check the posts and send alerts
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 src/notify.py check
+
+      - name: Remember which posts were reported
+        run: |
+          git config user.name "fun-facts-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add notified.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Reported posts $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
+          exit 1

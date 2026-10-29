@@ -38,6 +38,11 @@ https://github.com/proutman123321-creator/fun-facts-shorts
 - **Automatic check:** every morning the job asks Zernio how the previous posts went. If one failed
   on TikTok or Instagram (for example an expired connection), the run turns red and GitHub emails you.
   Then open the Zernio dashboard and reconnect the account.
+- **Telegram alerts** (bot @Fun_Facts_alertes_bot): a message when each video is scheduled, when it
+  goes live (with the TikTok / Instagram links), and when anything fails. A second job,
+  "Check posts and alert on Telegram", runs every 30 minutes around the posting times (about 20 seconds each).
+  The bot token is the GitHub Secret `TELEGRAM_BOT_TOKEN`; your chat id is `telegram_chat_id` in `config.json`.
+  Test from the PC: `.venv\Scripts\python src\notify.py test`
 - Temporary problems (network, Zernio busy, Pixabay down, voice service hiccup) are retried
   automatically; if no clips can be found, the video uses the plain colored background instead.
 - Cost: free (about 300–400 of the 2,000 free minutes per month for private projects).

@@ -6,3 +6,4 @@ __pycache__/
 assets/clips/
 assets/search_cache.json
 assets/whoosh.wav
+telegram-alert-sent

@@ -23,6 +23,7 @@ import time
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+import notify
 from common import OUTPUT, ROOT, STATE_FILE, load_config, load_json, save_json
 from make_video import make_video
 from publish import api, post_problems, publish
@@ -59,7 +60,7 @@ def slot_done(lang, slot):
     return slot in load_json(STATE_FILE, {}).get("slots", {}).get(lang, {})
 
 
-def record_sent(lang, topic_id, slot, post_ids, when):
+def record_sent(lang, topic_id, slot, post_ids, when, title=None):
     """Remember that this topic and this slot were sent to Zernio (state.json is saved by GitHub)."""
     state = load_json(STATE_FILE, {})
     state.setdefault(lang, []).append(topic_id)
@@ -69,7 +70,7 @@ def record_sent(lang, topic_id, slot, post_ids, when):
     for old in [s for s in slots if s < oldest]:
         del slots[old]
     posts = state.setdefault("posts", [])
-    posts += [{"id": pid, "lang": lang, "topic": topic_id, "when": when} for pid in post_ids if pid]
+    posts += [{"id": pid, "lang": lang, "topic": topic_id, "title": title, "when": when} for pid in post_ids if pid]
     state["posts"] = posts[-KEEP_POSTS:]
     save_json(STATE_FILE, state)
 
@@ -168,6 +169,8 @@ def main():
     problems = (check_accounts(config) + check_previous_posts(timezone)) if real_run else []
     for p in problems:
         print(f"PROBLEM: {p}")
+    if problems:
+        notify.send("❌ À vérifier :\n- " + "\n- ".join(problems))
 
     today = datetime.now(ZoneInfo(timezone)).strftime("%Y-%m-%d")
     for lang, lang_cfg in config["languages"].items():
@@ -190,7 +193,10 @@ def main():
                 # a topic and a partial failure never posts the same topic twice.
                 # Drafts are never "published", so only scheduled posts are checked later.
                 tracked = post_ids if config["publish_mode"] == "schedule" else []
-                record_sent(lang, info["topic_id"], slot, tracked, info["post_time"])
+                record_sent(lang, info["topic_id"], slot, tracked, info["post_time"], info["title"])
+                if config["publish_mode"] == "schedule":
+                    notify.send(f"🎬 Programmée : 3 crazy facts about {info['title']}\n"
+                                f"🕗 {info['post_time'][11:16]} ({info['seconds']:.0f} s) sur TikTok + Instagram")
 
     if problems:
         print("\nToday's videos were sent, but something needs your attention (see PROBLEM lines above). "
@@ -199,4 +205,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (Exception, SystemExit) as e:
+        if isinstance(e, SystemExit) and e.code in (0, 1, None):
+            raise  # normal end, or problems already sent to Telegram
+        notify.send(f"❌ Le job vidéo a échoué : {str(e)[:500]}\n\nLes vidéos du créneau concerné ne sont pas parties. "
+                    f"Le passage de secours réessaiera, sinon dis-le à Claude.")
+        (ROOT / "telegram-alert-sent").touch()
+        raise
