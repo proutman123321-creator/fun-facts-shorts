@@ -12,12 +12,12 @@ Fun Facts For Real 🤯
 **Bio** (max 80 characters):
 ```
 3 crazy facts + a bonus, every day 🤯
-New mind-blowing facts every day 👇
+Follow for your daily dose of facts 👇
 ```
 
 **Settings to check:**
 - Keep it a **personal account** (Settings → Account → Account type). TikTok's Creator Rewards only pays personal accounts.
-- Settings → Content preferences / Creator tools: turn on the **AI-generated content** label (the voice is AI).
+- AI label: TikTok requires it for realistic AI-made images or video. These videos use real stock footage with a synthetic voice, so it is likely not required. Turn it on if you prefer to be safe; TikTok has not said it lowers reach.
 - Once you have 3+ good videos: **pin your best 3** (open video → ⋯ → Pin).
 - After 1,000 followers you can add a link in bio.
 
