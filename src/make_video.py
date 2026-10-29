@@ -74,16 +74,17 @@ async def _synthesize(text, voice, rate, mp3_path):
     return words
 
 
-def synthesize(text, voice, rate, mp3_path, attempts=4):
-    """The free voice service sometimes fails for a moment: retry a few times before giving up."""
+def synthesize(text, voice, rate, mp3_path, attempts=8):
+    """The free voice service sometimes fails for a moment: retry for up to ~8 minutes before giving up."""
     for attempt in range(1, attempts + 1):
         try:
             return asyncio.run(_synthesize(text, voice, rate, mp3_path))
         except Exception as e:
             if attempt == attempts:
                 raise
-            print(f"Voice service error ({type(e).__name__}), retrying in {10 * attempt}s...")
-            time.sleep(10 * attempt)
+            wait = min(15 * attempt, 90)
+            print(f"Voice service error ({type(e).__name__}), retrying in {wait}s...")
+            time.sleep(wait)
 
 
 def mark_punctuation(words, script):

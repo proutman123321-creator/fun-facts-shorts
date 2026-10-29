@@ -15,7 +15,29 @@ animated captions) and sends the same video to TikTok + Instagram through **Zern
   Inventions 50, Plants 40, Records 30, Words 30, Psychology 20), mixed so the same category never comes twice in a row.
 - `content\`: the written topics (4 facts each: 3 + bonus). Month 1 (60 topics) is written.
 - `topics.json`: what the videos are made from. Rebuild it after adding content: `.venv\Scripts\python src\add_content.py`
-- When fewer than 14 topics are left, `run-log.txt` shows a warning: ask Claude to write the next month.
+- When fewer than 14 topics are left, the run log shows a warning: ask Claude to write the next month.
+
+---
+
+## Runs in the cloud (your PC can stay off)
+
+Everything runs on **GitHub Actions**, in the private project
+https://github.com/proutman123321-creator/fun-facts-shorts
+
+- Every day at **04:00 UTC** (05:00 Paris in winter, 06:00 in summer; GitHub can start a little late),
+  GitHub makes the 2 videos and sends them to Zernio for 08:00 and 20:00. Zernio publishes them.
+- Your keys are stored as **Secrets** in the project: Settings → Secrets and variables → Actions
+  (`ZERNIO_API_KEY`, `PIXABAY_API_KEY`). GitHub never shows them again, not even to you.
+- **See each day's run:** the project's **Actions** tab. Green = OK, red = problem (GitHub also emails you).
+  Click a run → **Artifacts** → `videos` to download that day's videos and log (kept 7 days).
+- **Test by hand:** Actions → "Daily fun facts videos" → **Run workflow** → choose
+  `no-publish` (only make videos), `dry-run` (show what would be sent) or `run` (the real thing).
+- Used topics are saved back into `state.json` in the project after each real run.
+- Cost: free (about 300–400 of the 2,000 free minutes per month for private projects).
+- The PC schedule (`4-turn-on-daily-schedule.bat`) is turned **off**, so videos are never made twice.
+  Don't turn it back on while the cloud job is active.
+- After changing files on the PC (config, new content), send them to GitHub:
+  `git add -A`, `git commit -m "update"`, `git pull --rebase`, `git push` (or ask Claude).
 
 ---
 
@@ -24,7 +46,8 @@ animated captions) and sends the same video to TikTok + Instagram through **Zern
 - **Nothing goes public by default.** `config.json` has `"publish_mode": "draft"`:
   - TikTok: the video lands in your **TikTok app inbox**. You finish and post it yourself.
   - Instagram: the video is saved as a **draft in your Zernio dashboard**.
-- Your keys live only in the `.env` file on your PC. Never paste them in a chat or send them to anyone.
+- Your keys live only in the `.env` file on your PC (never uploaded) and in GitHub Secrets.
+  Never paste them in a chat or send them to anyone.
 - To go fully automatic later, change `"publish_mode": "draft"` to `"publish_mode": "schedule"`.
   After that, videos are **posted publicly** at the post times without asking.
 
