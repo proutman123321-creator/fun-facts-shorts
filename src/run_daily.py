@@ -171,6 +171,7 @@ def main():
         print(f"PROBLEM: {p}")
     if problems:
         notify.send("❌ À vérifier :\n- " + "\n- ".join(problems))
+        (ROOT / "telegram-alert-sent").touch()  # so GitHub doesn't send a second, vaguer alert
 
     today = datetime.now(ZoneInfo(timezone)).strftime("%Y-%m-%d")
     for lang, lang_cfg in config["languages"].items():

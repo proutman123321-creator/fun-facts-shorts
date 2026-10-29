@@ -6,7 +6,13 @@ on:
   schedule:
     # 05:00-08:30 and 17:00-20:30 UTC covers the morning and evening posts, winter and summer time
     - cron: "*/30 5-8,17-20 * * *"
-  workflow_dispatch:
+  workflow_dispatch:     # "Run workflow" button; "test" sends a Telegram test message from GitHub
+    inputs:
+      mode:
+        description: "check = check the posts | test = send a Telegram test message"
+        default: check
+        type: choice
+        options: [check, test]
 
 permissions:
   contents: write  # to save notified.json (posts already reported)
@@ -28,7 +34,13 @@ jobs:
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: python3 src/notify.py check
+          MODE: ${{ github.event.inputs.mode || 'check' }}
+        run: |
+          if [ "$MODE" = "test" ]; then
+            python3 src/notify.py test | grep -q '^sent' || { echo "Telegram test message NOT sent"; exit 1; }
+          else
+            python3 src/notify.py check
+          fi
 
       - name: Remember which posts were reported
         run: |

@@ -60,7 +60,7 @@ def check_live_posts():
             continue
         p = data.get("post", data)
         title = post.get("title") or post["topic"].replace("-", " ")
-        lines, failed, waiting = [], False, False
+        lines, failed, waiting = [], False, not p.get("platforms")  # no details yet = not confirmed live
         for pl in p.get("platforms", []):
             name = {"tiktok": "TikTok", "instagram": "Instagram"}.get(pl.get("platform"), pl.get("platform"))
             status = (pl.get("status") or "").lower()

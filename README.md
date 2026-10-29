@@ -45,9 +45,10 @@ https://github.com/proutman123321-creator/fun-facts-shorts
   Test from the PC: `.venv\Scripts\python src\notify.py test`
 - Temporary problems (network, Zernio busy, Pixabay down, voice service hiccup) are retried
   automatically; if no clips can be found, the video uses the plain colored background instead.
-- Cost: free (about 300–400 of the 2,000 free minutes per month for private projects).
-- The PC schedule (`4-turn-on-daily-schedule.bat`) is turned **off**, so videos are never made twice.
-  Don't turn it back on while the cloud job is active.
+- Cost: free (about 750 of the 2,000 free minutes per month for private projects: ~9 min a day for
+  the videos, ~16 one-minute post checks a day).
+- Nothing runs from the PC anymore: `3-run-now.bat` and `4-turn-on-daily-schedule.bat` are disabled on
+  purpose, because the PC's list of used topics is out of date and would post videos twice.
 - After changing files on the PC (config, new content), send them to GitHub:
   `git add -A`, `git commit -m "update"`, `git pull --rebase`, `git push` (or ask Claude).
 
@@ -55,13 +56,14 @@ https://github.com/proutman123321-creator/fun-facts-shorts
 
 ## Safety first
 
-- **Nothing goes public by default.** `config.json` has `"publish_mode": "draft"`:
-  - TikTok: the video lands in your **TikTok app inbox**. You finish and post it yourself.
+- **Current mode: public.** `config.json` has `"publish_mode": "schedule"`: videos are posted publicly
+  at the post times without asking.
+- To pause public posting, set `"publish_mode": "draft"` (and push it to GitHub):
+  - TikTok: the video then lands in your **TikTok app inbox**. You finish and post it yourself.
   - Instagram: the video is saved as a **draft in your Zernio dashboard**.
+- To stop everything: GitHub → Actions → "Daily fun facts videos" → ⋯ → **Disable workflow**.
 - Your keys live only in the `.env` file on your PC (never uploaded) and in GitHub Secrets.
   Never paste them in a chat or send them to anyone.
-- To go fully automatic later, change `"publish_mode": "draft"` to `"publish_mode": "schedule"`.
-  After that, videos are **posted publicly** at the post times without asking.
 
 ---
 
@@ -96,14 +98,14 @@ https://github.com/proutman123321-creator/fun-facts-shorts
 
 | Double-click | What it does |
 |---|---|
-| `1-make-test-video.bat` | Makes 2 videos in `output\` (uses up the next 2 topics). Sends nothing. |
-| `2-show-accounts.bat` | Shows your Zernio accounts and their IDs. |
-| `3-run-now.bat` | Makes today's videos **and sends them to Zernio** (draft or schedule). |
-| `4-turn-on-daily-schedule.bat` | Runs step 3 automatically every day at 07:00, or as soon as your PC is turned on. |
-| `5-turn-off-daily-schedule.bat` | Stops the daily automatic run. |
+Everything runs on GitHub (see "Runs in the cloud" above). The PC files are only for tests:
 
-Zernio holds the posts and publishes them at the post time, so your PC doesn't need to be on then.
-Everything that happens is written to `run-log.txt`.
+| Double-click | What it does |
+|---|---|
+| `1-make-test-video.bat` | Makes the next 2 videos in `output\` to look at. Sends nothing, uses up no topic. |
+| `2-show-accounts.bat` | Shows your Zernio accounts and their IDs. |
+| `3-run-now.bat`, `4-turn-on-daily-schedule.bat` | Disabled (GitHub does it; running them could post twice). |
+| `5-turn-off-daily-schedule.bat` | Removes the old PC schedule, if it was ever turned on again. |
 
 ---
 
