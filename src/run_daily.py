@@ -177,7 +177,7 @@ def main():
     for lang, lang_cfg in config["languages"].items():
         if not lang_cfg.get("enabled", True):
             continue
-        picked = []
+        picked, last_when = [], None
         for post_time in lang_cfg["post_times"]:  # one new video per post time
             slot = f"{today} {post_time}"
             if real_run and slot_done(lang, slot):
@@ -188,6 +188,12 @@ def main():
             if args.no_publish:
                 continue
             info["post_time"] = next_post_time(post_time, timezone, config.get("post_time_jitter_minutes", 0))
+            # two videos posted minutes apart steal views from each other: keep them at least 2 hours apart
+            when = datetime.fromisoformat(info["post_time"])
+            if last_when and when < last_when + timedelta(hours=2):
+                when = last_when + timedelta(hours=2, minutes=random.randint(0, 15))
+                info["post_time"] = when.strftime("%Y-%m-%dT%H:%M:00")
+            last_when = when
             post_ids = publish(info, dry_run=args.dry_run)
             if real_run:
                 # only a topic that really reached Zernio counts as used, so a failure never skips
