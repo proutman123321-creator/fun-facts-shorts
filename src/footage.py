@@ -112,18 +112,31 @@ def download(clip):
 
 
 def find_clips(keywords, needed):
-    """Return up to `needed` (path, duration) clips, taking the fact's keywords in turn."""
+    """Return up to `needed` (path, duration) clips, taking the fact's keywords in turn.
+
+    A search or download that fails (network, rate limit) is skipped instead of stopping the video.
+    """
     name, key = provider()
-    results = {q: [c for c in search(q, name, key) if c["duration"] >= 4] for q in keywords}
+    results = {}
+    for q in keywords:
+        try:
+            results[q] = [c for c in search(q, name, key) if c["duration"] >= 4]
+        except Exception as e:
+            print(f"Clip search '{q}' failed ({type(e).__name__}), skipping it.")
+            results[q] = []
     clips, used = [], set()
     while len(clips) < needed and any(results.values()):
         for q in keywords:
             while results[q]:
                 clip = results[q].pop(0)
-                if clip["id"] not in used:
-                    used.add(clip["id"])
+                if clip["id"] in used:
+                    continue
+                used.add(clip["id"])
+                try:
                     clips.append((download(clip), clip["duration"]))
                     break
+                except Exception as e:
+                    print(f"Clip download failed ({type(e).__name__}), trying another one.")
             if len(clips) >= needed:
                 break
     return clips
@@ -145,10 +158,6 @@ def build_background(keywords, seconds, out_mp4):
     ffmpeg = find_ffmpeg()
     parts = []
     for i in range(count):
-        path, duration = clips[(i // CUTS_PER_CLIP) % len(clips)]
-        # 1st cut skips the first second (often a fade-in); 2nd cut takes a later moment of the same clip
-        start = 1.0 + (i % CUTS_PER_CLIP) * (SEGMENT_SECONDS + 0.5)
-        start = min(start, max(0.0, duration - SEGMENT_SECONDS - 0.2))
         zoom_in = i % 2 == 0  # alternate zoom in / zoom out between cuts
         z = f"(1+0.10*t/{SEGMENT_SECONDS})" if zoom_in else f"(1.10-0.10*t/{SEGMENT_SECONDS})"
         part = out_mp4.parent / f"part{i:02d}.mp4"
@@ -157,9 +166,24 @@ def build_background(keywords, seconds, out_mp4):
               f"eq=brightness=-0.06:saturation=1.15,"
               f"scale=w='trunc({W}*{z}/2)*2':h='trunc({H}*{z}/2)*2':eval=frame,crop={W}:{H},"
               f"fps={FPS},setsar=1")
-        subprocess.run([ffmpeg, "-y", "-loglevel", "error", "-ss", f"{start:.2f}", "-i", str(path),
-                        "-t", f"{SEGMENT_SECONDS}", "-vf", vf, "-an", "-c:v", "libx264", "-preset", "veryfast",
-                        "-crf", "18", "-pix_fmt", "yuv420p", str(part)], check=True)
+        # if a clip is broken, delete it and use the next one instead
+        for attempt in range(len(clips)):
+            path, duration = clips[(i // CUTS_PER_CLIP + attempt) % len(clips)]
+            # 1st cut skips the first second (often a fade-in); 2nd cut takes a later moment of the same clip
+            start = 1.0 + (i % CUTS_PER_CLIP) * (SEGMENT_SECONDS + 0.5)
+            start = min(start, max(0.0, duration - SEGMENT_SECONDS - 0.2))
+            done = subprocess.run([ffmpeg, "-y", "-loglevel", "error", "-ss", f"{start:.2f}", "-i", str(path),
+                                   "-t", f"{SEGMENT_SECONDS}", "-vf", vf, "-an", "-c:v", "libx264",
+                                   "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", str(part)])
+            if done.returncode == 0 and part.exists():
+                break
+            print(f"Broken clip {path.name}, using another one.")
+            path.unlink(missing_ok=True)
+        else:
+            print("No usable clips: using the plain animated background.")
+            for p in parts:
+                p.unlink(missing_ok=True)
+            return False
         parts.append(part)
 
     concat_list = out_mp4.parent / "parts.txt"

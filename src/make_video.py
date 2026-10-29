@@ -47,12 +47,6 @@ def pick_topic(lang, topic_id=None, exclude=()):
     raise SystemExit(f"No unused '{lang}' topics left in topics.json. Ask Claude to write the next batch.")
 
 
-def mark_used(lang, topic_id):
-    state = load_json(STATE_FILE, {})
-    state.setdefault(lang, []).append(topic_id)
-    save_json(STATE_FILE, state)
-
-
 def remaining_topics(lang):
     used = set(load_json(STATE_FILE, {}).get(lang, []))
     return sum(1 for t in load_json(ROOT / "topics.json") if t["id"] not in used and lang in t.get("facts", {}))
@@ -226,17 +220,30 @@ def paste_center(frame, img, cx, cy):
     frame.paste(img, (int(cx - img.width / 2), int(cy - img.height / 2)), img)
 
 
-def make_badge(text):
+def make_badge(text, max_width=900):
+    """Rounded title banner. Long titles go on two lines ("3 CRAZY FACTS:" / title) instead of overflowing."""
+    lines = [text]
     size = 64
-    while font(size).getbbox(text)[2] > 900 and size > 36:
+    while font(size).getbbox(text)[2] > max_width and size > 48:
         size -= 4
+    if font(size).getbbox(text)[2] > max_width and ": " in text:
+        head, title = text.split(": ", 1)
+        lines = [head + ":", title]
+        size = 60
+    while max(font(size).getbbox(l)[2] for l in lines) > max_width and size > 30:
+        size -= 2
     f = font(size)
-    box = f.getbbox(text)
-    w, h = box[2] - box[0] + 90, box[3] - box[1] + 60
+    line_h = int(size * 1.2)
+    text_w = max(f.getbbox(l)[2] - f.getbbox(l)[0] for l in lines)
+    top = f.getbbox(lines[0])[1]
+    w, h = text_w + 90, line_h * (len(lines) - 1) + (f.getbbox(lines[-1])[3] - top) + 60
     img = Image.new("RGBA", (w + 20, h + 20), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle((10, 10, 10 + w, 10 + h), radius=h // 2, fill=(0, 0, 0, 150))
-    d.text((10 + 45 - box[0], 10 + 30 - box[1]), text, font=f, fill=HIGHLIGHT)
+    d.rounded_rectangle((10, 10, 10 + w, 10 + h), radius=min(h // 2, 60), fill=(0, 0, 0, 150))
+    for i, line in enumerate(lines):
+        lw = f.getbbox(line)[2] - f.getbbox(line)[0]
+        x = 10 + (w - lw) // 2 - f.getbbox(line)[0]
+        d.text((x, 10 + 30 - top + i * line_h), line, font=f, fill=HIGHLIGHT)
     return img
 
 

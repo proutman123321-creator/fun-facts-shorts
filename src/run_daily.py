@@ -1,8 +1,15 @@
 """Daily job: make one video per post time of each enabled language and send them to Zernio.
 
-Post times come from config.json (e.g. 08:00 and 20:00). If a time has already passed
-today, it is set for tomorrow. Zernio does the posting, so the PC only needs to be on
-when this script runs. Videos older than KEEP_VIDEOS_DAYS are deleted from output/.
+Post times come from config.json (e.g. 08:00 and 20:00), shifted by a few random minutes.
+Zernio does the posting, so the computer only needs to run this once a day.
+
+Safety:
+- each slot ("2026-10-30 08:00") is remembered in state.json once sent, so a second run
+  the same day (backup schedule, manual re-run) never sends it twice;
+- a topic only counts as used once it really reached Zernio;
+- every run first asks Zernio how the previous posts went. If one failed on TikTok or
+  Instagram, today's videos are still sent, then the run ends with an error so GitHub
+  emails you.
 
 Usage:
     python src/run_daily.py              # make + send
@@ -16,11 +23,13 @@ import time
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from common import OUTPUT, ROOT, load_config
-from make_video import make_video, mark_used
-from publish import publish
+from common import OUTPUT, ROOT, STATE_FILE, load_config, load_json, save_json
+from make_video import make_video
+from publish import post_problems, publish
 
 KEEP_VIDEOS_DAYS = 14
+KEEP_SLOT_DAYS = 7
+KEEP_POSTS = 30
 
 
 def clean_old_videos():
@@ -44,6 +53,53 @@ def next_post_time(hhmm, timezone, jitter_minutes=0):
     if when <= now + timedelta(minutes=10):
         when = now + timedelta(minutes=random.randint(15, 25))
     return when.strftime("%Y-%m-%dT%H:%M:00")
+
+
+def slot_done(lang, slot):
+    return slot in load_json(STATE_FILE, {}).get("slots", {}).get(lang, {})
+
+
+def record_sent(lang, topic_id, slot, post_ids, when):
+    """Remember that this topic and this slot were sent to Zernio (state.json is saved by GitHub)."""
+    state = load_json(STATE_FILE, {})
+    state.setdefault(lang, []).append(topic_id)
+    slots = state.setdefault("slots", {}).setdefault(lang, {})
+    slots[slot] = topic_id
+    oldest = (datetime.now() - timedelta(days=KEEP_SLOT_DAYS)).strftime("%Y-%m-%d")
+    for old in [s for s in slots if s < oldest]:
+        del slots[old]
+    posts = state.setdefault("posts", [])
+    posts += [{"id": pid, "lang": lang, "topic": topic_id, "when": when} for pid in post_ids if pid]
+    state["posts"] = posts[-KEEP_POSTS:]
+    save_json(STATE_FILE, state)
+
+
+def check_previous_posts(timezone):
+    """Ask Zernio how posts that should be live by now went. Returns a list of problems."""
+    state = load_json(STATE_FILE, {})
+    now = datetime.now(ZoneInfo(timezone)).replace(tzinfo=None)
+    problems = []
+    for post in state.get("posts", []):
+        if post.get("checked"):
+            continue
+        due = datetime.fromisoformat(post["when"])
+        if now < due + timedelta(minutes=30):
+            continue  # not supposed to be live yet
+        try:
+            finished, issues = post_problems(post["id"])
+        except SystemExit as e:
+            problems.append(f"{post['topic']} ({post['when']}): could not check it on Zernio: {e}")
+            continue
+        if issues:
+            problems += [f"{post['topic']} ({post['when']}): {i}" for i in issues]
+            post["checked"] = True
+        elif finished:
+            post["checked"] = True
+        elif now > due + timedelta(hours=3):
+            problems.append(f"{post['topic']} ({post['when']}): still not published 3 hours later")
+            post["checked"] = True
+    save_json(STATE_FILE, state)
+    return problems
 
 
 class Tee:
@@ -71,26 +127,45 @@ def main():
     parser.add_argument("--no-publish", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
+    real_run = not (args.no_publish or args.dry_run)
 
     clean_old_videos()
     config = load_config()
+    timezone = config["timezone"]
     print(f"Publish mode: {config['publish_mode']}"
           + ("  (PUBLIC posts!)" if config["publish_mode"] == "schedule" else "  (nothing goes public)"))
+
+    problems = check_previous_posts(timezone) if real_run else []
+    for p in problems:
+        print(f"PROBLEM with an earlier post: {p}")
+
+    today = datetime.now(ZoneInfo(timezone)).strftime("%Y-%m-%d")
     for lang, lang_cfg in config["languages"].items():
         if not lang_cfg.get("enabled", True):
             continue
         picked = []
         for post_time in lang_cfg["post_times"]:  # one new video per post time
+            slot = f"{today} {post_time}"
+            if real_run and slot_done(lang, slot):
+                print(f"[{lang}] {slot} was already sent today, skipping.")
+                continue
             info = make_video(lang, exclude=picked)
             picked.append(info["topic_id"])
             if args.no_publish:
                 continue
-            info["post_time"] = next_post_time(post_time, config["timezone"], config.get("post_time_jitter_minutes", 0))
-            publish(info, dry_run=args.dry_run)
-            if not args.dry_run:
+            info["post_time"] = next_post_time(post_time, timezone, config.get("post_time_jitter_minutes", 0))
+            post_ids = publish(info, dry_run=args.dry_run)
+            if real_run:
                 # only a topic that really reached Zernio counts as used, so a failure never skips
-                # a topic and a partial failure never posts the same topic twice
-                mark_used(lang, info["topic_id"])
+                # a topic and a partial failure never posts the same topic twice.
+                # Drafts are never "published", so only scheduled posts are checked later.
+                tracked = post_ids if config["publish_mode"] == "schedule" else []
+                record_sent(lang, info["topic_id"], slot, tracked, info["post_time"])
+
+    if problems:
+        print("\nToday's videos were sent, but an earlier post failed (see PROBLEM lines above). "
+              "Check the Zernio dashboard: you may need to reconnect TikTok or Instagram.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

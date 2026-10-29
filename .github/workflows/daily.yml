@@ -4,7 +4,8 @@ name: Daily fun facts videos
 
 on:
   schedule:
-    - cron: "0 4 * * *"  # 04:00 UTC = 05:00 Paris in winter, 06:00 in summer (GitHub may start a bit late)
+    - cron: "0 4 * * *"   # 04:00 UTC = 05:00 Paris in winter, 06:00 in summer (GitHub may start a bit late)
+    - cron: "30 6 * * *"  # backup in case GitHub skipped the first one; it skips slots already sent today
   workflow_dispatch:     # "Run workflow" button for tests
     inputs:
       mode:
@@ -25,7 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # always the latest main (not the commit from when the run was queued), so a backup run
+      # sees the state.json saved by the run before it
       - uses: actions/checkout@v7
+        with:
+          ref: main
 
       - uses: actions/setup-python@v7
         with:

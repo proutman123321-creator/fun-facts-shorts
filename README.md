@@ -33,6 +33,13 @@ https://github.com/proutman123321-creator/fun-facts-shorts
 - **Test by hand:** Actions → "Daily fun facts videos" → **Run workflow** → choose
   `no-publish` (only make videos), `dry-run` (show what would be sent) or `run` (the real thing).
 - Used topics are saved back into `state.json` in the project after each real run.
+- **Backup run at 06:30 UTC:** if GitHub skipped the first run, the backup sends the day's videos.
+  Each slot is remembered once sent, so nothing is ever posted twice.
+- **Automatic check:** every morning the job asks Zernio how the previous posts went. If one failed
+  on TikTok or Instagram (for example an expired connection), the run turns red and GitHub emails you.
+  Then open the Zernio dashboard and reconnect the account.
+- Temporary problems (network, Zernio busy, Pixabay down, voice service hiccup) are retried
+  automatically; if no clips can be found, the video uses the plain colored background instead.
 - Cost: free (about 300–400 of the 2,000 free minutes per month for private projects).
 - The PC schedule (`4-turn-on-daily-schedule.bat`) is turned **off**, so videos are never made twice.
   Don't turn it back on while the cloud job is active.

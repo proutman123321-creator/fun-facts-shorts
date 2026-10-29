@@ -16,6 +16,7 @@ import json
 import mimetypes
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 import uuid
@@ -34,15 +35,30 @@ def api_key():
     return key
 
 
-def request(method, url, body=None, headers=None, raw=None):
+def request(method, url, body=None, headers=None, raw=None, attempts=4):
+    """HTTP call with retries on temporary problems (network, 429, 5xx).
+
+    Retrying POST /posts is safe: it carries an Idempotency-Key, so Zernio never creates it twice.
+    """
     data = raw if raw is not None else (json.dumps(body).encode() if body is not None else None)
-    req = urllib.request.Request(url, data=data, method=method, headers=headers or {})
-    try:
-        with urllib.request.urlopen(req, timeout=300) as resp:
-            text = resp.read().decode() or "{}"
-            return resp.status, json.loads(text) if text.strip().startswith(("{", "[")) else {}
-    except urllib.error.HTTPError as e:
-        raise SystemExit(f"Zernio error {e.code} on {method} {url.split('?')[0]}:\n{e.read().decode()[:2000]}")
+    for attempt in range(1, attempts + 1):
+        req = urllib.request.Request(url, data=data, method=method, headers=headers or {})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                text = resp.read().decode() or "{}"
+                return resp.status, json.loads(text) if text.strip().startswith(("{", "[")) else {}
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode()[:2000]
+            if e.code not in (408, 409, 425, 429, 500, 502, 503, 504) or attempt == attempts:
+                raise SystemExit(f"Zernio error {e.code} on {method} {url.split('?')[0]}:\n{detail}")
+            problem = f"HTTP {e.code}"
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if attempt == attempts:
+                raise SystemExit(f"Network error on {method} {url.split('?')[0]}: {e}")
+            problem = type(e).__name__
+        wait = 20 * attempt
+        print(f"Temporary problem ({problem}), retrying in {wait}s...")
+        time.sleep(wait)
 
 
 def api(method, path, body=None, extra_headers=None):
@@ -131,8 +147,11 @@ def publish(info, when=None, dry_run=False):
     if mode == "schedule" and not when:
         raise SystemExit("publish_mode is 'schedule' but no time was given (--when 2026-10-30T08:00).")
 
+    if not build_requests(info, "https://check", mode, when, config):
+        raise SystemExit(f"No {info['lang']} accounts in config.json: nothing can be published.")
     video_url = "https://<uploaded-video-url>" if dry_run else upload_video(info["video"])
     bodies = build_requests(info, video_url, mode, when, config)
+    post_ids = []
     for body in bodies:
         names = "+".join(p["platform"] for p in body["platforms"])
         if dry_run:
@@ -143,11 +162,28 @@ def publish(info, when=None, dry_run=False):
         status, result = api("POST", "/posts", body, {"Idempotency-Key": key})
         post = result.get("post", result)
         post_id = post.get("_id") or result.get("postId") or post.get("id")
+        post_ids.append(post_id)
         label = "draft" if mode == "draft" else f"scheduled for {when} ({config['timezone']})"
         print(f"OK {status}: {names} {label}. Zernio post id: {post_id}")
     if mode == "draft" and not dry_run:
         print("Nothing is public. TikTok: open the TikTok app inbox to finish the post. "
               "Instagram: the draft is in your Zernio dashboard.")
+    return post_ids
+
+
+def post_problems(post_id):
+    """Ask Zernio how a post went. Returns (finished, [problems])."""
+    _, data = api("GET", f"/posts/{post_id}")
+    post = data.get("post", data)
+    problems, finished = [], True
+    for p in post.get("platforms", []):
+        status = (p.get("status") or "").lower()
+        if status in ("failed", "error", "rejected", "cancelled"):
+            reason = p.get("errorMessage") or p.get("error") or "no reason given"
+            problems.append(f"{p.get('platform')}: {status} ({reason})")
+        elif status != "published":
+            finished = False
+    return finished, problems
 
 
 if __name__ == "__main__":
