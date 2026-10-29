@@ -1,0 +1,44 @@
+{
+  "publish_mode": "draft",
+  "timezone": "Europe/Paris",
+  "platforms": ["tiktok", "instagram"],
+  "min_seconds": 62,
+  "languages": {
+    "en": {
+      "enabled": true,
+      "post_times": ["08:00", "20:00"],
+      "accounts": {
+        "tiktok": "6ae3315f1fe144d3af5d621c",
+        "instagram": "6ae330bf4463371c17c9ae9e"
+      },
+      "voice": "en-US-AndrewNeural",
+      "rate": "-8%",
+      "hook": "Here are three crazy facts about {title} that you probably didn't know. And stay until the end for a bonus one!",
+      "fact_labels": ["Number one.", "Number two.", "Number three.", "And here's your bonus fact."],
+      "fact_marks": ["#1", "#2", "#3", "BONUS"],
+      "outro": "Which one surprised you the most? Tell me in the comments. Share this video with a friend who loves crazy facts, and follow for more every day!",
+      "badge": "3 CRAZY FACTS: {title}",
+      "end_card": "FOLLOW FOR MORE",
+      "caption": "3 crazy facts about {title} 🤯 Which one surprised you the most? 👇",
+      "hashtags": "#funfacts #didyouknow #facts #funfactforreal"
+    },
+    "fr": {
+      "enabled": false,
+      "post_times": ["08:00", "20:00"],
+      "accounts": {
+        "tiktok": "",
+        "instagram": ""
+      },
+      "voice": "fr-FR-HenriNeural",
+      "rate": "-5%",
+      "hook": "Voici trois anecdotes folles sur {title} que tu ne connais sûrement pas. La troisième est la plus folle !",
+      "fact_labels": ["Numéro un.", "Numéro deux.", "Numéro trois.", "Et voici ton anecdote bonus."],
+      "fact_marks": ["#1", "#2", "#3", "BONUS"],
+      "outro": "Laquelle t'a le plus surpris ? Dis-le-moi en commentaire. Et abonne-toi pour plus d'anecdotes chaque jour !",
+      "badge": "3 ANECDOTES : {title}",
+      "end_card": "ABONNE-TOI",
+      "caption": "3 anecdotes folles sur {title} 🤯 Laquelle t'a le plus surpris ? 👇",
+      "hashtags": "#lesaviezvous #anecdote #culturegenerale"
+    }
+  }
+}

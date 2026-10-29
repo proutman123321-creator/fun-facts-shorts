@@ -1,0 +1,78 @@
+# Runs every day on GitHub's computers: makes the videos and sends them to Zernio.
+# Your PC does not need to be on. Keys come from the repository's Secrets.
+name: Daily fun facts videos
+
+on:
+  schedule:
+    - cron: "0 4 * * *"  # 04:00 UTC = 05:00 Paris in winter, 06:00 in summer (GitHub may start a bit late)
+  workflow_dispatch:     # "Run workflow" button for tests
+    inputs:
+      mode:
+        description: "run = make + send | no-publish = only make the videos | dry-run = make + show what would be sent"
+        default: no-publish
+        type: choice
+        options: [no-publish, dry-run, run]
+
+permissions:
+  contents: write  # to save state.json (which topics were used)
+
+concurrency:
+  group: daily-videos
+  cancel-in-progress: false
+
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - name: Install FFmpeg and Python packages
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg
+          pip install -r requirements.txt
+
+      - name: Reuse downloaded stock clips
+        uses: actions/cache@v4
+        with:
+          path: assets/clips
+          key: clips-${{ github.run_id }}
+          restore-keys: clips-
+
+      - name: Make and send the videos
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          MODE: ${{ github.event.inputs.mode || 'run' }}
+        run: |
+          case "$MODE" in
+            run) python src/run_daily.py ;;
+            dry-run) python src/run_daily.py --dry-run ;;
+            *) python src/run_daily.py --no-publish ;;
+          esac
+
+      - name: Keep the videos for 7 days (Actions page > this run > Artifacts)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos
+          path: |
+            output/*/video.mp4
+            output/*/info.json
+            run-log.txt
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Save which topics were used
+        if: success() && (github.event.inputs.mode || 'run') == 'run'
+        run: |
+          git config user.name "fun-facts-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || (git commit -m "Used topics $(date -u +%F)" && git push)

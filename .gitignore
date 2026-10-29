@@ -1,0 +1,8 @@
+.env
+.venv/
+output/
+run-log.txt
+__pycache__/
+assets/clips/
+assets/search_cache.json
+assets/whoosh.wav
