@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   videos:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # fixed version: "latest" moves to new Ubuntu releases that could break the setup
     timeout-minutes: 60
     steps:
       # always the latest main (not the commit from when the run was queued), so a backup run

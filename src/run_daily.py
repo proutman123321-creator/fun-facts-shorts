@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 
 from common import OUTPUT, ROOT, STATE_FILE, load_config, load_json, save_json
 from make_video import make_video
-from publish import post_problems, publish
+from publish import api, post_problems, publish
 
 KEEP_VIDEOS_DAYS = 14
 KEEP_SLOT_DAYS = 7
@@ -102,6 +102,36 @@ def check_previous_posts(timezone):
     return problems
 
 
+def check_accounts(config):
+    """Ask Zernio whether every configured account can still post. Returns a list of problems.
+
+    Also warns 7 days before a connection that does not renew itself expires (Instagram: about 60 days).
+    """
+    problems = []
+    for lang, lang_cfg in config["languages"].items():
+        if not lang_cfg.get("enabled", True):
+            continue
+        for platform, account_id in lang_cfg.get("accounts", {}).items():
+            if not account_id:
+                continue
+            try:
+                _, h = api("GET", f"/accounts/{account_id}/health")
+            except SystemExit as e:
+                problems.append(f"{platform} ({lang}): could not check the connection on Zernio: {e}")
+                continue
+            token = h.get("tokenStatus") or {}
+            if not h.get("permissions", {}).get("canPost", h.get("canPost", True)) or h.get("needsReconnect") \
+                    or h.get("status") not in (None, "healthy"):
+                problems.append(f"{platform} ({lang}): Zernio can no longer post ({h.get('status')}, "
+                                f"{h.get('disconnectReason') or 'no reason given'}). Reconnect it in the Zernio dashboard.")
+            elif token.get("expiresAt") and token.get("expiresIn") != "Auto-refreshes":
+                expires = datetime.fromisoformat(token["expiresAt"].replace("Z", "+00:00"))
+                if expires - datetime.now(expires.tzinfo) < timedelta(days=7):
+                    problems.append(f"{platform} ({lang}): the connection expires on {expires:%Y-%m-%d}. "
+                                    f"Reconnect it in the Zernio dashboard before then (1 minute).")
+    return problems
+
+
 class Tee:
     """Print to the screen and also append to run-log.txt (useful for the scheduled task)."""
     def __init__(self, *streams):
@@ -135,9 +165,9 @@ def main():
     print(f"Publish mode: {config['publish_mode']}"
           + ("  (PUBLIC posts!)" if config["publish_mode"] == "schedule" else "  (nothing goes public)"))
 
-    problems = check_previous_posts(timezone) if real_run else []
+    problems = (check_accounts(config) + check_previous_posts(timezone)) if real_run else []
     for p in problems:
-        print(f"PROBLEM with an earlier post: {p}")
+        print(f"PROBLEM: {p}")
 
     today = datetime.now(ZoneInfo(timezone)).strftime("%Y-%m-%d")
     for lang, lang_cfg in config["languages"].items():
@@ -163,7 +193,7 @@ def main():
                 record_sent(lang, info["topic_id"], slot, tracked, info["post_time"])
 
     if problems:
-        print("\nToday's videos were sent, but an earlier post failed (see PROBLEM lines above). "
+        print("\nToday's videos were sent, but something needs your attention (see PROBLEM lines above). "
               "Check the Zernio dashboard: you may need to reconnect TikTok or Instagram.")
         sys.exit(1)
 
