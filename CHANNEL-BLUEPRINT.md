@@ -118,6 +118,24 @@ around post times  (with links) or "❌ problem"; reminders "🔔" before a conn
 3. Owner approves → `"publish_mode": "schedule"` → push.
 4. Run the full audit (section 7) until 0 non-conformity.
 
+### 3.6 Running several channels (one repo per channel)
+- **Zernio:** either one Zernio account per channel (free tier = 2 accounts each) or one Zernio account paying
+  for accounts 3+. Zernio's ToS (zernio.com/tos, §3) forbids circumventing usage quotas and §8 allows
+  termination "for any reason"; there is no explicit one-account-per-person rule. Ask Zernio support in
+  writing before using several free accounts. Each repo has its own `ZERNIO_API_KEY` secret and account ids
+  in `config.json`; health checks, post checks and reminders already use that repo's key.
+- **Distinct content per channel** (Zernio content guidelines forbid near-identical posts across accounts).
+- **GitHub Actions minutes:** 2,000 free min/month are shared by **all private repos** of the account; one
+  channel uses ~750 → from the 3rd channel, make channel repos public (secrets stay secret), optimize, or pay.
+- **Pixabay key** shared (100 requests/60 s): stagger the daily cron per channel (04:00, 04:20, 04:40 UTC…).
+- **Telegram:** one bot/chat can serve all channels; every message must carry the channel name
+  (`channel_name` in `config.json`, see below).
+- **Stats dashboard** (`C:\Users\wqach\stats-hub`): reads each channel through its own Zernio key
+  (`ZERNIO_API_KEY_<CHANNEL>` in its `.env`). Each channel repo keeps a permanent `posts_log.jsonl` and tags
+  every Zernio post with `cat:<category>`, `topic:<topic id>`, `channel:<slug>` (lowercase, spaces → dashes)
+  so the dashboard can group posts by category. *(Being added to fun-facts-shorts on 30 Oct 2026 if approved —
+  check that `src/run_daily.py` writes `posts_log.jsonl` before relying on it.)*
+
 ---
 
 ## 4. What to change for a new topic
