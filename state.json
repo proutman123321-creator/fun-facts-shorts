@@ -1,6 +1,30 @@
 {
   "en": [
     "octopuses",
-    "the-moon"
+    "the-moon",
+    "chocolate",
+    "the-brain"
+  ],
+  "slots": {
+    "en": {
+      "2026-10-30 08:00": "chocolate",
+      "2026-10-30 20:00": "the-brain"
+    }
+  },
+  "posts": [
+    {
+      "id": "6ae41f18a4e859f1a91862f7",
+      "lang": "en",
+      "topic": "chocolate",
+      "title": "chocolate",
+      "when": "2026-10-30T08:18:00"
+    },
+    {
+      "id": "6ae41fa40a59b1a24d0ee4b5",
+      "lang": "en",
+      "topic": "the-brain",
+      "title": "the brain",
+      "when": "2026-10-30T19:28:00"
+    }
   ]
 }
