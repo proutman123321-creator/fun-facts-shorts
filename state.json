@@ -3,12 +3,16 @@
     "octopuses",
     "the-moon",
     "chocolate",
-    "the-brain"
+    "the-brain",
+    "ancient-egypt",
+    "lightning"
   ],
   "slots": {
     "en": {
       "2026-10-30 08:00": "chocolate",
-      "2026-10-30 20:00": "the-brain"
+      "2026-10-30 20:00": "the-brain",
+      "2026-10-31 08:00": "ancient-egypt",
+      "2026-10-31 20:00": "lightning"
     }
   },
   "posts": [
@@ -17,14 +21,30 @@
       "lang": "en",
       "topic": "chocolate",
       "title": "chocolate",
-      "when": "2026-10-30T08:18:00"
+      "when": "2026-10-30T08:18:00",
+      "checked": true
     },
     {
       "id": "6ae41fa40a59b1a24d0ee4b5",
       "lang": "en",
       "topic": "the-brain",
       "title": "the brain",
-      "when": "2026-10-30T19:28:00"
+      "when": "2026-10-30T19:28:00",
+      "checked": true
+    },
+    {
+      "id": "6ae5706701283f7bd7d43ddc",
+      "lang": "en",
+      "topic": "ancient-egypt",
+      "title": "ancient Egypt",
+      "when": "2026-10-31T07:53:00"
+    },
+    {
+      "id": "6ae571896af735bec2ba10af",
+      "lang": "en",
+      "topic": "lightning",
+      "title": "lightning",
+      "when": "2026-10-31T20:07:00"
     }
   ]
 }
