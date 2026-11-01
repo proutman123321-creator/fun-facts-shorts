@@ -5,14 +5,18 @@
     "chocolate",
     "the-brain",
     "ancient-egypt",
-    "lightning"
+    "lightning",
+    "penguins",
+    "coral-reefs"
   ],
   "slots": {
     "en": {
       "2026-10-30 08:00": "chocolate",
       "2026-10-30 20:00": "the-brain",
       "2026-10-31 08:00": "ancient-egypt",
-      "2026-10-31 20:00": "lightning"
+      "2026-10-31 20:00": "lightning",
+      "2026-11-01 08:00": "penguins",
+      "2026-11-01 20:00": "coral-reefs"
     }
   },
   "posts": [
@@ -45,7 +49,22 @@
       "lang": "en",
       "topic": "lightning",
       "title": "lightning",
-      "when": "2026-10-31T20:07:00"
+      "when": "2026-10-31T20:07:00",
+      "checked": true
+    },
+    {
+      "id": "6ae6c36316304fefc660d836",
+      "lang": "en",
+      "topic": "penguins",
+      "title": "penguins",
+      "when": "2026-11-01T07:48:00"
+    },
+    {
+      "id": "6ae6c43df927171078a3349e",
+      "lang": "en",
+      "topic": "coral-reefs",
+      "title": "coral reefs",
+      "when": "2026-11-01T20:35:00"
     }
   ]
 }
