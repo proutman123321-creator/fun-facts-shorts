@@ -30,7 +30,7 @@ def send(text):
     # one bot can serve several channels: every message says which channel it is about
     name = str(load_config().get("channel_name", "")).strip()
     if name:
-        text = f"[{name}] {text}"
+        text = f"{load_config().get('telegram_emoji', '')} {name.upper()}{chr(10)}{text}".strip()
     body = {"chat_id": chat, "text": text, "disable_web_page_preview": True}
     req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage",
                                  data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
@@ -77,15 +77,15 @@ def check_live_posts():
                 waiting = True
                 lines.append(f"{name}: en cours ({status or 'inconnu'})")
         if failed:
-            send(f"❌ Problème de publication : 3 crazy facts about {title}\n" + "\n".join(lines)
+            send(f"❌ Problème de publication : {title}\n" + "\n".join(lines)
                  + "\n\nOuvre le tableau de bord Zernio : il faut peut-être reconnecter le compte.")
         elif waiting and now < due + timedelta(hours=2):
             continue  # still being published, check again next time
         elif waiting:
-            send(f"⚠️ Toujours pas en ligne 2 h après l'heure prévue : 3 crazy facts about {title}\n"
+            send(f"⚠️ Toujours pas en ligne 2 h après l'heure prévue : {title}\n"
                  + "\n".join(lines) + "\n\nVérifie dans le tableau de bord Zernio.")
         else:
-            send(f"✅ Publiée : 3 crazy facts about {title}\n" + "\n".join(lines))
+            send(f"✅ Publiée : {title}\n" + "\n".join(lines))
         done.append(post["id"])
         changed = True
     if changed:
@@ -97,6 +97,6 @@ if __name__ == "__main__":
         sys.stdout.reconfigure(encoding="utf-8")
     command = sys.argv[1] if len(sys.argv) > 1 else "check"
     if command == "test":
-        print("sent" if send("👋 Test : les alertes Fun Facts sont bien branchées.") else "NOT sent (token or chat id missing)")
+        print("sent" if send("👋 Test : les alertes sont bien branchées.") else "NOT sent (token or chat id missing)")
     else:
         check_live_posts()

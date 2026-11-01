@@ -259,7 +259,7 @@ def main():
                 tracked = post_ids if config["publish_mode"] == "schedule" else []
                 record_sent(lang, info["topic_id"], slot, tracked, info["post_time"], info["title"])
                 if config["publish_mode"] == "schedule":
-                    notify.send(f"🎬 Programmée : 3 crazy facts about {info['title']}\n"
+                    notify.send(f"🎬 Programmée : {info['title']}\n"
                                 f"🕗 {info['post_time'][11:16]} ({info['seconds']:.0f} s) sur TikTok + Instagram")
         if real_run:
             check_topics_left(lang)
