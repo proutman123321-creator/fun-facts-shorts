@@ -57,7 +57,8 @@
       "lang": "en",
       "topic": "penguins",
       "title": "penguins",
-      "when": "2026-11-01T07:48:00"
+      "when": "2026-11-01T07:48:00",
+      "checked": true
     },
     {
       "id": "6ae6c43df927171078a3349e",
