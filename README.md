@@ -18,7 +18,9 @@ animated captions) and sends the same video to TikTok + Instagram through **Zern
   punch-in, tilt, handheld), about 1 in 4 in slow motion. Only real footage that matches the topic
   (no cartoons, fair rides, fashion portraits or very dark clips).
 - **Captions:** word by word, the spoken word in yellow; kept away from the app's buttons and bottom text.
-- **Voice:** slightly slowed (−4% to −10%) when a text is short, so the voice fills the minute.
+- **Voice:** Chatterbox Nano (the engine of Alpha Mindset) copying `assets/voice/reference.wav`, a license-free
+  Kokoro voice chosen by ear on 1 Nov 2026; every sentence is checked with whisper. Longer pauses, then a slightly
+  slower voice, fill the minute. If it fails, the old Microsoft voice (edge-tts) takes over and Telegram says so.
 - **Music:** a royalty-free track from `assets\music`, chosen by mood for the topic's category
   (`assets\music\moods.json`), started after its quiet intro at a different point each time, at the same
   quiet level for every track, and dipping automatically while the voice speaks. Final sound at about −14 LUFS.

@@ -23,6 +23,7 @@ from pathlib import Path
 import edge_tts
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
+import voice as ai_voice
 from common import OUTPUT, ROOT, STATE_FILE, find_ffmpeg, load_config, load_json, save_json
 from footage import background_frames, build_background
 
@@ -526,9 +527,18 @@ def make_video(lang, topic_id=None, exclude=()):
 
     print(f"[{lang}] Topic: {topic['id']}")
     print(f"[{lang}] Recording voice...")
-    speed = voice_rate(sections, lang_cfg, config.get("min_seconds", 0))
-    print(f"[{lang}] Voice speed {speed}")
-    words, spans = record_sections(sections, lang_cfg, folder, speed)
+    try:
+        # the voice chosen on 1 Nov 2026 (src/voice.py), long enough to end just after the 1-minute mark
+        target = config.get("min_seconds", 0) - TAIL_SECONDS + 0.4
+        words, spans = ai_voice.record_sections(sections, folder, target, SECTION_GAP)
+    except Exception as e:  # never lose the day's video because of the AI voice: the Microsoft voice takes over
+        print(f"[{lang}] AI voice failed ({type(e).__name__}: {e}), using the Microsoft voice instead")
+        import notify
+        notify.send(f"⚠️ La voix IA n'a pas marché pour « {title} » : vidéo faite avec l'ancienne voix. "
+                    "Dis-le à Claude.")
+        speed = voice_rate(sections, lang_cfg, config.get("min_seconds", 0))
+        print(f"[{lang}] Voice speed {speed}")
+        words, spans = record_sections(sections, lang_cfg, folder, speed)
     # TikTok only pays for videos over 1 minute: hold the end card longer if the voice is short
     total = max(words[-1]["end"] + TAIL_SECONDS, config.get("min_seconds", 0))
     bg_mp4 = folder / "montage.mp4"

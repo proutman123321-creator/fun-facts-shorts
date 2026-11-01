@@ -24,24 +24,32 @@ concurrency:
 jobs:
   videos:
     runs-on: ubuntu-24.04  # fixed version: "latest" moves to new Ubuntu releases that could break the setup
-    timeout-minutes: 60
+    timeout-minutes: 90   # the AI voice adds a few minutes per video
     steps:
       # always the latest main (not the commit from when the run was queued), so a backup run
-      # sees the state.json saved by the run before it
+      # sees the state.json saved by the run before it; a manual test run uses the branch it was started on
       - uses: actions/checkout@v7
         with:
-          ref: main
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || 'main' }}
 
       - uses: actions/setup-python@v7
         with:
-          python-version: "3.14"
+          python-version: "3.11"   # the AI voice needs torch 2.6, which stops at Python 3.13
           cache: pip
 
       - name: Install FFmpeg and Python packages
         run: |
           sudo apt-get update -q
           sudo apt-get install -y -q ffmpeg
+          # CPU build of torch for the AI voice (GitHub has no graphics card; the CUDA build is 2 GB bigger)
+          pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
           pip install -r requirements.txt
+
+      - name: Reuse the AI voice models (downloaded on the first run only)
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/huggingface
+          key: voice-models-v1
 
       - name: Reuse downloaded stock clips
         uses: actions/cache@v6
