@@ -17,6 +17,7 @@ Usage:
     python src/run_daily.py --dry-run    # make the videos, show what would be sent
 """
 import argparse
+import json
 import random
 import sys
 import time
@@ -31,6 +32,7 @@ from publish import api, post_problems, publish
 KEEP_VIDEOS_DAYS = 14
 KEEP_SLOT_DAYS = 7
 KEEP_POSTS = 30
+POSTS_LOG = ROOT / "posts_log.jsonl"
 
 
 def clean_old_videos():
@@ -73,6 +75,19 @@ def record_sent(lang, topic_id, slot, post_ids, when, title=None):
     posts += [{"id": pid, "lang": lang, "topic": topic_id, "title": title, "when": when} for pid in post_ids if pid]
     state["posts"] = posts[-KEEP_POSTS:]
     save_json(STATE_FILE, state)
+    log_posts(lang, topic_id, post_ids, when, title)
+
+
+def log_posts(lang, topic_id, post_ids, when, title):
+    """Add one line per post to posts_log.jsonl, a permanent record (state.json only keeps the last posts)
+    that the stats dashboard reads to group posts by category."""
+    category = next((t.get("category") for t in load_json(ROOT / "topics.json", []) if t["id"] == topic_id), None)
+    channel = load_config().get("channel_name", "")
+    with open(POSTS_LOG, "a", encoding="utf-8") as f:
+        for pid in post_ids:
+            if pid:
+                f.write(json.dumps({"zernio_post_id": pid, "topic": topic_id, "category": category, "title": title,
+                                    "lang": lang, "when": when, "channel": channel}, ensure_ascii=False) + "\n")
 
 
 def check_previous_posts(timezone):

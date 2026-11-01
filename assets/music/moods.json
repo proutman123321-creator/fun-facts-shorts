@@ -1,18 +1,20 @@
 {
-  "_help": "Each mood lists music files from this folder. Each category of the year plan uses one mood. Move a file to another mood if it fits better; new files not listed anywhere are used for every mood.",
+  "_help": "Each mood lists music files from this folder (a track may sit in several moods). Each category of the year plan uses one mood. Every mood keeps at least 2 tracks longer than 70 s, so no track plays twice in a row; echoes_of_lumen (35 s) is too short for a 1-minute video and is never used.",
   "moods": {
     "curious": [
       "romansenykmusic-a-curious-discovery-243799.mp3",
-      "leberch-quirky-501484.mp3"
+      "leberch-quirky-501484.mp3",
+      "mmaudio-start-somewhere-good-512524.mp3"
     ],
     "playful": [
       "maksymmalko-quirky-quirky-music-616896.mp3",
       "leberch-playful-441727.mp3",
-      "echoes_of_lumen-quirky-music-584892.mp3"
+      "leberch-quirky-501484.mp3"
     ],
     "bright": [
       "alex-morgan-lofi-sunny-cafe-568156.mp3",
-      "mmaudio-start-somewhere-good-512524.mp3"
+      "mmaudio-start-somewhere-good-512524.mp3",
+      "leberch-playful-441727.mp3"
     ]
   },
   "categories": {

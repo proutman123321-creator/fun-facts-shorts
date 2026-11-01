@@ -8,7 +8,7 @@ import sys
 
 from common import ROOT, load_config, load_json, save_json
 
-WORDS_PER_SECOND_AT_0 = 3.0  # en-US-AndrewNeural at normal speed (same value as make_video.py)
+WORDS_PER_SECOND = 3.3  # the AI voice (src/voice.py), measured 1 Nov 2026: 166 words = 50 s of speech
 
 
 def main():
@@ -32,7 +32,7 @@ def main():
     if problems:
         sys.exit("\n".join(problems))
 
-    topics, short, problems_late = [], [], []
+    topics, short, long, problems_late = [], [], [], []
     for p in plan:
         item = written.get(p["id"])
         if not item:
@@ -49,23 +49,28 @@ def main():
         frozen = end_card_seconds(len(script.split()), lang_cfg, min_seconds)
         if frozen > 3:
             short.append(f"  {p['id']}: about {frozen:.0f}s of frozen end card")
+        if video_seconds(len(script.split()), min_seconds) > 75:
+            long.append(f"  {p['id']}: about {video_seconds(len(script.split()), min_seconds):.0f}s")
     save_json(ROOT / "topics.json", topics)
     print(f"topics.json: {len(topics)} topics written out of {len(plan)} planned.")
     if problems_late:
         sys.exit("Hooks too long:\n" + "\n".join(problems_late))
     if short:
         print("Too short for a full minute of voice (add a sentence to some facts):\n" + "\n".join(short))
+    if long:
+        print("Long videos, over 75 s (they still work; shorter facts keep more viewers):\n" + "\n".join(long))
 
 
 def end_card_seconds(words, lang_cfg, min_seconds):
-    """Same rule as the video: the voice may slow down to -10% to reach the minute; whatever is still
-    missing is shown as a frozen end card. Returns those frozen seconds."""
-    gaps, tail = 0.35 * 5, 1.2
-    base = int(lang_cfg.get("rate", "+0%").rstrip("%"))
-    needed = round((words / (WORDS_PER_SECOND_AT_0 * (min_seconds - tail - gaps)) - 1) * 100)
-    rate = max(-10, min(base, needed))
-    voice = words / (WORDS_PER_SECOND_AT_0 * (1 + rate / 100)) + gaps
-    return min_seconds - voice
+    """Same rule as the video (src/voice.py): pauses up to 1.8x longer, then a voice slowed to 0.88 at most,
+    fill the minute; whatever is still missing is shown as a frozen end card. Returns those frozen seconds."""
+    speech, gaps, tail = words / WORDS_PER_SECOND, 4.0, 1.2
+    return min_seconds - (speech / 0.88 + gaps * 1.8 + tail)
+
+
+def video_seconds(words, min_seconds):
+    """Length of the video at the voice's natural speed (never under the minute)."""
+    return max(words / WORDS_PER_SECOND + 4.0 + 1.2, min_seconds)
 
 
 if __name__ == "__main__":

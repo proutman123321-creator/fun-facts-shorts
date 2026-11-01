@@ -344,6 +344,17 @@ def full_sound_from(path):
     return cache[path.name]
 
 
+def music_rotation(topic, index, tracks, topics, moods):
+    """The tracks whose mood fits the topic's category (assets/music/moods.json), and how many videos of
+    that mood came before it: the n-th video of a mood gets the n-th track, so tracks alternate."""
+    listed = {f for files in moods.get("moods", {}).values() for f in files}
+    mood = moods.get("categories", {}).get(topic.get("category", ""))
+    pool = [p for p in tracks if p.name in moods.get("moods", {}).get(mood, []) or p.name not in listed]
+    categories = moods.get("categories", {})
+    nth = sum(1 for t in topics[:index] if categories.get(t.get("category")) == mood)
+    return pool or tracks, nth
+
+
 def pick_music(topic, index, total):
     """Choose the background music for a topic: a track whose mood fits the topic's category
     (assets/music/moods.json), rotated so neighbouring videos don't share a track, long enough
@@ -353,15 +364,17 @@ def pick_music(topic, index, total):
     tracks = [p for p in tracks if track_seconds(p) >= total + 1] or tracks
     if not tracks:
         return None
+    topics = load_json(ROOT / "topics.json")
     moods = load_json(MUSIC_DIR / "moods.json", {})
-    listed = {f for files in moods.get("moods", {}).values() for f in files}
-    mood = moods.get("categories", {}).get(topic.get("category", ""))
-    pool = [p for p in tracks if p.name in moods.get("moods", {}).get(mood, []) or p.name not in listed]
-    pool = pool or tracks
-    # rotate within the mood: the n-th video of this mood gets the n-th track, so tracks alternate
-    categories = moods.get("categories", {})
-    nth = sum(1 for t in load_json(ROOT / "topics.json")[:index] if categories.get(t.get("category")) == mood)
-    path = pool[nth % len(pool)]
+    # a track can belong to several moods: replay the choices from the first video so that
+    # no video ever gets the same track as the video just before it
+    path = None
+    for i in range(index + 1):
+        pool, nth = music_rotation(topic if i == index else topics[i], i, tracks, topics, moods)
+        choice = pool[nth % len(pool)]
+        if choice == path and len(pool) > 1:
+            choice = pool[(nth + 1) % len(pool)]
+        path = choice
     rng = random.Random(f"{topic['id']}-music")
     earliest = max(8.0, full_sound_from(path))
     latest = track_seconds(path) - total - 2

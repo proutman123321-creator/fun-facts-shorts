@@ -27,6 +27,10 @@ def send(text):
     chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip() or str(load_config().get("telegram_chat_id", "")).strip()
     if not token or token.startswith("paste") or not chat:
         return False
+    # one bot can serve several channels: every message says which channel it is about
+    name = str(load_config().get("channel_name", "")).strip()
+    if name:
+        text = f"[{name}] {text}"
     body = {"chat_id": chat, "text": text, "disable_web_page_preview": True}
     req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage",
                                  data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})

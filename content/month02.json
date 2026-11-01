@@ -116,7 +116,7 @@
    "Great civilizations in the Americas, including the Aztecs and the Inca, never used wheeled vehicles for transport. Yet archaeologists have found little clay animal toys with wheels in Mexico, so people there understood the idea. They just had no large animals to pull carts.",
    "The wheel itself was only half the invention. The hard part was the axle, because the wheel and the axle have to fit together tightly enough to turn smoothly. Scientists think early wheeled carts and the potter's wheel appeared in the same period, around five thousand years ago."
   ],
-  "hook": "The Aztecs knew the wheel but only used it for toys."
+  "hook": "The Aztecs used the wheel only for toys."
  },
  {
   "id": "the-great-barrier-reef",
@@ -772,14 +772,14 @@
    "horse portrait close up",
    "horses herd meadow"
   ],
-  "hashtags": "#horses #animalfacts #funfacts #nature",
+  "hashtags": "#horses #animalfacts #nature #equestrian",
   "facts": [
    "Horses can sleep standing up. A special locking system of tendons and ligaments in their legs holds the joints steady, so the muscles can relax without the horse falling over. They only lie down for deep dreaming sleep, and usually for just short stretches at a time.",
    "A horse's eyes sit on the sides of its head, so it can see almost all the way around without turning. Its only blind spots are directly behind its tail and right in front of its forehead. That is why you should always speak before walking up behind one.",
    "Horses cannot vomit. The muscle between a horse's throat tube and its stomach is incredibly strong, and the tube meets the stomach at a sharp angle. Whatever goes down stays down, which is why a bad stomach ache is such a serious matter for a horse.",
    "The height of a horse is measured in hands. The unit began as the width of a human hand, and today one hand is fixed at exactly four inches. So a horse that is sixteen hands tall stands sixty four inches high at the shoulder."
   ],
-  "hook": "Horses can't throw up."
+  "hook": "A horse can never throw up."
  },
  {
   "id": "hair",
@@ -789,7 +789,7 @@
    "hair blowing wind",
    "barber cutting hair"
   ],
-  "hashtags": "#hair #humanbody #science #funfacts",
+  "hashtags": "#hair #humanbody #science #biology",
   "facts": [
    "Hair is made of keratin, the same tough protein found in your fingernails, animal claws, and even rhinoceros horns. Each strand on your head grows roughly one centimeter every month, and a single strand can keep growing for several years before it finally falls out.",
    "A typical person has around one hundred thousand hairs on the scalp. Losing somewhere between fifty and one hundred of them every day is completely normal, because each follicle runs its own cycle of growing, resting, and shedding, all at different times.",
@@ -823,7 +823,7 @@
    "telephone switchboard operator",
    "telephone wires poles"
   ],
-  "hashtags": "#telephone #inventions #history #funfacts",
+  "hashtags": "#telephone #inventions #history #technology",
   "facts": [
    "Alexander Graham Bell received his telephone patent on March seventh, eighteen seventy six. Three days later, he made the first successful call, speaking to his assistant Thomas Watson in the next room. His first words were a request for Watson to come into the room, because Bell wanted to see him.",
    "Bell filed his patent application on the same day that another inventor, Elisha Gray, filed a notice about a very similar idea. The two men came within hours of each other, and the dispute over who truly invented the telephone went to court and lasted for years.",
@@ -840,7 +840,7 @@
    "medieval castle",
    "knight sword armor"
   ],
-  "hashtags": "#knights #medieval #history #funfacts",
+  "hashtags": "#knights #medieval #history #middleages",
   "facts": [
    "Becoming a knight took years. A boy often left home around age seven to serve as a page in a noble household, became a squire at about fourteen, and could be made a knight by around twenty one. Many boys never made it, because training cost a fortune.",
    "Full plate armor was not as clumsy as movies suggest. It usually weighed between fifteen and twenty five kilograms, spread over the whole body, so knights could kneel, run, climb ladders, and even jump onto their horses without any help from cranes.",
@@ -874,7 +874,7 @@
    "old photographs memories",
    "brain neurons animation"
   ],
-  "hashtags": "#memory #psychology #brain #funfacts",
+  "hashtags": "#memory #psychology #brain #mind",
   "facts": [
    "Memory is not like a video recording. Scientists think that every time you remember something, your brain partly rebuilds it from pieces, and the rebuilt version can change a little before it is stored again. That is why two people can recall the same event very differently.",
    "London taxi drivers must memorize about twenty five thousand streets to earn their license. Brain scans showed that the back part of their hippocampus, a region important for memory and navigation, was larger than average, and it was bigger in drivers who had worked longer.",
@@ -891,7 +891,7 @@
    "cow close up face",
    "cattle farm pasture"
   ],
-  "hashtags": "#cows #farmanimals #animalfacts #funfacts",
+  "hashtags": "#cows #farmanimals #animalfacts #farm",
   "facts": [
    "A cow spends around eight hours every day chewing cud. After swallowing grass the first time, she brings it back up to chew it again. Her stomach has four compartments, and tiny microbes in the first one help break down tough plant fibers.",
    "A dairy cow can drink a bathtub of water every day. A cow that is giving milk may drink between seventy and one hundred and thirty liters daily, and even more on hot days, because milk is mostly water, and making it takes a lot of drinking.",
@@ -908,7 +908,7 @@
    "apple tree blossoms",
    "apple harvest basket"
   ],
-  "hashtags": "#apples #fruit #food #funfacts",
+  "hashtags": "#apples #fruit #food #nutrition",
   "facts": [
    "Apples float in water because roughly a quarter of an apple is air. Tiny pockets of air are trapped between the cells inside the fruit, which makes it less dense than water. That is why apple bobbing is a popular game at autumn parties.",
    "Apples belong to the rose family, which also includes pears, plums, cherries, and strawberries. Every apple tree you see today descends mostly from a wild species that still grows in the mountains of Central Asia, in a region of Kazakhstan.",
@@ -942,7 +942,7 @@
    "compass needle",
    "magnetic field experiment"
   ],
-  "hashtags": "#magnets #science #physics #funfacts",
+  "hashtags": "#magnets #science #physics #stem",
   "facts": [
    "The whole Earth is a giant magnet. Scientists think that swirling liquid iron deep in the planet's outer core creates a magnetic field that reaches far into space. This invisible shield helps protect us from harmful particles streaming out from the Sun.",
    "You can never separate the north and south poles of a magnet. If you cut a bar magnet in half, you do not get one north piece and one south piece. You get two smaller magnets, each with its own north pole and south pole.",
@@ -959,7 +959,7 @@
    "typing on keyboard hands",
    "hands working"
   ],
-  "hashtags": "#fingernails #humanbody #science #funfacts",
+  "hashtags": "#fingernails #humanbody #science #biology",
   "facts": [
    "Fingernails are made of keratin, the same protein as your hair, and the part you see is dead. They grow about three and a half millimeters each month, which is more than twice as fast as toenails. A lost fingernail takes around six months to grow back.",
    "Not all nails grow at the same speed. Studies show that the nail on the middle finger usually grows fastest, while the thumbnail tends to grow slowest. The nails on the hand you write with also tend to grow a little faster than on the other hand.",

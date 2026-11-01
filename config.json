@@ -7,6 +7,7 @@
   ],
   "min_seconds": 61,
   "post_time_jitter_minutes": 35,
+  "channel_name": "Fun Facts For Real",
   "telegram_chat_id": "5875580946",
   "languages": {
     "en": {
