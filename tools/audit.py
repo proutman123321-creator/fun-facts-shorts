@@ -118,6 +118,18 @@ def audit_config_and_code():
     launchers = [p.name for p in ROOT.glob("*.bat")
                  if "run_daily.py" in p.read_text(errors="ignore") and "--no-publish" not in p.read_text(errors="ignore")]
     check("no PC launcher can post (would post twice)", not launchers, launchers)
+    run_daily_py = (ROOT / "src/run_daily.py").read_text(encoding="utf-8")
+    notify_py = (ROOT / "src/notify.py").read_text(encoding="utf-8")
+    daily_yml = (ROOT / ".github/workflows/daily.yml").read_text(encoding="utf-8")
+    check("a broken topic is skipped, never blocks the channel", "def make_or_skip" in run_daily_py
+          and "info = make_or_skip(" in run_daily_py)
+    check("Telegram alert when no video was scheduled today", "check_today_scheduled()" in notify_py.split("__main__")[-1])
+    check("account cut by Meta/TikTok reported within 30 min", "check_accounts_now()" in notify_py.split("__main__")[-1])
+    check("exact package versions locked (constraints.txt)", (ROOT / "constraints.txt").exists()
+          and "-c constraints.txt" in daily_yml)
+    first_cron = re.search(r'cron: "([0-9]+) ([0-9]+) \* \* \*"', daily_yml)
+    check("daily run starts by 03:00 UTC (GitHub often starts 30-60 min late)",
+          bool(first_cron) and int(first_cron.group(2)) <= 3)
     check("tzdata in requirements", "tzdata" in (ROOT / "requirements.txt").read_text())
     daily = (ROOT / ".github/workflows/daily.yml").read_text(encoding="utf-8")
     check("AI voice ready on GitHub (engine pinned, CPU torch, Python 3.11, models cached, reference voice)",

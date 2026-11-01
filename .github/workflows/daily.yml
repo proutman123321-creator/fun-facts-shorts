@@ -4,8 +4,8 @@ name: Daily fun facts videos
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # 04:00 UTC = 05:00 Paris in winter, 06:00 in summer (GitHub may start a bit late)
-    - cron: "30 6 * * *"  # backup in case GitHub skipped the first one; it skips slots already sent today
+    - cron: "7 2 * * *"   # 02:07 UTC = 03:07 Paris in winter, 04:07 in summer: early, because GitHub often starts 30-60 min late
+    - cron: "37 4 * * *"   # backup in case GitHub skipped the first one; it skips slots already sent today
   workflow_dispatch:     # "Run workflow" button for tests
     inputs:
       mode:
@@ -43,7 +43,7 @@ jobs:
           sudo apt-get install -y -q ffmpeg
           # CPU build of torch for the AI voice (GitHub has no graphics card; the CUDA build is 2 GB bigger)
           pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
-          pip install -r requirements.txt
+          pip install -r requirements.txt -c constraints.txt   # constraints.txt = exact versions of a run that worked
 
       - name: Reuse the AI voice models (downloaded on the first run only)
         uses: actions/cache@v6
