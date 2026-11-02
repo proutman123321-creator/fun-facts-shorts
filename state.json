@@ -7,7 +7,9 @@
     "ancient-egypt",
     "lightning",
     "penguins",
-    "coral-reefs"
+    "coral-reefs",
+    "mount-everest",
+    "the-heart"
   ],
   "slots": {
     "en": {
@@ -16,7 +18,9 @@
       "2026-10-31 08:00": "ancient-egypt",
       "2026-10-31 20:00": "lightning",
       "2026-11-01 08:00": "penguins",
-      "2026-11-01 20:00": "coral-reefs"
+      "2026-11-01 20:00": "coral-reefs",
+      "2026-11-02 08:00": "mount-everest",
+      "2026-11-02 20:00": "the-heart"
     }
   },
   "posts": [
@@ -65,7 +69,22 @@
       "lang": "en",
       "topic": "coral-reefs",
       "title": "coral reefs",
-      "when": "2026-11-01T20:35:00"
+      "when": "2026-11-01T20:35:00",
+      "checked": true
+    },
+    {
+      "id": "6ae7fde75fab91e9ffcbfc26",
+      "lang": "en",
+      "topic": "mount-everest",
+      "title": "Mount Everest",
+      "when": "2026-11-02T08:13:00"
+    },
+    {
+      "id": "6ae7ffddb3bb4d812c5fbb6b",
+      "lang": "en",
+      "topic": "the-heart",
+      "title": "the heart",
+      "when": "2026-11-02T20:03:00"
     }
   ]
 }
