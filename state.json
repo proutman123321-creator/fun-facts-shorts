@@ -9,7 +9,9 @@
     "penguins",
     "coral-reefs",
     "mount-everest",
-    "the-heart"
+    "the-heart",
+    "cats",
+    "mars"
   ],
   "slots": {
     "en": {
@@ -20,7 +22,9 @@
       "2026-11-01 08:00": "penguins",
       "2026-11-01 20:00": "coral-reefs",
       "2026-11-02 08:00": "mount-everest",
-      "2026-11-02 20:00": "the-heart"
+      "2026-11-02 20:00": "the-heart",
+      "2026-11-03 08:00": "cats",
+      "2026-11-03 20:00": "mars"
     }
   },
   "posts": [
@@ -77,14 +81,30 @@
       "lang": "en",
       "topic": "mount-everest",
       "title": "Mount Everest",
-      "when": "2026-11-02T08:13:00"
+      "when": "2026-11-02T08:13:00",
+      "checked": true
     },
     {
       "id": "6ae7ffddb3bb4d812c5fbb6b",
       "lang": "en",
       "topic": "the-heart",
       "title": "the heart",
-      "when": "2026-11-02T20:03:00"
+      "when": "2026-11-02T20:03:00",
+      "checked": true
+    },
+    {
+      "id": "6ae94fc2d10c9a3a050c0e54",
+      "lang": "en",
+      "topic": "cats",
+      "title": "cats",
+      "when": "2026-11-03T08:34:00"
+    },
+    {
+      "id": "6ae951e7283c2ea6fb985213",
+      "lang": "en",
+      "topic": "mars",
+      "title": "Mars",
+      "when": "2026-11-03T19:46:00"
     }
   ]
 }
