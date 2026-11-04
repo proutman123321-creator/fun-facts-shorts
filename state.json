@@ -11,7 +11,9 @@
     "mount-everest",
     "the-heart",
     "cats",
-    "mars"
+    "mars",
+    "coffee",
+    "the-vikings"
   ],
   "slots": {
     "en": {
@@ -24,7 +26,9 @@
       "2026-11-02 08:00": "mount-everest",
       "2026-11-02 20:00": "the-heart",
       "2026-11-03 08:00": "cats",
-      "2026-11-03 20:00": "mars"
+      "2026-11-03 20:00": "mars",
+      "2026-11-04 08:00": "coffee",
+      "2026-11-04 20:00": "the-vikings"
     }
   },
   "posts": [
@@ -97,14 +101,30 @@
       "lang": "en",
       "topic": "cats",
       "title": "cats",
-      "when": "2026-11-03T08:34:00"
+      "when": "2026-11-03T08:34:00",
+      "checked": true
     },
     {
       "id": "6ae951e7283c2ea6fb985213",
       "lang": "en",
       "topic": "mars",
       "title": "Mars",
-      "when": "2026-11-03T19:46:00"
+      "when": "2026-11-03T19:46:00",
+      "checked": true
+    },
+    {
+      "id": "6aeaa0ecf92a4fe75c7ad264",
+      "lang": "en",
+      "topic": "coffee",
+      "title": "coffee",
+      "when": "2026-11-04T07:50:00"
+    },
+    {
+      "id": "6aeaa304c38660bdb33ebab8",
+      "lang": "en",
+      "topic": "the-vikings",
+      "title": "the Vikings",
+      "when": "2026-11-04T19:49:00"
     }
   ]
 }
