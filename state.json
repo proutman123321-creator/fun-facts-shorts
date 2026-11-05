@@ -13,7 +13,9 @@
     "cats",
     "mars",
     "coffee",
-    "the-vikings"
+    "the-vikings",
+    "volcanoes",
+    "dolphins"
   ],
   "slots": {
     "en": {
@@ -28,7 +30,9 @@
       "2026-11-03 08:00": "cats",
       "2026-11-03 20:00": "mars",
       "2026-11-04 08:00": "coffee",
-      "2026-11-04 20:00": "the-vikings"
+      "2026-11-04 20:00": "the-vikings",
+      "2026-11-05 08:00": "volcanoes",
+      "2026-11-05 20:00": "dolphins"
     }
   },
   "posts": [
@@ -117,14 +121,30 @@
       "lang": "en",
       "topic": "coffee",
       "title": "coffee",
-      "when": "2026-11-04T07:50:00"
+      "when": "2026-11-04T07:50:00",
+      "checked": true
     },
     {
       "id": "6aeaa304c38660bdb33ebab8",
       "lang": "en",
       "topic": "the-vikings",
       "title": "the Vikings",
-      "when": "2026-11-04T19:49:00"
+      "when": "2026-11-04T19:49:00",
+      "checked": true
+    },
+    {
+      "id": "6aebf2df07d8bd9bc0a58dce",
+      "lang": "en",
+      "topic": "volcanoes",
+      "title": "volcanoes",
+      "when": "2026-11-05T08:17:00"
+    },
+    {
+      "id": "6aebf44e987a348ee89591ad",
+      "lang": "en",
+      "topic": "dolphins",
+      "title": "dolphins",
+      "when": "2026-11-05T19:48:00"
     }
   ]
 }
