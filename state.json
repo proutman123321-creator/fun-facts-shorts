@@ -15,7 +15,9 @@
     "coffee",
     "the-vikings",
     "volcanoes",
-    "dolphins"
+    "dolphins",
+    "the-deep-sea",
+    "the-eiffel-tower"
   ],
   "slots": {
     "en": {
@@ -32,7 +34,9 @@
       "2026-11-04 08:00": "coffee",
       "2026-11-04 20:00": "the-vikings",
       "2026-11-05 08:00": "volcanoes",
-      "2026-11-05 20:00": "dolphins"
+      "2026-11-05 20:00": "dolphins",
+      "2026-11-06 08:00": "the-deep-sea",
+      "2026-11-06 20:00": "the-eiffel-tower"
     }
   },
   "posts": [
@@ -137,14 +141,30 @@
       "lang": "en",
       "topic": "volcanoes",
       "title": "volcanoes",
-      "when": "2026-11-05T08:17:00"
+      "when": "2026-11-05T08:17:00",
+      "checked": true
     },
     {
       "id": "6aebf44e987a348ee89591ad",
       "lang": "en",
       "topic": "dolphins",
       "title": "dolphins",
-      "when": "2026-11-05T19:48:00"
+      "when": "2026-11-05T19:48:00",
+      "checked": true
+    },
+    {
+      "id": "6aed44a8f3fb1201c3be1d9b",
+      "lang": "en",
+      "topic": "the-deep-sea",
+      "title": "the deep sea",
+      "when": "2026-11-06T08:12:00"
+    },
+    {
+      "id": "6aed46c1f98df0d6cb151a00",
+      "lang": "en",
+      "topic": "the-eiffel-tower",
+      "title": "the Eiffel Tower",
+      "when": "2026-11-06T20:17:00"
     }
   ]
 }
