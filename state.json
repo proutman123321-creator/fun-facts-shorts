@@ -17,12 +17,12 @@
     "volcanoes",
     "dolphins",
     "the-deep-sea",
-    "the-eiffel-tower"
+    "the-eiffel-tower",
+    "sleep",
+    "honeybees"
   ],
   "slots": {
     "en": {
-      "2026-10-30 08:00": "chocolate",
-      "2026-10-30 20:00": "the-brain",
       "2026-10-31 08:00": "ancient-egypt",
       "2026-10-31 20:00": "lightning",
       "2026-11-01 08:00": "penguins",
@@ -36,7 +36,9 @@
       "2026-11-05 08:00": "volcanoes",
       "2026-11-05 20:00": "dolphins",
       "2026-11-06 08:00": "the-deep-sea",
-      "2026-11-06 20:00": "the-eiffel-tower"
+      "2026-11-06 20:00": "the-eiffel-tower",
+      "2026-11-07 08:00": "sleep",
+      "2026-11-07 20:00": "honeybees"
     }
   },
   "posts": [
@@ -157,14 +159,30 @@
       "lang": "en",
       "topic": "the-deep-sea",
       "title": "the deep sea",
-      "when": "2026-11-06T08:12:00"
+      "when": "2026-11-06T08:12:00",
+      "checked": true
     },
     {
       "id": "6aed46c1f98df0d6cb151a00",
       "lang": "en",
       "topic": "the-eiffel-tower",
       "title": "the Eiffel Tower",
-      "when": "2026-11-06T20:17:00"
+      "when": "2026-11-06T20:17:00",
+      "checked": true
+    },
+    {
+      "id": "6aee94d8ac6d2103a4856801",
+      "lang": "en",
+      "topic": "sleep",
+      "title": "sleep",
+      "when": "2026-11-07T07:54:00"
+    },
+    {
+      "id": "6aee96a06d3867ca091f88ad",
+      "lang": "en",
+      "topic": "honeybees",
+      "title": "honeybees",
+      "when": "2026-11-07T20:02:00"
     }
   ]
 }
