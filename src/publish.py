@@ -102,6 +102,11 @@ def build_requests(info, video_url, mode, when, config):
         "content_preview_confirmed": True,
         "express_consent_given": True,
     }
+    # TikTok asks to label realistic AI audio, and the voice is AI on every video (make_video sets ai_generated).
+    # Zernio's field is videoMadeWithAi (docs.zernio.com > Create post > TikTokPlatformData), set in config.json.
+    ai_field = config.get("tiktok_ai_label_field", "")
+    if info.get("ai_generated") and ai_field:
+        tiktok_settings[ai_field] = True
     # each language posts to its own accounts (set in config.json)
     lang_accounts = config["languages"][info["lang"]].get("accounts", {})
     accounts = {}
@@ -159,7 +164,21 @@ def publish(info, when=None, dry_run=False):
             continue
         # same video + same target = same key, so a re-run never creates a duplicate post
         key = str(uuid.uuid5(uuid.NAMESPACE_URL, f"{info['video']}|{names}|{mode}|{when}"))
-        status, result = api("POST", "/posts", body, {"Idempotency-Key": key})
+        try:
+            status, result = api("POST", "/posts", body, {"Idempotency-Key": key})
+        except SystemExit as e:
+            # if Zernio ever refuses the post because of the AI-label field, post without it
+            # rather than lose the video, and tell the owner to check the label in the TikTok app
+            ai_field = config.get("tiktok_ai_label_field", "")
+            refused = str(e).startswith(("Zernio error 400", "Zernio error 422"))
+            if not (refused and ai_field and ai_field in body.get("tiktokSettings", {})):
+                raise
+            body["tiktokSettings"].pop(ai_field)
+            print(f"Zernio refused the AI label field '{ai_field}': posting without it.\n{e}")
+            import notify
+            notify.send(f"⚠️ Zernio a refusé l'étiquette « contenu IA » ({ai_field}) : la vidéo part sans. "
+                        "Coche l'étiquette IA dans l'appli TikTok sur cette vidéo, et dis-le à Claude.")
+            status, result = api("POST", "/posts", body, {"Idempotency-Key": key + "-no-ai-label"})
         post = result.get("post", result)
         post_id = post.get("_id") or result.get("postId") or post.get("id")
         post_ids.append(post_id)

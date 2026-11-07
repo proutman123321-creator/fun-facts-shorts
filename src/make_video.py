@@ -571,7 +571,7 @@ def make_video(lang, topic_id=None, exclude=()):
     caption = lang_cfg["caption"].format(title=title, teaser=teaser)
     caption = f"{caption[0].upper()}{caption[1:]}\n\n{hashtags}"
     info = {"lang": lang, "topic_id": topic["id"], "title": title, "video": str(video), "caption": caption,
-            "seconds": round(seconds, 1)}
+            "seconds": round(seconds, 1), "ai_generated": True}
     save_json(folder / "info.json", info)
     left = remaining_topics(lang) - len(exclude) - 1
     print(f"[{lang}] Done: {video} ({seconds:.1f}s). Topics left: {left}")
