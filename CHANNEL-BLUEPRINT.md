@@ -40,9 +40,9 @@ README.md           owner's user guide (keep it updated)
 ```
 Monday 07:00 UTC   Claude cloud routine (owner's subscription) writes the next 60 topics
                    (hook + 4 facts, fact-checked with web search) -> commits content/ + topics.json
-Daily 04:00 UTC    GitHub Actions: for each post time -> make video -> upload to Zernio -> schedule
-(+06:30 backup)    -> Telegram "🎬 Scheduled" -> check accounts health + earlier posts -> save state.json
-~08:00 / ~20:00    Zernio publishes on TikTok + Instagram (same video, same caption)
+Daily 02:07 UTC    GitHub Actions: for each post time -> make video -> upload to Zernio -> schedule
+(+04:37 backup)    -> Telegram "🎬 Scheduled" -> check accounts health + earlier posts -> save state.json
+~18:00 / ~23:30    Zernio publishes on TikTok + Instagram (same video, same caption)
 every 30 min       GitHub Actions notify.yml: asks Zernio if posts are live -> Telegram "✅ Published"
 around post times  (with links) or "❌ problem"; reminders "🔔" before a connection expires
 ```
@@ -77,7 +77,8 @@ around post times  (with links) or "❌ problem"; reminders "🔔" before a conn
 1. Topic / niche and the angle (e.g. "dark history stories", "space facts", "French fun facts").
 2. Language(s) — **one account per language** (owner's choice).
 3. Format: keep "3 facts + bonus, just over 1 minute" unless asked otherwise (see 5.1 for why 1 minute).
-4. Posts per day and times (current: 2/day, ~08:00 and ~20:00 Europe/Paris, ±35 min random).
+4. Posts per day and times (current: 2/day, ~18:00 and ~23:30 Europe/Paris, ±35 min random = US lunch + US evening/UK evening;
+   for an English channel aim at US/UK hours, not French ones. Keep notify.yml's cron windows around the post times).
 5. Account names (TikTok + Instagram) and whether the accounts exist yet.
 
 ### 3.2 Accounts (owner does these; give him exact click paths)

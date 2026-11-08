@@ -5,8 +5,8 @@ animated captions) and sends the same video to TikTok + Instagram through **Zern
 
 - Each video is **just over 1 minute** (61–70 s), so it can count for TikTok's Creator Rewards (videos over 1 minute).
 - Each language has **its own accounts** (an English account, later maybe a French account).
-- Right now: **English only**, 2 videos a day posted around **08:00** and **20:00** (Paris time, a few random
-  minutes off), on TikTok `fun_fact_for_real` and Instagram `funfact_for_real`.
+- Right now: **English only**, 2 videos a day posted around **18:00** and **23:30** (Paris time, a few random
+  minutes off; = 12:00 and 17:30 in New York, 17:00 and 22:30 in London, for the English-speaking audience), on TikTok `fun_fact_for_real` and Instagram `funfact_for_real`.
 - Each video has its own caption with keywords and 5 hashtags (Instagram's maximum since December 2025).
 
 ## Video style (what each video looks like)
@@ -42,8 +42,8 @@ animated captions) and sends the same video to TikTok + Instagram through **Zern
 Everything runs on **GitHub Actions**, in the private project
 https://github.com/proutman123321-creator/fun-facts-shorts
 
-- Every day at **04:00 UTC** (05:00 Paris in winter, 06:00 in summer; GitHub can start a little late),
-  GitHub makes the 2 videos and sends them to Zernio for 08:00 and 20:00. Zernio publishes them.
+- Every night at **02:07 UTC** (03:07 Paris in winter, 04:07 in summer; GitHub can start a little late),
+  GitHub makes the 2 videos and sends them to Zernio for 18:00 and 23:30. Zernio publishes them.
 - Your keys are stored as **Secrets** in the project: Settings → Secrets and variables → Actions
   (`ZERNIO_API_KEY`, `PIXABAY_API_KEY`). GitHub never shows them again, not even to you.
 - **See each day's run:** the project's **Actions** tab. Green = OK, red = problem (GitHub also emails you).
@@ -134,7 +134,7 @@ Everything runs on GitHub (see "Runs in the cloud" above). The PC files are only
 
 ## Changing things (all in `config.json`)
 
-- **More videos per day:** add times to `"post_times"`, for example `["08:00", "20:00"]`. Each time gets a new video.
+- **More videos per day:** add times to `"post_times"`, for example `["18:00", "23:30"]`. Each time gets a new video.
 - **Adding the French account later:**
   1. Connect the French TikTok + Instagram in Zernio (accounts 3 and 4 cost $6/month each on Zernio).
   2. Run `2-show-accounts.bat` and paste their IDs in `config.json` under `"fr"` → `"accounts"`.

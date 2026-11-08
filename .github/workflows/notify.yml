@@ -4,8 +4,11 @@ name: Check posts and alert on Telegram
 
 on:
   schedule:
-    # 05:00-08:30 and 17:00-20:30 UTC covers the morning and evening posts, winter and summer time
-    - cron: "*/30 5-8,17-20 * * *"
+    # Posts go out ~18:00 and ~23:30 Paris = 16:00-17:00 and 21:30-22:30 UTC (summer / winter), +-35 min.
+    # 15:00-18:30 and 21:00-00:30 UTC cover both, all year; 06:15 UTC catches anything still pending overnight.
+    - cron: "*/30 15-18,21-23 * * *"
+    - cron: "*/30 0 * * *"
+    - cron: "15 6 * * *"
   workflow_dispatch:     # "Run workflow" button; "test" sends a Telegram test message from GitHub
     inputs:
       mode:
