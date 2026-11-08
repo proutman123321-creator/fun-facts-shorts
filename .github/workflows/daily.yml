@@ -63,6 +63,7 @@ jobs:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}  # empty until set: config.json is used instead
           MODE: ${{ github.event.inputs.mode || 'run' }}
         run: |
           case "$MODE" in
@@ -76,9 +77,10 @@ jobs:
         if: failure() && hashFiles('telegram-alert-sent') == ''
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}  # empty until set: config.json is used instead
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          TELEGRAM_CHAT_ID=$(python3 -c "import json;print(json.load(open('config.json')).get('telegram_chat_id',''))")
+          [ -n "$TELEGRAM_CHAT_ID" ] || TELEGRAM_CHAT_ID=$(python3 -c "import json;print(json.load(open('config.json')).get('telegram_chat_id',''))")
           [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ] || exit 0
           curl -s -o /dev/null "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" \

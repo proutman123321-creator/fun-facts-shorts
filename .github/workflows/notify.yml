@@ -37,6 +37,7 @@ jobs:
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}  # empty until set: config.json is used instead
           MODE: ${{ github.event.inputs.mode || 'check' }}
         run: |
           if [ "$MODE" = "test" ]; then
