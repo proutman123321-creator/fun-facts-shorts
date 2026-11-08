@@ -27,7 +27,8 @@ animated captions) and sends the same video to TikTok + Instagram through **Zern
   Tracks shorter than the video are skipped. Add or move tracks between moods any time (then push to GitHub).
 
 ## The one-year plan
-- `topic_plan.json`: **730 topics** (2 a day from 30 Oct 2026 to 29 Oct 2027) in 13 categories
+- `topic_plan.json`: **730 topics** (planned 2 a day from 30 Oct 2026; at 3 a day they last until about mid-2027:
+  the next year's plan is needed by spring 2027) in 13 categories
   (Animals 120, History 80, Space 70, Human body 70, Science 60, Places 60, Food 50, Ocean 50,
   Inventions 50, Plants 40, Records 30, Words 30, Psychology 20), mixed so the same category never comes twice in a row.
 - `content\`: the written topics (a hook + 4 facts each: 3 + bonus). Months 1 and 2 (120 topics) are written;
@@ -124,7 +125,7 @@ Everything runs on GitHub (see "Runs in the cloud" above). The PC files are only
 
 | Double-click | What it does |
 |---|---|
-| `1-make-test-video.bat` | Makes the next 2 videos in `output\` to look at. Sends nothing, uses up no topic. |
+| `1-make-test-video.bat` | Makes the next 3 videos (one per post time) in `output\` to look at. Sends nothing, uses up no topic. |
 | `2-show-accounts.bat` | Shows your Zernio accounts and their IDs. |
 | `3-run-now.bat`, `4-turn-on-daily-schedule.bat` | Disabled (GitHub does it; running them could post twice). |
 | `5-turn-off-daily-schedule.bat` | Removes the old PC schedule, if it was ever turned on again. |

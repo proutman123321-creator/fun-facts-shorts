@@ -24,7 +24,7 @@ src/notify.py       Telegram messages + "is the post live?" checks
 src/build_plan.py   builds the 1-year topic plan (730 topics, categories mixed)
 src/add_content.py  merges content/*.json into topics.json + validates (hook length, video length)
 config.json         mode, times, accounts, voice, hook/outro/caption templates, hashtags, Telegram chat id
-topic_plan.json     730 planned topics (2/day for one year)
+topic_plan.json     730 planned topics (one year at 2/day, about 8 months at 3/day)
 content/*.json      written topics: hook + 4 facts (3 + bonus) + keywords + 4 hashtags
 assets/music/       royalty-free tracks + moods.json (mood per category)
 assets/fonts/       Archivo Black (SIL OFL) — needed on Linux runners
@@ -258,7 +258,7 @@ scratchpad; rebuild it from this list if needed.
 ## 8. Owner's current setup (for reference)
 
 - Channel: *Fun Facts For Real* — TikTok `fun_fact_for_real`, Instagram `funfact_for_real`, English,
-  2 videos/day, public mode, Telegram bot `@Fun_Facts_alertes_bot`.
+  3 videos/day (~17:00, ~21:30, ~02:00 Paris), public mode, Telegram bot `@Fun_Facts_alertes_bot`.
 - French settings exist in `config.json` (`"fr"`, disabled) for a future French account.
 - The owner wants to grow toward monetization; next step suggested: review real stats after 2–3 weeks
   (views, watch time, followers) and tune hooks, times and topics.
