@@ -141,6 +141,8 @@ def audit_config_and_code():
     footage_py = (ROOT / "src/footage.py").read_text(encoding="utf-8")
     check("stock clips capped in size (GitHub's disk and cache stay small)",
           re.search(r"^KEEP_CLIPS_MB = \d+", footage_py, re.M) is not None and "KEEP_CLIPS_MB * 1e6" in footage_py)
+    check("dated topics (SEASONAL) wait for their day, whatever the number of posts a day",
+          'dated.get(t["id"], today) <= today' in (ROOT / "src/make_video.py").read_text(encoding="utf-8"))
     check("local .venv ready for the .bat files", (ROOT / ".venv/Scripts/python.exe").exists())
 
 
