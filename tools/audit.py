@@ -136,6 +136,9 @@ def audit_config_and_code():
           "chatterbox-tts @ git+" in (ROOT / "requirements.txt").read_text() and "torch==2.6.0" in daily
           and 'python-version: "3.11"' in daily and "~/.cache/huggingface" in daily
           and (ROOT / "assets/voice/reference.wav").exists())
+    footage_py = (ROOT / "src/footage.py").read_text(encoding="utf-8")
+    check("stock clips capped in size (GitHub's disk and cache stay small)",
+          re.search(r"^KEEP_CLIPS_MB = \d+", footage_py, re.M) is not None and "KEEP_CLIPS_MB * 1e6" in footage_py)
     check("local .venv ready for the .bat files", (ROOT / ".venv/Scripts/python.exe").exists())
 
 
