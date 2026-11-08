@@ -48,7 +48,7 @@ def audit_github():
     repo = re.sub(r"^.*github\.com/", "", subprocess.run(["git", "-C", str(ROOT), "remote", "get-url", "origin"],
                                                           capture_output=True, text=True).stdout.strip()).removesuffix(".git")
     code, out = gh("api", f"repos/{repo}", "--jq", ".private")
-    check("repository is private", code == 0 and out == "true", repo)
+    check("repository is public (unlimited free Actions minutes)", code == 0 and out == "false", repo)
     code, out = gh("secret", "list", "-R", repo)
     names = {line.split()[0] for line in out.splitlines() if line.strip()}
     check("secrets present", {"ZERNIO_API_KEY", "PIXABAY_API_KEY", "TELEGRAM_BOT_TOKEN"} <= names, sorted(names))
@@ -97,7 +97,9 @@ def audit_github():
     check("post checker runs around every post time (winter and summer)", ok, f"UTC hours {sorted(covered)}")
     cron = re.search(r'cron: "([0-9]+) ([0-9]+) \* \* \*"', daily)
     start = int(cron.group(2)) * 60 + int(cron.group(1))
-    earliest = min(int(t[:2]) * 60 + int(t[3:]) for t in cfg["languages"]["en"]["post_times"]) - jitter - 120  # summer
+    # night posts (before 06:00) are made by the run of the day before: only day posts count here
+    day_times = [t for t in cfg["languages"]["en"]["post_times"] if t >= "06:00"]
+    earliest = min(int(t[:2]) * 60 + int(t[3:]) for t in day_times) - jitter - 120  # summer
     check("daily job has 1 h margin before the earliest post", earliest - start >= 60, f"{earliest - start} min")
 
 
