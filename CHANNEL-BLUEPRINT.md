@@ -28,7 +28,7 @@ topic_plan.json     730 planned topics (one year at 2/day, about 8 months at 3/d
 content/*.json      written topics: hook + 4 facts (3 + bonus) + keywords + 4 hashtags
 assets/music/       royalty-free tracks + moods.json (mood per category)
 assets/fonts/       Archivo Black (SIL OFL) — needed on Linux runners
-.github/workflows/daily.yml   daily build+publish (04:00 UTC + 06:30 backup)
+.github/workflows/daily.yml   daily build+publish (02:07 UTC + 04:37 backup)
 .github/workflows/notify.yml  post checks + Telegram, every 30 min around posting times
 README.md           owner's user guide (keep it updated)
 ```
