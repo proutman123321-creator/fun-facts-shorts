@@ -24,12 +24,13 @@
     "bananas",
     "the-roman-empire",
     "airplanes",
-    "elephants"
+    "elephants",
+    "tornadoes",
+    "sharks",
+    "the-titanic"
   ],
   "slots": {
     "en": {
-      "2026-11-02 08:00": "mount-everest",
-      "2026-11-02 20:00": "the-heart",
       "2026-11-03 08:00": "cats",
       "2026-11-03 20:00": "mars",
       "2026-11-04 08:00": "coffee",
@@ -44,7 +45,10 @@
       "2026-11-08 20:00": "bananas",
       "2026-11-09 17:00": "the-roman-empire",
       "2026-11-09 21:30": "airplanes",
-      "2026-11-09 02:00": "elephants"
+      "2026-11-09 02:00": "elephants",
+      "2026-11-10 17:00": "tornadoes",
+      "2026-11-10 21:30": "sharks",
+      "2026-11-10 02:00": "the-titanic"
     }
   },
   "posts": [
@@ -213,21 +217,45 @@
       "lang": "en",
       "topic": "the-roman-empire",
       "title": "the Roman Empire",
-      "when": "2026-11-09T17:04:00"
+      "when": "2026-11-09T17:04:00",
+      "checked": true
     },
     {
       "id": "6af1391ab0ab6cef91f0e031",
       "lang": "en",
       "topic": "airplanes",
       "title": "airplanes",
-      "when": "2026-11-09T21:41:00"
+      "when": "2026-11-09T21:41:00",
+      "checked": true
     },
     {
       "id": "6af13a55d00036950c037c2e",
       "lang": "en",
       "topic": "elephants",
       "title": "elephants",
-      "when": "2026-11-10T02:17:00"
+      "when": "2026-11-10T02:17:00",
+      "checked": true
+    },
+    {
+      "id": "6af288830d8f2c8789cbf1c2",
+      "lang": "en",
+      "topic": "tornadoes",
+      "title": "tornadoes",
+      "when": "2026-11-10T17:32:00"
+    },
+    {
+      "id": "6af28970087e725576b09e7c",
+      "lang": "en",
+      "topic": "sharks",
+      "title": "sharks",
+      "when": "2026-11-10T20:55:00"
+    },
+    {
+      "id": "6af28a52a086e5ec4948fc1d",
+      "lang": "en",
+      "topic": "the-titanic",
+      "title": "the Titanic",
+      "when": "2026-11-11T01:57:00"
     }
   ]
 }
