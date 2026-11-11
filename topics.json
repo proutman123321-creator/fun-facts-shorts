@@ -3238,5 +3238,1625 @@
     "hook": {
       "en": "Neutron stars have the strongest magnets in the universe."
     }
+  },
+  {
+    "id": "pigs",
+    "category": "Animals",
+    "title": {
+      "en": "pigs"
+    },
+    "keywords": [
+      "pig farm",
+      "pig in mud",
+      "piglets",
+      "pig snout"
+    ],
+    "hashtags": {
+      "en": "#pigs #farmanimals #animalfacts #intelligence"
+    },
+    "facts": {
+      "en": [
+        "Pigs cannot sweat much, because they have very few working sweat glands. That is why they roll in mud on hot days. The wet mud cools their skin as it dries and protects them from sunburn and insects.",
+        "Pigs are among the smartest animals on a farm. In experiments, pigs learned to use a mirror to find hidden food, which shows they understand reflections. Many scientists rank their intelligence close to dogs, and some say even higher.",
+        "In two thousand twenty one, researchers taught pigs to play a simple video game. The pigs moved a joystick with their snouts to guide a cursor to targets on a screen, and they earned treats. They did well above chance.",
+        "Pigs were tamed independently in at least two places, the Near East and China, roughly nine thousand years ago. Today the pig is one of the most common farm animals on Earth, with hundreds of millions living worldwide."
+      ]
+    },
+    "hook": {
+      "en": "Pigs can learn to play video games."
+    }
+  },
+  {
+    "id": "castles",
+    "category": "History",
+    "title": {
+      "en": "castles"
+    },
+    "keywords": [
+      "castle ruins",
+      "medieval castle",
+      "castle tower",
+      "castle on hill"
+    ],
+    "hashtags": {
+      "en": "#castles #medieval #history #europe"
+    },
+    "facts": {
+      "en": [
+        "After the Norman conquest of England in ten sixty six, the invaders built castles at astonishing speed. Many early ones were simple wooden towers on earth mounds. Stone castles replaced them later, when kings had more time and money.",
+        "Himeji Castle in Japan is nicknamed the White Heron because of its gleaming white walls. It has survived wars, earthquakes, and heavy bombing in the twentieth century without burning down, and it is now a world heritage site.",
+        "Malbork Castle in Poland is the largest castle in the world by land area. The Teutonic Knights started building it in twelve seventy four, using red brick. Its grounds are bigger than fifteen football fields, and it is still standing today.",
+        "Neuschwanstein Castle in Germany was ordered by King Ludwig the second, who never saw it finished. He died in eighteen eighty six, and within weeks the fairytale castle was opened to paying visitors, who still flock there every year."
+      ]
+    },
+    "hook": {
+      "en": "The biggest castle in the world is in Poland."
+    }
+  },
+  {
+    "id": "roses",
+    "category": "Plants",
+    "title": {
+      "en": "roses"
+    },
+    "keywords": [
+      "rose flower",
+      "red roses",
+      "rose garden",
+      "rose petals"
+    ],
+    "hashtags": {
+      "en": "#roses #flowers #plants #nature"
+    },
+    "facts": {
+      "en": [
+        "Roses belong to the same plant family as apples, pears, and strawberries. You can see the resemblance if you look closely at a wild rose flower, which has five petals just like an apple blossom does.",
+        "Fossils show that roses grew on Earth about thirty five million years ago. Rose fossils have been found in Colorado and Oregon. That means these flowers were blooming millions of years before the first humans ever walked the planet.",
+        "During the Second World War, citrus fruit was hard to get in Britain. People collected rose hips, the red fruits left after the flower fades, and turned them into syrup, because rose hips contain a lot of vitamin C.",
+        "A rose bush in Tombstone, Arizona, was planted in eighteen eighty five and is still alive. It is thought to be the largest rose plant in the world, and it covers a space bigger than a house."
+      ]
+    },
+    "hook": {
+      "en": "Roses existed long before humans did."
+    }
+  },
+  {
+    "id": "the-internet",
+    "category": "Inventions",
+    "title": {
+      "en": "the internet"
+    },
+    "keywords": [
+      "internet cables",
+      "server room",
+      "computer network",
+      "data center"
+    ],
+    "hashtags": {
+      "en": "#internet #technology #history #computers"
+    },
+    "facts": {
+      "en": [
+        "On October twenty ninth, nineteen sixty nine, a student typed the first message ever sent over a computer network. He meant to type the word login, but the system crashed after two letters, so the first message was lo.",
+        "The World Wide Web and the internet are not the same thing. The internet is the global network of machines, while the web is a system of linked pages invented by Tim Berners-Lee in Switzerland in nineteen eighty nine.",
+        "The first webcam in the world was pointed at a coffee pot. In nineteen ninety one, scientists at Cambridge University wanted to know if the pot was full, so they put a camera on it and shared the picture.",
+        "Almost all internet traffic between continents does not travel through satellites. It runs through cables lying on the ocean floor, some thinner than a garden hose. Hundreds of these cables connect the world, and ships sometimes repair them at sea."
+      ]
+    },
+    "hook": {
+      "en": "The first message ever sent online crashed."
+    }
+  },
+  {
+    "id": "giant-squid",
+    "category": "Ocean",
+    "title": {
+      "en": "giant squid"
+    },
+    "keywords": [
+      "squid underwater",
+      "deep sea",
+      "ocean darkness",
+      "squid tentacles"
+    ],
+    "hashtags": {
+      "en": "#giantsquid #deepsea #ocean #marinelife"
+    },
+    "facts": {
+      "en": [
+        "The giant squid was considered a sea monster legend for centuries. Only in two thousand four did scientists photograph one alive in the deep sea, and in two thousand twelve a team finally filmed one swimming in its natural home.",
+        "A giant squid has three hearts and blue blood, because its blood carries oxygen using copper instead of iron. Its brain is shaped like a doughnut, and its food pipe passes through the hole in the middle.",
+        "Giant squid have the largest eyes in the animal kingdom, about the size of a dinner plate. Scientists think these huge eyes help them spot the faint glow stirred up by sperm whales, their main enemy, in the dark ocean.",
+        "Females can grow to roughly thirteen meters long, about the length of a school bus. Sperm whales hunt them, and many whales carry round scars on their skin left by the squid's powerful suckers during the fight."
+      ]
+    },
+    "hook": {
+      "en": "Giant squid have eyes as big as dinner plates."
+    }
+  },
+  {
+    "id": "chickens",
+    "category": "Animals",
+    "title": {
+      "en": "chickens"
+    },
+    "keywords": [
+      "chicken farm",
+      "hen and chicks",
+      "rooster",
+      "chicken eggs"
+    ],
+    "hashtags": {
+      "en": "#chickens #dinosaurs #animalfacts #birds"
+    },
+    "facts": {
+      "en": [
+        "Chickens descend from the red junglefowl, a wild bird from Southeast Asia. People began keeping them thousands of years ago, maybe first for cockfighting, and only later for eggs and meat. Now there are more chickens than any other bird.",
+        "A mother hen talks to her chicks before they are even born. She clucks softly to the eggs, and the chicks inside peep back. Scientists have found that unborn chicks can respond to different calls while still inside the shell.",
+        "Birds are living dinosaurs, and chickens are proof. In two thousand seven, scientists recovered protein from a Tyrannosaurus rex bone about sixty eight million years old. When they compared it to living animals, the closest match was the chicken.",
+        "The longest recorded flight of a chicken lasted only thirteen seconds. Chickens can flap up into low branches to sleep safely at night, but their heavy bodies and small wings stop them from flying far."
+      ]
+    },
+    "hook": {
+      "en": "Chickens are living relatives of Tyrannosaurus rex."
+    }
+  },
+  {
+    "id": "tokyo",
+    "category": "Places",
+    "title": {
+      "en": "Tokyo"
+    },
+    "keywords": [
+      "tokyo skyline",
+      "tokyo street night",
+      "shibuya crossing",
+      "tokyo tower"
+    ],
+    "hashtags": {
+      "en": "#tokyo #japan #city #travel"
+    },
+    "facts": {
+      "en": [
+        "The Tokyo area is the most populated metropolitan region on Earth, with around thirty seven million people. That is more than the entire population of Australia, all packed into one huge, busy, and surprisingly clean urban region.",
+        "Tokyo was once a fishing village called Edo. It became the seat of the shoguns in sixteen oh three, and in eighteen sixty eight the emperor moved there and the city was renamed Tokyo, which means eastern capital.",
+        "At Shibuya Crossing, traffic lights in every direction turn red at once, and crowds surge across from all sides. At busy times, thousands of people cross in a single signal change, and it is one of the busiest crossings anywhere.",
+        "A dog named Hachiko waited at Shibuya station every day for nine years after his owner died in nineteen twenty five. He became a national symbol of loyalty, and a bronze statue of him stands outside the station today."
+      ]
+    },
+    "hook": {
+      "en": "Greater Tokyo has more people than Australia."
+    }
+  },
+  {
+    "id": "sound",
+    "category": "Science",
+    "title": {
+      "en": "sound"
+    },
+    "keywords": [
+      "sound waves",
+      "speaker bass",
+      "ocean waves underwater",
+      "microphone recording"
+    ],
+    "hashtags": {
+      "en": "#sound #science #physics #space"
+    },
+    "facts": {
+      "en": [
+        "Sound moves faster in water than in air. In air it travels about three hundred forty meters per second, but in water it is more than four times faster, which is one reason whales can talk across huge distances.",
+        "The quietest place on Earth may be a test room in Minnesota. It absorbs almost every sound, and visitors report hearing their own heartbeat and even their stomach working. Most people cannot stay inside for long without feeling uneasy.",
+        "Sound is made of vibrating molecules bumping into each other, so it needs something to travel through. Space is almost a perfect vacuum, with almost no molecules to pass the vibration along, so explosions in space are silent.",
+        "In nineteen forty seven, pilot Chuck Yeager became the first person to fly faster than the speed of sound. People had feared the plane would break apart, but it passed through safely, and the only sign was a loud boom."
+      ]
+    },
+    "hook": {
+      "en": "Sound cannot travel through the emptiness of space."
+    }
+  },
+  {
+    "id": "teeth",
+    "category": "Human body",
+    "title": {
+      "en": "teeth"
+    },
+    "keywords": [
+      "teeth dentist",
+      "smile white teeth",
+      "toothbrush",
+      "shark teeth"
+    ],
+    "hashtags": {
+      "en": "#teeth #humanbody #health #bodyfacts"
+    },
+    "facts": {
+      "en": [
+        "Baby teeth begin forming while a baby is still in the womb, long before birth. Children get twenty baby teeth, later replaced by thirty two adult teeth, with the last ones, the wisdom teeth, appearing in the late teens.",
+        "Beavers have bright orange front teeth. The color comes from iron in the enamel, which makes their teeth tougher, so they can chew through wood all day. Their teeth never stop growing, and chewing wears them down.",
+        "Tooth enamel is the hardest substance in your body, yet if it is damaged, your body cannot repair it. Enamel has no living cells, so unlike a broken bone, a chipped tooth never grows back or heals by itself.",
+        "Sharks lose teeth constantly, and new ones move forward like a conveyor belt. Over a lifetime, some sharks may use tens of thousands of teeth. Snails have thousands of tiny teeth too, lined up on a ribbon like tongue."
+      ]
+    },
+    "hook": {
+      "en": "Your teeth cannot heal themselves like bones do."
+    }
+  },
+  {
+    "id": "pineapples",
+    "category": "Food",
+    "title": {
+      "en": "pineapples"
+    },
+    "keywords": [
+      "pineapple fruit",
+      "pineapple field",
+      "tropical fruit",
+      "pineapple plant"
+    ],
+    "hashtags": {
+      "en": "#pineapple #fruit #food #plants"
+    },
+    "facts": {
+      "en": [
+        "Pineapples come from South America, probably the region between Brazil and Paraguay, not from Hawaii. When Christopher Columbus reached the Caribbean island of Guadeloupe in fourteen ninety three, his crew tasted pineapple and brought it back to Europe.",
+        "A pineapple plant takes around two years to grow a single fruit. After harvest, the plant makes new shoots, and farmers can also plant the leafy crown you cut off, which will slowly grow into a brand new pineapple plant.",
+        "A pineapple is not one fruit but a cluster. Each flower on the plant makes its own little berry, and all those berries swell and fuse around a central core. The diamond pattern shows where each flower grew.",
+        "Fresh pineapple contains bromelain, an enzyme that breaks down protein. That is why your tongue may tingle or feel sore after eating it. In a way, the pineapple is beginning to digest you while you digest it."
+      ]
+    },
+    "hook": {
+      "en": "A pineapple is dozens of fruits fused together."
+    }
+  },
+  {
+    "id": "ninjas",
+    "category": "History",
+    "title": {
+      "en": "ninjas"
+    },
+    "keywords": [
+      "japanese castle",
+      "samurai armor",
+      "japan temple",
+      "japanese forest"
+    ],
+    "hashtags": {
+      "en": "#ninja #japan #history #samurai"
+    },
+    "facts": {
+      "en": [
+        "Ninjas, also called shinobi, really existed in feudal Japan. Many came from the mountain regions of Iga and Koga, where small groups of warriors worked as spies and scouts. Their skills were secrets handed down in families for generations.",
+        "In fifteen eighty one, the warlord Oda Nobunaga sent a huge army to attack Iga, home of many shinobi. The invasion was brutal and scattered the clans, and some survivors later found work as spies and guards for other lords.",
+        "The famous black ninja suit probably comes from theater. In Japanese kabuki plays, stagehands dressed all in black so the audience would pretend they were invisible. Historians think real shinobi usually disguised themselves as ordinary farmers, monks, or travelers instead.",
+        "A shinobi manual from sixteen seventy six, called the Bansenshukai, describes hundreds of tools and tricks. It includes ideas for crossing moats, climbing walls, and sending secret signals, though historians are unsure how many were really used."
+      ]
+    },
+    "hook": {
+      "en": "Real ninjas probably never wore black suits."
+    }
+  },
+  {
+    "id": "galaxies",
+    "category": "Space",
+    "title": {
+      "en": "galaxies"
+    },
+    "keywords": [
+      "galaxy stars",
+      "milky way night sky",
+      "spiral galaxy",
+      "telescope night"
+    ],
+    "hashtags": {
+      "en": "#galaxies #space #astronomy #universe"
+    },
+    "facts": {
+      "en": [
+        "Astronomers think there are hundreds of billions of galaxies in the universe. They come in different shapes, including spirals, ovals called ellipticals, and irregular blobs. Most are small dwarf galaxies, much smaller and dimmer than our own Milky Way.",
+        "In the nineteen seventies, astronomer Vera Rubin measured how fast stars orbit inside galaxies. They moved far faster than expected, so something unseen must hold them together. This became strong evidence for dark matter, which we still cannot see.",
+        "The Andromeda galaxy is rushing toward us at about one hundred ten kilometers per second. Scientists think the two galaxies will collide in around four or five billion years. Surprisingly, stars are so far apart that few will actually crash.",
+        "The James Webb Space Telescope has spotted galaxies as they were only a few hundred million years after the Big Bang. Some of them look brighter and bigger than scientists expected, which is forcing them to rethink early galaxy growth."
+      ]
+    },
+    "hook": {
+      "en": "Our galaxy will collide with Andromeda someday."
+    }
+  },
+  {
+    "id": "ants",
+    "category": "Animals",
+    "title": {
+      "en": "ants"
+    },
+    "keywords": [
+      "ants colony",
+      "ant macro",
+      "leafcutter ants",
+      "ants on leaf"
+    ],
+    "hashtags": {
+      "en": "#ants #insects #nature #animalfacts"
+    },
+    "facts": {
+      "en": [
+        "Leafcutter ants cut leaves, but they do not eat them. They carry the leaf pieces underground to feed a fungus garden, and the fungus is their real food. Scientists think ants began farming this way roughly fifty million years ago.",
+        "Many ants also keep livestock. They protect aphids from ladybugs, and in return they stroke the aphids to collect honeydew, a sweet liquid the aphids produce. Some ants even carry aphid eggs into their nests over winter.",
+        "Argentine ants built a supercolony stretching thousands of kilometers along the Mediterranean coast of Europe. Ants from one end accept ants from the other end as friends, because they all smell the same, yet they fight neighboring colonies.",
+        "Ants do not sleep like we do. A study of one carpenter ant species found that workers took around two hundred fifty short naps every day, each lasting about one minute, while the queen napped far more often."
+      ]
+    },
+    "hook": {
+      "en": "Some ants farm fungus and herd tiny cattle."
+    }
+  },
+  {
+    "id": "computers",
+    "category": "Inventions",
+    "title": {
+      "en": "computers"
+    },
+    "keywords": [
+      "computer circuit board",
+      "old computer",
+      "keyboard typing",
+      "computer chip"
+    ],
+    "hashtags": {
+      "en": "#computers #technology #history #coding"
+    },
+    "facts": {
+      "en": [
+        "The word computer originally meant a person. For hundreds of years, a computer was someone who did calculations by hand for a living. Only in the twentieth century did the word begin to mean a machine.",
+        "In eighteen forty three, Ada Lovelace published notes about a machine called the Analytical Engine, designed by Charles Babbage but never built. Her notes included a step by step method for calculating special numbers, often called the first computer program.",
+        "One of the first huge electronic computers, ENIAC, was finished in nineteen forty five. It weighed about thirty tons, filled a large room, and used around eighteen thousand glass vacuum tubes. A smartphone today is millions of times more powerful.",
+        "The computer mouse was invented by Douglas Engelbart in the early nineteen sixties. The first prototype had a wooden shell and two wheels underneath. It was called a mouse because its cable looked like a tail."
+      ]
+    },
+    "hook": {
+      "en": "The first computer program was written before computers existed."
+    }
+  },
+  {
+    "id": "pirates",
+    "category": "History",
+    "title": {
+      "en": "pirates"
+    },
+    "keywords": [
+      "pirate ship",
+      "sailing ship ocean",
+      "old ship sails",
+      "treasure chest"
+    ],
+    "hashtags": {
+      "en": "#pirates #history #ocean #piratelife"
+    },
+    "facts": {
+      "en": [
+        "The idea of burying treasure is mostly fiction. Real pirates usually spent their loot quickly in port towns. Captain William Kidd is one of the few pirates known to have buried goods, and he did it just before his arrest.",
+        "Bartholomew Roberts, known as Black Bart, captured more than four hundred ships in the early seventeen hundreds. That is more than almost any other pirate in history, and he did it in only a few years before dying at sea.",
+        "Many pirate crews of the golden age were surprisingly democratic. Crews voted to choose their captain and could vote him out, and loot was divided by agreed rules. Some crews even paid extra to men who were injured during battle.",
+        "Zheng Yi Sao was a Chinese pirate leader in the early eighteen hundreds who commanded hundreds of ships and tens of thousands of followers. She made strict rules for them, and in the end she negotiated peace and retired safely."
+      ]
+    },
+    "hook": {
+      "en": "Pirate captains were elected by their own crews."
+    }
+  },
+  {
+    "id": "spiders",
+    "category": "Animals",
+    "title": {
+      "en": "spiders"
+    },
+    "keywords": [
+      "spider web",
+      "spider macro",
+      "web dew drops",
+      "jumping spider"
+    ],
+    "hashtags": {
+      "en": "#spiders #arachnids #nature #animalfacts"
+    },
+    "facts": {
+      "en": [
+        "Spiders are not insects. They have eight legs, two body parts, and no antennae, while insects have six legs and three body parts. Spiders belong to a group called arachnids, together with scorpions, mites, and ticks.",
+        "Jumping spiders have eight eyes, and the two big ones at the front give them sharp vision. They can judge distances before leaping and stalk their prey like tiny cats. Some jumping spiders can even see ultraviolet light.",
+        "Many orb weaver spiders rebuild their web every day, and they recycle the old one. They eat the damaged silk, and their bodies break it down and reuse the proteins to spin a fresh web, saving valuable energy.",
+        "Darwin's bark spider from Madagascar spins the toughest silk ever measured in nature, tougher than the bulletproof material Kevlar. It can build webs across rivers, with anchor lines reaching around twenty five meters from bank to bank."
+      ]
+    },
+    "hook": {
+      "en": "Some spiders eat their own webs each night."
+    }
+  },
+  {
+    "id": "ears",
+    "category": "Human body",
+    "title": {
+      "en": "ears"
+    },
+    "keywords": [
+      "ear close up",
+      "sound waves",
+      "headphones",
+      "listening to music"
+    ],
+    "hashtags": {
+      "en": "#ears #humanbody #hearing #bodyfacts"
+    },
+    "facts": {
+      "en": [
+        "The smallest bone in your whole body sits inside your ear. It is called the stirrup, and it is only about three millimeters long. Along with two other tiny bones, it passes sounds from your eardrum into your inner ear.",
+        "Your ears also help you balance. Inside the inner ear are three small fluid filled loops. When you move your head, the liquid sloshes, and your brain reads the movement. That is why spinning around makes you feel dizzy.",
+        "Your ears never switch off, not even in your sleep. Your brain simply filters the sounds and ignores most of them. That is why a faint cry from a baby can wake a parent while loud traffic does not.",
+        "The tiny hair cells in your inner ear detect sounds, and each ear has roughly fifteen thousand of them. Human hair cells do not grow back once damaged, which is why very loud noise can cause permanent hearing loss."
+      ]
+    },
+    "hook": {
+      "en": "Your ears are always listening, even while you sleep."
+    }
+  },
+  {
+    "id": "rome",
+    "category": "Places",
+    "title": {
+      "en": "Rome"
+    },
+    "keywords": [
+      "rome colosseum",
+      "rome italy street",
+      "roman ruins",
+      "trevi fountain"
+    ],
+    "hashtags": {
+      "en": "#rome #italy #travel #history"
+    },
+    "facts": {
+      "en": [
+        "Visitors throw coins into the Trevi Fountain every day, and the city collects about one and a half million euros a year from it. The money is given to a charity, which uses it to help people in need.",
+        "The Pantheon in Rome was finished around one hundred twenty five. Its concrete dome is still the largest dome of unreinforced concrete in the world, nearly nineteen centuries later. A round opening at the top lets in light and rain.",
+        "Inside the city of Rome there is an entire independent country, the Vatican City. It is the smallest country on Earth, with an area less than half a square kilometer, and it has its own post office and radio station.",
+        "Hundreds of stray cats live in a sanctuary among ancient ruins at Largo di Torre Argentina in Rome. The ruins include the area where Julius Caesar was killed, and volunteers now look after the cats there."
+      ]
+    },
+    "hook": {
+      "en": "Rome has a whole country inside it."
+    }
+  },
+  {
+    "id": "light",
+    "category": "Science",
+    "title": {
+      "en": "light"
+    },
+    "keywords": [
+      "light rays",
+      "prism rainbow",
+      "sunlight clouds",
+      "laser beam"
+    ],
+    "hashtags": {
+      "en": "#light #physics #science #space"
+    },
+    "facts": {
+      "en": [
+        "Light travels at nearly three hundred thousand kilometers per second. It reaches us from the Moon in about one second, and from the Sun in about eight minutes. Nothing in the universe is known to move faster than light.",
+        "Light can actually be slowed down. In nineteen ninety nine, physicist Lene Hau and her team sent light through a cloud of super cold atoms and slowed it to about sixty kilometers per hour.",
+        "Light has no mass, but gravity still bends its path. During a solar eclipse in nineteen nineteen, astronomers saw stars appear shifted near the Sun, as Einstein had predicted. This bending is called gravitational lensing, and telescopes use it today.",
+        "The colors you can see are only a thin slice of all light. Radio waves, microwaves, X rays, and gamma rays are the same thing as visible light, just with different wavelengths that our eyes cannot detect."
+      ]
+    },
+    "hook": {
+      "en": "Gravity can bend light, even though light has no mass."
+    }
+  },
+  {
+    "id": "tulips",
+    "category": "Plants",
+    "title": {
+      "en": "tulips"
+    },
+    "keywords": [
+      "tulip field",
+      "tulips close up",
+      "flower garden",
+      "tulip bouquet"
+    ],
+    "hashtags": {
+      "en": "#tulips #flowers #netherlands #plants"
+    },
+    "facts": {
+      "en": [
+        "Tulips grow wild in the mountains of Central Asia. The Ottoman Empire cherished them, and a Flemish botanist named Carolus Clusius planted some in Leiden in fifteen ninety three, starting the long Dutch love affair with the flower.",
+        "In sixteen thirty seven, Dutch tulip bulbs sold for extraordinary prices in a speculation craze called tulip mania. Modern historians now think the crash hurt far fewer people than the famous legend claims, and the details are still debated.",
+        "The wild patterns on the most prized tulips were caused by a virus. The tulip breaking virus streaked the petals with flame like colors, but it also weakened the plants. Modern striped tulips are bred without the virus.",
+        "In the terrible winter of nineteen forty four to forty five, many Dutch people had so little food that they ate tulip bulbs. Tulips also keep growing after they are cut, and they bend toward light even in a vase."
+      ]
+    },
+    "hook": {
+      "en": "Tulips come from Central Asia, not the Netherlands."
+    }
+  },
+  {
+    "id": "the-milky-way",
+    "category": "Space",
+    "title": {
+      "en": "the Milky Way"
+    },
+    "keywords": [
+      "milky way galaxy",
+      "night sky stars",
+      "galaxy space",
+      "starry sky"
+    ],
+    "hashtags": {
+      "en": "#milkyway #galaxy #space #astronomy"
+    },
+    "facts": {
+      "en": [
+        "The name Milky Way comes from the ancient Greek word for milk. Greek myth said it was milk spilled across the sky by the goddess Hera. In truth, the pale band is the combined light of billions of stars.",
+        "Our solar system circles the galaxy's center at around two hundred thirty kilometers per second. Even so, one full orbit takes roughly two hundred thirty million years, when dinosaurs were just appearing.",
+        "The Milky Way is not flat. Its thin disk is slightly warped, like a vinyl record left in the sun. Astronomers think the warp was caused by past encounters with smaller galaxies tugging on its edges with their gravity.",
+        "The Milky Way grows by eating its neighbors. Evidence shows that about ten billion years ago it absorbed a smaller galaxy, and astronomers can still find that galaxy's stars mixed into ours, moving in strange paths."
+      ]
+    },
+    "hook": {
+      "en": "The Milky Way is bent like a warped record."
+    }
+  },
+  {
+    "id": "the-bermuda-triangle",
+    "category": "Ocean",
+    "title": {
+      "en": "the Bermuda Triangle"
+    },
+    "keywords": [
+      "bermuda ocean",
+      "ocean storm",
+      "ship at sea",
+      "caribbean sea"
+    ],
+    "hashtags": {
+      "en": "#bermudatriangle #mystery #ocean #history"
+    },
+    "facts": {
+      "en": [
+        "The name Bermuda Triangle was invented in nineteen sixty four by a writer called Vincent Gaddis in an adventure magazine. Later books and television shows made the legend famous, and they often left out the simple explanations.",
+        "In December nineteen forty five, five Navy bombers took off from Florida on a training flight called Flight Nineteen and never returned. Investigators said the leader got lost and the planes ran out of fuel in bad weather.",
+        "The area is not statistically more dangerous than other busy parts of the ocean. Insurer Lloyd's of London says it does not charge higher rates there, and the United States Coast Guard says it does not recognize the Bermuda Triangle.",
+        "The region is one of the busiest shipping and flying routes on Earth, so many vessels pass through it. It also has sudden storms and the powerful Gulf Stream, which can quickly carry wreckage far away from where it sank."
+      ]
+    },
+    "hook": {
+      "en": "The Bermuda Triangle is not more dangerous than other seas."
+    }
+  },
+  {
+    "id": "the-smallest-animals",
+    "category": "Records",
+    "title": {
+      "en": "the smallest animals"
+    },
+    "keywords": [
+      "tiny frog",
+      "small insect macro",
+      "tiny animal",
+      "bee hummingbird"
+    ],
+    "hashtags": {
+      "en": "#tiny #animals #records #animalfacts"
+    },
+    "facts": {
+      "en": [
+        "The bee hummingbird of Cuba is the smallest bird on Earth. It weighs about two grams and measures only around five centimeters. Its nest is about the size of a thimble, and its eggs are the size of coffee beans.",
+        "A frog named Paedophryne amauensis, discovered in Papua New Guinea in two thousand twelve, is only about seven millimeters long. It is among the smallest animals with a backbone, and it lives hidden in leaf litter on the forest floor.",
+        "The Etruscan shrew is one of the smallest mammals. It weighs about as much as a paper clip, and its heart may beat more than a thousand times each minute. It must eat constantly or it will starve within hours.",
+        "Fairyfly wasps are among the smallest insects known. The males of one species measure roughly a seventh of a millimeter, smaller than some single celled creatures, and they spend their short lives inside the eggs of other insects."
+      ]
+    },
+    "hook": {
+      "en": "The smallest frog is shorter than a fingernail."
+    }
+  },
+  {
+    "id": "palindromes",
+    "category": "Words",
+    "title": {
+      "en": "palindromes"
+    },
+    "keywords": [
+      "old books",
+      "typewriter letters",
+      "mirror reflection",
+      "alphabet letters"
+    ],
+    "hashtags": {
+      "en": "#palindromes #words #language #wordfacts"
+    },
+    "facts": {
+      "en": [
+        "The word palindrome comes from Greek words meaning running back again. It reads the same both ways, like level or radar. The sentence A man, a plan, a canal, Panama was written by Leigh Mercer in nineteen forty eight.",
+        "In Pompeii, archaeologists found a Latin word square, the Sator Square, scratched on a wall. Its five words read the same forwards, backwards, up, and down. The city was buried by Mount Vesuvius in seventy nine.",
+        "The Finnish word saippuakivikauppias is often named the longest everyday palindromic word. It has nineteen letters and means a seller of soapstone, which is a soft rock used to make soap. It reads exactly the same in both directions.",
+        "In biology, palindromes appear in DNA. A DNA palindrome is a stretch that reads the same on both strands when each is read in its own direction. Some enzymes cut DNA exactly at such places, and scientists use that."
+      ]
+    },
+    "hook": {
+      "en": "One Finnish word reads the same backwards and forwards."
+    }
+  },
+  {
+    "id": "avocados",
+    "category": "Food",
+    "title": {
+      "en": "avocados"
+    },
+    "keywords": [
+      "avocado fruit",
+      "avocado tree",
+      "guacamole",
+      "avocado slices"
+    ],
+    "hashtags": {
+      "en": "#avocado #fruit #food #plants"
+    },
+    "facts": {
+      "en": [
+        "Avocados are technically berries with one large seed. The word comes from the Aztec word ahuacatl. Mexico is the biggest producer in the world, growing far more than any other country, and farms there harvest the fruit almost all year.",
+        "Scientists think avocados evolved to be eaten by giants. Huge animals, like giant ground sloths, swallowed the big seeds whole and spread them far and wide. When those giants died out, avocados survived because people began to plant them.",
+        "Avocados do not ripen while they are attached to the tree. They only soften after being picked, which is why farmers can leave them hanging for months. Once cut from the branch, they ripen within about a week.",
+        "Almost every Hass avocado you eat is related to one single tree. A mailman named Rudolph Hass planted the seed in California in the nineteen twenties. The original tree died in two thousand two, but its descendants fill supermarkets."
+      ]
+    },
+    "hook": {
+      "en": "Avocados will not ripen while still on the tree."
+    }
+  },
+  {
+    "id": "snakes",
+    "category": "Animals",
+    "title": {
+      "en": "snakes"
+    },
+    "keywords": [
+      "snake slithering",
+      "snake close up",
+      "green snake",
+      "snake in grass"
+    ],
+    "hashtags": {
+      "en": "#snakes #reptiles #animalfacts #wildlife"
+    },
+    "facts": {
+      "en": [
+        "Snakes have no eyelids. Instead, each eye is covered by a clear scale that works like permanent goggles. That is why snakes appear to stare, and why they sleep with their eyes open, and why they cannot blink.",
+        "Pit vipers and some other snakes have special heat sensing pits on their faces. These can detect the warmth of a mouse in total darkness, giving the snake a kind of infrared vision that helps it aim its strike.",
+        "Snakes do not dislocate their jaws when they eat big prey, as many people think. Their two lower jaw bones are joined by a very stretchy ligament, so they can move apart and swing wide to swallow whole animals.",
+        "Flying snakes of Southeast Asia can glide through the air from tree to tree. They flatten their bodies into a wide shape and wiggle sideways, and they can travel as far as a few tens of meters."
+      ]
+    },
+    "hook": {
+      "en": "Snakes do not actually unhinge their jaws to swallow."
+    }
+  },
+  {
+    "id": "napoleon",
+    "category": "History",
+    "title": {
+      "en": "Napoleon"
+    },
+    "keywords": [
+      "old paris",
+      "french palace",
+      "history painting",
+      "chateau france"
+    ],
+    "hashtags": {
+      "en": "#napoleon #france #history #historyfacts"
+    },
+    "facts": {
+      "en": [
+        "Napoleon was recorded as five feet two inches tall, but that was in old French units. In modern measurements that is about one point six nine meters, which was average or slightly above average for a Frenchman back then.",
+        "Napoleon's soldiers did not eat well on campaign, and that problem led to a big invention. In seventeen ninety five the French government offered a prize for a way to preserve food, and Nicolas Appert won it by inventing canning.",
+        "According to well known accounts, Napoleon once organized a rabbit hunt that went badly wrong. The rabbits, probably tame ones, did not run away but charged at him and his staff in a hungry swarm, and they had to retreat.",
+        "Napoleon's Civil Code, issued in eighteen oh four, set out clear laws about property and family. It has influenced the legal systems of many countries, and some parts are still in use more than two centuries later."
+      ]
+    },
+    "hook": {
+      "en": "Napoleon was not short, he was about average height."
+    }
+  },
+  {
+    "id": "deja-vu",
+    "category": "Psychology",
+    "title": {
+      "en": "deja vu"
+    },
+    "keywords": [
+      "brain scan",
+      "thinking person",
+      "mirror reflection",
+      "memory brain"
+    ],
+    "hashtags": {
+      "en": "#dejavu #psychology #brain #mindfacts"
+    },
+    "facts": {
+      "en": [
+        "The French term deja vu means already seen. It was introduced by a French researcher named Emile Boirac in eighteen seventy six. Surveys suggest that about two thirds of people have experienced it at least once.",
+        "Deja vu is most common in teenagers and people in their twenties. It then becomes less frequent with age. Researchers think younger people may travel, try new things, and meet new places more often, which triggers the feeling.",
+        "One idea says deja vu happens when a scene looks like one you have forgotten, so you feel familiar without remembering why. Experiments by psychologist Anne Cleary suggest that a similar layout of a room can trigger the feeling.",
+        "People with temporal lobe epilepsy sometimes feel very strong deja vu just before a seizure. Doctors study these cases to understand the brain areas involved. The opposite feeling also exists and is called jamais vu, meaning never seen."
+      ]
+    },
+    "hook": {
+      "en": "Younger people feel deja vu far more often."
+    }
+  },
+  {
+    "id": "the-nose",
+    "category": "Human body",
+    "title": {
+      "en": "the nose"
+    },
+    "keywords": [
+      "nose close up",
+      "smelling flowers",
+      "nostril",
+      "perfume smell"
+    ],
+    "hashtags": {
+      "en": "#nose #humanbody #smell #bodyfacts"
+    },
+    "facts": {
+      "en": [
+        "Your nose is also an air conditioner. As you breathe in, it warms and moistens the air, and a layer of sticky mucus catches dust and germs. Your nose makes about a liter of mucus daily, and you swallow it.",
+        "You smell with a small patch of tissue high inside your nose. It holds millions of nerve cells with about four hundred types of smell receptors. Each smell excites a different mix, which your brain reads like a code.",
+        "You breathe mainly through one nostril at a time. This is called the nasal cycle. The tissue inside swells in one side while the other opens up, and every few hours they swap, though you rarely notice it happening.",
+        "Smell is closely wired to memory. Nerves from your nose connect to brain areas that handle emotions and memories. That is why a certain scent, such as a perfume or baking bread, can suddenly bring back a moment from childhood."
+      ]
+    },
+    "hook": {
+      "en": "You mostly breathe through one nostril at a time."
+    }
+  },
+  {
+    "id": "comets",
+    "category": "Space",
+    "title": {
+      "en": "comets"
+    },
+    "keywords": [
+      "comet in sky",
+      "night sky stars",
+      "space comet",
+      "meteor shower"
+    ],
+    "hashtags": {
+      "en": "#comets #space #astronomy #solarsystem"
+    },
+    "facts": {
+      "en": [
+        "Halley's Comet returns to our skies about every seventy six years. It last passed Earth in nineteen eighty six and will be back in twenty sixty one. People have recorded seeing it for more than two thousand years.",
+        "A comet has a solid core often compared to a dirty snowball. But the one visited by the Rosetta spacecraft, called sixty seven P, was darker than coal. In twenty fourteen it became the first comet to receive a lander.",
+        "A comet's tail always points away from the Sun, no matter which way the comet moves. Sunlight and the solar wind push the gas and dust backwards, so a comet leaving the Sun is led by its tail.",
+        "Rosetta's instruments sniffed the air around comet sixty seven P and found chemicals that smell like rotten eggs, horse stables, and bitter almonds. Comets also have two separate tails, one made of dust and one made of charged gas."
+      ]
+    },
+    "hook": {
+      "en": "Comet tails always point away from the Sun."
+    }
+  },
+  {
+    "id": "video-games",
+    "category": "Inventions",
+    "title": {
+      "en": "video games"
+    },
+    "keywords": [
+      "video game controller",
+      "arcade machine",
+      "gaming console",
+      "retro games"
+    ],
+    "hashtags": {
+      "en": "#videogames #gaming #history #technology"
+    },
+    "facts": {
+      "en": [
+        "In nineteen fifty eight, physicist William Higinbotham built a tennis game for visitors at a nuclear laboratory in New York. Players used knobs and buttons, and the ball was a moving dot on a small oscilloscope screen.",
+        "Pac-Man was reportedly inspired by a pizza with a slice missing. The Japanese designer Toru Iwatani created the game in nineteen eighty, hoping to attract new players. Its ghosts each chase in their own style.",
+        "Mario started out as a carpenter named Jumpman in the arcade game Donkey Kong. The team later named him Mario after the landlord of Nintendo's American warehouse, who is said to have barged into a meeting to demand rent.",
+        "Tetris was created in nineteen eighty four by Alexey Pajitnov, a Soviet computer engineer working in Moscow. It later spread worldwide, and when it came bundled with the Game Boy in nineteen eighty nine, it became a global hit."
+      ]
+    },
+    "hook": {
+      "en": "One of the first video games ran on an oscilloscope."
+    }
+  },
+  {
+    "id": "crocodiles",
+    "category": "Animals",
+    "title": {
+      "en": "crocodiles"
+    },
+    "keywords": [
+      "crocodile river",
+      "crocodile eyes",
+      "alligator swamp",
+      "crocodile teeth"
+    ],
+    "hashtags": {
+      "en": "#crocodile #reptiles #animalfacts #wildlife"
+    },
+    "facts": {
+      "en": [
+        "Crocodiles cannot stick out their tongues. A thin membrane holds the tongue firmly to the roof of the mouth, so it barely moves at all. Crocodiles also cannot chew, and they swallow food in large chunks.",
+        "A saltwater crocodile has the strongest bite ever measured in a living animal. In a two thousand twelve study, one bite force reached about sixteen thousand newtons, many times stronger than a lion's, and far stronger than a human's.",
+        "Crocodiles belong to a group that has existed for around two hundred million years. They survived the extinction that killed the dinosaurs. Some can even climb trees, using their strong legs and tails to reach branches and bask.",
+        "Nile crocodile mothers are surprisingly gentle. When the eggs hatch, she carries the babies in her mouth to the water, and she guards them for weeks. The temperature of the nest decides whether the babies are male or female."
+      ]
+    },
+    "hook": {
+      "en": "A crocodile can never stick its tongue out."
+    }
+  },
+  {
+    "id": "dubai",
+    "category": "Places",
+    "title": {
+      "en": "Dubai"
+    },
+    "keywords": [
+      "dubai skyline",
+      "dubai marina",
+      "desert sand dunes",
+      "dubai city"
+    ],
+    "hashtags": {
+      "en": "#dubai #uae #travel #city"
+    },
+    "facts": {
+      "en": [
+        "Dubai was a small trading port for pearls and fishing until the twentieth century. Pearl diving collapsed in the nineteen thirties, and the city stayed small until oil was discovered offshore in nineteen sixty six, helping it grow quickly.",
+        "Dubai's indoor ski resort, inside a shopping mall, makes real snow while the desert outside can reach forty degrees Celsius. It has several slopes, including a very long run, and visitors can even meet penguins nearby.",
+        "Palm Jumeirah is an artificial island shaped like a palm tree, built in the sea off Dubai. Workers made it from sand dredged from the sea floor and from rocks, and you can see its shape clearly from space.",
+        "Today, oil makes up only a small share of the Dubai economy. The city earns most of its money from trade, tourism, airlines, and finance, and its airport is one of the busiest in the world for international passengers."
+      ]
+    },
+    "hook": {
+      "en": "Dubai has a ski slope inside a shopping mall."
+    }
+  },
+  {
+    "id": "colors",
+    "category": "Science",
+    "title": {
+      "en": "colors"
+    },
+    "keywords": [
+      "colorful paint",
+      "rainbow colors",
+      "color powder",
+      "paint palette"
+    ],
+    "hashtags": {
+      "en": "#colors #science #vision #brain"
+    },
+    "facts": {
+      "en": [
+        "Most people can see roughly a million different colors. Some people have an extra type of color sensor and may see more. Mantis shrimp have twelve to sixteen types of color receptors, yet they may not tell colors apart well.",
+        "The color orange was named after the fruit. Before the fruit arrived in Europe, English speakers described the color as yellow red. The fruit came first, then the color name, which is why the fruit is older than the word.",
+        "Pink is not a color of the rainbow, so no single wavelength of light is pink. Your brain makes up pink when it sees red and violet light together. It is a color invented inside your head, not by physics.",
+        "Most colors in nature come from pigments, but some come from structure. The blue of many feathers has no blue pigment. Tiny structures scatter light, so only blue reaches your eye, and the color can change as the angle shifts."
+      ]
+    },
+    "hook": {
+      "en": "Pink has no wavelength of its own."
+    }
+  },
+  {
+    "id": "ocean-currents",
+    "category": "Ocean",
+    "title": {
+      "en": "ocean currents"
+    },
+    "keywords": [
+      "ocean currents",
+      "sea waves",
+      "rubber duck",
+      "ocean from above"
+    ],
+    "hashtags": {
+      "en": "#oceancurrents #ocean #science #nature"
+    },
+    "facts": {
+      "en": [
+        "In nineteen ninety two, a ship lost a container holding about twenty eight thousand plastic bath toys in the Pacific Ocean. Over the following years, they washed ashore in Alaska, Hawaii, and even Scotland, helping scientists trace the currents.",
+        "The ocean has a huge circulation system sometimes called the global conveyor belt. Cold, salty water sinks near the poles and flows slowly along the deep sea floor. One full loop of this belt takes roughly a thousand years.",
+        "The Antarctic Circumpolar Current is the strongest current in the ocean. It flows around Antarctica and carries more than one hundred times as much water as all the rivers in the world put together.",
+        "Currents also collect floating trash. Ocean gyres, which are giant circling currents, trap plastic in huge garbage patches. In nineteen ninety, thousands of lost sneakers from a ship also drifted for years and helped track the currents."
+      ]
+    },
+    "hook": {
+      "en": "A lost cargo of bath toys mapped ocean currents."
+    }
+  },
+  {
+    "id": "the-aztecs",
+    "category": "History",
+    "title": {
+      "en": "the Aztecs"
+    },
+    "keywords": [
+      "mexico city",
+      "aztec pyramid",
+      "mexican ruins",
+      "lake city"
+    ],
+    "hashtags": {
+      "en": "#aztecs #mexico #history #ancientcivilizations"
+    },
+    "facts": {
+      "en": [
+        "The Aztec capital, Tenochtitlan, was founded in thirteen twenty five on an island in Lake Texcoco. Roads called causeways linked it to the shore, and its canals worked like streets, so people often traveled by boat.",
+        "Aztec farmers grew crops on chinampas, narrow raised fields built from mud and plants in the shallow lake water. These fields produced several harvests each year and fed hundreds of thousands of people in the capital.",
+        "Cacao beans were so valuable to the Aztecs that they were used as money. They also made a bitter chocolate drink, often with chili, and it was mostly enjoyed by rulers, warriors, and merchants, not by everyone.",
+        "Mexico City today sits on top of the ruined Aztec capital. In nineteen seventy eight, electricity workers digging in the city center accidentally uncovered a huge stone disc, which led to the discovery of the Templo Mayor temple."
+      ]
+    },
+    "hook": {
+      "en": "The Aztec capital was built in a lake."
+    }
+  },
+  {
+    "id": "venus-flytraps",
+    "category": "Plants",
+    "title": {
+      "en": "Venus flytraps"
+    },
+    "keywords": [
+      "venus flytrap",
+      "carnivorous plant",
+      "plant trap",
+      "insect on plant"
+    ],
+    "hashtags": {
+      "en": "#venusflytrap #plants #carnivorousplants #nature"
+    },
+    "facts": {
+      "en": [
+        "Venus flytraps grow naturally only in a small area of North and South Carolina in the United States. They live in wet, poor soil that lacks nutrients, and that is why they trap insects to get extra food.",
+        "The trap snaps shut in about a tenth of a second. Each leaf has tiny trigger hairs. One touch is not enough, since the trap needs two touches within about twenty seconds, which stops it wasting energy on falling raindrops.",
+        "Venus flytraps can count. Scientists found that after a trap closes, the plant counts how many times the prey keeps moving. At five touches, it starts making digestive juices, so it only spends energy on something worth eating.",
+        "Once the trap is sealed, it takes between five and twelve days to digest an insect. Then it reopens and leaves only the hard shell behind. Each trap can only close a few times before the leaf dies."
+      ]
+    },
+    "hook": {
+      "en": "Venus flytraps can actually count to five."
+    }
+  },
+  {
+    "id": "frogs",
+    "category": "Animals",
+    "title": {
+      "en": "frogs"
+    },
+    "keywords": [
+      "frog on leaf",
+      "green frog",
+      "frog pond",
+      "tree frog"
+    ],
+    "hashtags": {
+      "en": "#frogs #amphibians #animalfacts #nature"
+    },
+    "facts": {
+      "en": [
+        "Frogs do not drink water with their mouths. Instead, they absorb water directly through their skin, especially from a patch on their belly. Their skin is so thin and absorbent that it also helps them breathe.",
+        "The wood frog survives freezing winters by freezing solid. Its heart stops beating, and ice forms in its body. Sugar in its cells acts like antifreeze to protect them. In spring, the frog thaws out and hops away.",
+        "Frogs use their eyes to swallow. Their eyeballs sink down into their head, pushing food down the throat. If you watch a frog eat, you will see its eyes blink and shrink back as it gulps its meal.",
+        "Frogs have been on Earth for over two hundred million years. The biggest is the goliath frog from West Africa, which can weigh more than three kilograms, while the glass frog has see through skin showing its tiny heart."
+      ]
+    },
+    "hook": {
+      "en": "Frogs use their eyeballs to help swallow food."
+    }
+  },
+  {
+    "id": "tomatoes",
+    "category": "Food",
+    "title": {
+      "en": "tomatoes"
+    },
+    "keywords": [
+      "tomatoes on vine",
+      "red tomatoes",
+      "tomato garden",
+      "tomato salad"
+    ],
+    "hashtags": {
+      "en": "#tomato #food #plants #fruit"
+    },
+    "facts": {
+      "en": [
+        "Tomatoes come from western South America. The Aztecs called the plant tomatl, and that is where our word comes from. Spanish explorers took it to Europe in the sixteenth century, where it was first grown as a decoration.",
+        "Tomatoes belong to the nightshade family, along with potatoes and the deadly nightshade plant. Tomato fruits are safe to eat, but the leaves and stems contain bitter chemicals, which is why many people used to be afraid of them.",
+        "In eighteen ninety three, the United States Supreme Court decided that tomatoes should be treated as vegetables. An importer argued that tomatoes are fruit to avoid a tax on vegetables. The judges decided by everyday use, not botany.",
+        "Putting tomatoes in the refrigerator damages their flavor. A twenty seventeen study found that cold storage switches off genes that create flavor molecules. Each year in Spain, people throw over a hundred tons of tomatoes in a festival."
+      ]
+    },
+    "hook": {
+      "en": "A court once ruled that tomatoes are vegetables."
+    }
+  },
+  {
+    "id": "the-tongue",
+    "category": "Human body",
+    "title": {
+      "en": "the tongue"
+    },
+    "keywords": [
+      "tongue taste",
+      "lemon sour",
+      "tasting food",
+      "taste buds"
+    ],
+    "hashtags": {
+      "en": "#tongue #taste #humanbody #bodyfacts"
+    },
+    "facts": {
+      "en": [
+        "Taste buds renew themselves roughly every ten to fourteen days. That is why a burnt tongue recovers so quickly. A typical person has several thousand taste buds, and they are spread across the tongue and parts of the mouth.",
+        "A berry from West Africa, called the miracle berry, contains a protein that makes sour foods taste sweet. After you eat it, a lemon tastes like lemonade for about half an hour, until the effect fades away.",
+        "The tongue map from school, with sweet at the tip and bitter at the back, is a myth. Every part of your tongue senses all five basic tastes. The map came from a misread paper from nineteen oh one.",
+        "Umami, the savory taste, was identified by Japanese chemist Kikunae Ikeda in nineteen oh eight. He noticed that kelp broth had a taste that was not sweet, sour, salty, or bitter, and he named it umami."
+      ]
+    },
+    "hook": {
+      "en": "The tongue map you learned in school is wrong."
+    }
+  },
+  {
+    "id": "asteroids",
+    "category": "Space",
+    "title": {
+      "en": "asteroids"
+    },
+    "keywords": [
+      "asteroid space",
+      "asteroid belt",
+      "space rock",
+      "meteor crater"
+    ],
+    "hashtags": {
+      "en": "#asteroids #space #nasa #astronomy"
+    },
+    "facts": {
+      "en": [
+        "Most asteroids orbit the Sun in a belt between Mars and Jupiter. The belt is mostly empty space, and spacecraft that cross it do not need to dodge anything. All its asteroids together weigh less than our Moon.",
+        "The dwarf planet Ceres is the largest object in the asteroid belt, and it holds about a third of the belt's total mass. In two thousand fifteen, a spacecraft arrived there and found mysterious bright spots made of salt.",
+        "In September twenty twenty two, the spacecraft DART smashed into a small asteroid named Dimorphos on purpose. The test worked, because the impact shortened the asteroid's orbit around its larger partner by about thirty two minutes.",
+        "Some asteroids have their own moons. In nineteen ninety three, the Galileo spacecraft discovered a tiny moon called Dactyl circling the asteroid Ida. Samples from asteroid Bennu, brought to Earth in twenty twenty three, contained amino acids."
+      ]
+    },
+    "hook": {
+      "en": "A spacecraft once crashed into an asteroid on purpose."
+    }
+  },
+  {
+    "id": "axolotls",
+    "category": "Animals",
+    "title": {
+      "en": "axolotls"
+    },
+    "keywords": [
+      "axolotl",
+      "salamander",
+      "aquarium fish",
+      "pink salamander"
+    ],
+    "hashtags": {
+      "en": "#axolotl #salamander #animalfacts #science"
+    },
+    "facts": {
+      "en": [
+        "Axolotls live naturally in only one place, the canals and lakes near Mexico City, mainly Lake Xochimilco. They are now critically endangered in the wild, though many are kept in aquariums and laboratories around the world.",
+        "Unlike most amphibians, axolotls never fully grow up. They keep their feathery outer gills and stay in the water all their lives, a trait called neoteny. Their name comes from an Aztec word often translated as water dog.",
+        "Axolotls can regrow lost legs, tails, parts of their heart, and even parts of their spinal cord and brain, without scars. Scientists study them closely, hoping to learn how human bodies might someday repair themselves in a similar way.",
+        "The axolotl genome is enormous. It has about thirty two billion DNA letters, roughly ten times more than a human's. It was so big that scientists needed years of work to read all of it."
+      ]
+    },
+    "hook": {
+      "en": "Axolotls can regrow limbs, hearts, and even brain parts."
+    }
+  },
+  {
+    "id": "the-burj-khalifa",
+    "category": "Places",
+    "title": {
+      "en": "the Burj Khalifa"
+    },
+    "keywords": [
+      "dubai skyscraper",
+      "skyscraper tall",
+      "city skyline sunset",
+      "glass tower"
+    ],
+    "hashtags": {
+      "en": "#burjkhalifa #dubai #skyscraper #architecture"
+    },
+    "facts": {
+      "en": [
+        "The Burj Khalifa in Dubai is eight hundred twenty eight meters tall, and it has been the tallest building in the world since it opened in twenty ten. It has more than one hundred sixty floors.",
+        "The tower's shape was inspired by a desert flower, the spider lily. Its three wings spiral upward and get narrower as they rise. This design helps the building confuse the wind and stay steady in storms.",
+        "The Burj Khalifa is so tall that you can watch the sunset twice in one evening. At the bottom, the sun sinks below the horizon. Ride a fast elevator to the top and you will see it set again.",
+        "Cleaning the glass of the Burj Khalifa takes workers about three months to complete. Special machines and teams hang from the building to wash its thousands of windows, and when they finish the whole job, they begin again."
+      ]
+    },
+    "hook": {
+      "en": "In one building, the sun can set twice."
+    }
+  },
+  {
+    "id": "atoms",
+    "category": "Science",
+    "title": {
+      "en": "atoms"
+    },
+    "keywords": [
+      "atom model",
+      "science laboratory",
+      "molecule",
+      "microscope"
+    ],
+    "hashtags": {
+      "en": "#atoms #science #physics #chemistry"
+    },
+    "facts": {
+      "en": [
+        "The Greek thinker Democritus first proposed atoms around four hundred years before the common era. He called them atomos, meaning uncuttable. He guessed that everything is made of tiny pieces, though he had no way to prove it.",
+        "Atoms are almost empty space. The nucleus is about one hundred thousand times smaller than the whole atom. In nineteen oh nine, scientists fired particles at gold foil, and most went straight through, which proved the atom is mostly empty.",
+        "Nearly all the hydrogen atoms in your body are about thirteen point eight billion years old, as old as the universe. Heavier atoms like carbon and oxygen were made later inside stars.",
+        "In nineteen eighty nine, scientists used a special microscope to move thirty five xenon atoms one by one and spell out three letters. It was the first time anyone arranged individual atoms on purpose."
+      ]
+    },
+    "hook": {
+      "en": "Atoms are almost entirely empty space."
+    }
+  },
+  {
+    "id": "the-oldest-animals",
+    "category": "Records",
+    "title": {
+      "en": "the oldest animals"
+    },
+    "keywords": [
+      "ancient tortoise",
+      "deep sea ocean",
+      "clam shell",
+      "sea sponge"
+    ],
+    "hashtags": {
+      "en": "#oldestanimals #records #nature #animalfacts"
+    },
+    "facts": {
+      "en": [
+        "The Greenland shark is the longest living vertebrate known. A two thousand sixteen study estimated that one shark was between about two hundred seventy and five hundred years old. These sharks grow very slowly, only about a centimeter a year.",
+        "A tortoise named Jonathan lives on the island of Saint Helena. He was probably born around eighteen thirty two, which makes him the oldest known living land animal. He was already fully grown when Queen Victoria took the throne.",
+        "In two thousand six, scientists dredged up an ocean quahog clam near Iceland. Counting its growth rings, they found it was five hundred seven years old and nicknamed it Ming. It is the longest lived single animal ever recorded.",
+        "The jellyfish Turritopsis dohrnii can turn back to a young polyp after it becomes adult, which may let it restart its life cycle. Some glass sponges in the deep sea may live for thousands of years."
+      ]
+    },
+    "hook": {
+      "en": "One clam lived for more than five hundred years."
+    }
+  },
+  {
+    "id": "the-longest-words",
+    "category": "Words",
+    "title": {
+      "en": "the longest words"
+    },
+    "keywords": [
+      "old books library",
+      "dictionary",
+      "typewriter letters",
+      "reading book"
+    ],
+    "hashtags": {
+      "en": "#words #language #records #wordfacts"
+    },
+    "facts": {
+      "en": [
+        "The longest word in the English language that appears in major dictionaries has forty five letters. It is pneumonoultramicroscopicsilicovolcanoconiosis, a lung disease. It was likely created in the nineteen thirties, partly as a joke to be the longest.",
+        "A Welsh village is known by a name with fifty eight letters, Llanfairpwllgwyngyll followed by many more. The long name was invented in the eighteen sixties, partly to attract tourists, and the train station there has a very long sign.",
+        "The chemical name of the human protein titin has one hundred eighty nine thousand eight hundred nineteen letters. Saying it aloud would take about three and a half hours. Most people say it does not count as a real word.",
+        "For years, Germany had a legal word with sixty three letters about beef labeling, Rindfleischetikettierungsueberwachungsaufgabenuebertragungsgesetz. It was an official law name in one German state until twenty thirteen, when the law was repealed."
+      ]
+    },
+    "hook": {
+      "en": "One chemical name has almost two hundred thousand letters."
+    }
+  },
+  {
+    "id": "television",
+    "category": "Inventions",
+    "title": {
+      "en": "television"
+    },
+    "keywords": [
+      "old television",
+      "tv screen",
+      "vintage tv",
+      "television static"
+    ],
+    "hashtags": {
+      "en": "#television #technology #history #invention"
+    },
+    "facts": {
+      "en": [
+        "Scottish inventor John Logie Baird first transmitted a recognizable moving face in nineteen twenty five. His subject was a ventriloquist's dummy nicknamed Stooky Bill, because the dummy's face stayed bright and clear under the harsh lights.",
+        "American teenager Philo Farnsworth got the idea for electronic television while plowing a field at the age of fourteen. He imagined an image scanned in lines like the field rows, and transmitted a picture in nineteen twenty seven.",
+        "The first official television commercial in the United States aired in nineteen forty one before a baseball game. It was for a watch company, lasted only ten seconds, and cost the company just nine dollars.",
+        "Some of the static on an old television that was not tuned in came from space. A small fraction was radiation left over from the Big Bang, the cosmic microwave background, which is still present in the universe."
+      ]
+    },
+    "hook": {
+      "en": "The first television image was a ventriloquist's dummy."
+    }
+  },
+  {
+    "id": "the-maya",
+    "category": "History",
+    "title": {
+      "en": "the Maya"
+    },
+    "keywords": [
+      "mayan temple",
+      "chichen itza",
+      "jungle ruins",
+      "mexico pyramid"
+    ],
+    "hashtags": {
+      "en": "#maya #history #mexico #ancientcivilizations"
+    },
+    "facts": {
+      "en": [
+        "The Maya used the number zero, shown as a shell symbol, in their calendar and counting system. This was centuries before the idea came into common use in Europe, which learned zero much later through Arabic mathematics.",
+        "In two thousand eighteen, scientists used a laser mapping technique called lidar to scan the jungle in Guatemala. They found tens of thousands of hidden Maya structures, including houses, roads, and fortresses, showing the civilization was much bigger than expected.",
+        "The famous Maya calendar did not predict the end of the world in twenty twelve. That date was simply the end of one long cycle, the way a car odometer turns over, and the calendar continued afterward.",
+        "The Maya did not vanish. Millions of people today still speak Mayan languages in Mexico and Central America. At the temple of Chichen Itza, a shadow slithers down the stairs like a snake on the spring and autumn equinoxes."
+      ]
+    },
+    "hook": {
+      "en": "The Maya used zero centuries before Europe did."
+    }
+  },
+  {
+    "id": "the-gulf-stream",
+    "category": "Ocean",
+    "title": {
+      "en": "the Gulf Stream"
+    },
+    "keywords": [
+      "ocean current",
+      "atlantic ocean",
+      "ocean waves",
+      "ship at sea"
+    ],
+    "hashtags": {
+      "en": "#gulfstream #ocean #climate #science"
+    },
+    "facts": {
+      "en": [
+        "The Gulf Stream is a powerful ocean current that starts near Florida and crosses the Atlantic. Spanish explorer Juan Ponce de Leon noticed it in fifteen thirteen, when his ships were pushed backward in spite of a good wind.",
+        "Benjamin Franklin helped to map the Gulf Stream. He noticed that ships from Europe reached America slower than returning ships, so he asked a whaling captain for help and published a chart in the seventeen seventies.",
+        "The Gulf Stream carries a gigantic amount of water, tens of millions of cubic meters every second near Florida. That is many times more than all the rivers on Earth put together, and it moves faster than most currents.",
+        "The Gulf Stream carries warm water north, which keeps western Europe milder than places at the same latitude in Canada. Because of that, palm trees can grow outdoors on parts of the coast of Scotland."
+      ]
+    },
+    "hook": {
+      "en": "The Gulf Stream moves far more water than all rivers."
+    }
+  },
+  {
+    "id": "flamingos",
+    "category": "Animals",
+    "title": {
+      "en": "flamingos"
+    },
+    "keywords": [
+      "flamingo",
+      "pink flamingos",
+      "flamingo lake",
+      "birds water"
+    ],
+    "hashtags": {
+      "en": "#flamingo #birds #animalfacts #nature"
+    },
+    "facts": {
+      "en": [
+        "Flamingo chicks hatch with gray or white feathers. They turn pink as they grow, because of natural pigments called carotenoids in the algae and tiny shrimp that they eat. Without those foods, flamingos slowly fade to a pale color.",
+        "Both parents feed their chick with crop milk, a rich liquid made in their throats. It is red from pigments, and it is not real milk. Even male flamingos can produce this special food to help raise the baby.",
+        "Flamingos eat with their heads upside down. Their curved beak works like a sieve, and the tongue pumps water through it, trapping tiny algae and shrimp. The odd shape of the beak is designed for this.",
+        "Flamingos often stand on one leg, possibly to save body heat, since the water they wade in can be cold. They also gather in huge flocks, and their group dances help them find partners."
+      ]
+    },
+    "hook": {
+      "en": "Flamingos are not born pink, they are born gray."
+    }
+  },
+  {
+    "id": "the-stomach",
+    "category": "Human body",
+    "title": {
+      "en": "the stomach"
+    },
+    "keywords": [
+      "stomach",
+      "food digestion",
+      "eating meal",
+      "healthy food"
+    ],
+    "hashtags": {
+      "en": "#stomach #digestion #humanbody #bodyfacts"
+    },
+    "facts": {
+      "en": [
+        "Your stomach acid is strong enough to dissolve some metals. The acid is made by cells in the stomach wall and kills most germs in your food. Thick mucus protects the stomach itself.",
+        "The stomach lining renews itself very quickly. The cells in the surface layer are replaced about every three to five days, which keeps the lining healthy even though it faces strong acid, again and again, all day.",
+        "For years, doctors believed stress caused most stomach ulcers. In nineteen eighty four, Australian doctor Barry Marshall drank a cup of bacteria called Helicobacter pylori to prove otherwise, got sick, and won the Nobel Prize in two thousand five.",
+        "An empty stomach holds only about a liter, but it stretches a lot after a big meal. The growling you hear is made by muscles moving gas and liquid through your gut, and it happens even when you have eaten."
+      ]
+    },
+    "hook": {
+      "en": "Your stomach makes a new lining every few days."
+    }
+  },
+  {
+    "id": "meteorites",
+    "category": "Space",
+    "title": {
+      "en": "meteorites"
+    },
+    "keywords": [
+      "meteorite",
+      "meteor night sky",
+      "space rock",
+      "shooting star"
+    ],
+    "hashtags": {
+      "en": "#meteorite #space #astronomy #science"
+    },
+    "facts": {
+      "en": [
+        "Most meteorites that fall to Earth land in the ocean or in empty places and are never found. Antarctica is the best hunting ground for meteorites, because the dark rocks stand out clearly against the white ice.",
+        "In nineteen fifty four, a meteorite crashed through the roof of a house in Sylacauga, Alabama. It bounced off a radio and hit Ann Hodges, who was napping on a couch, leaving a large bruise on her hip.",
+        "The Murchison meteorite fell in Australia in nineteen sixty nine. Scientists later found dozens of different amino acids inside it, the building blocks of life, which suggests that such space rocks may have delivered ingredients to early Earth.",
+        "The oldest meteorites are about four point five six billion years old, older than any rock found on Earth. The famous dagger in the tomb of Tutankhamun was made of iron from a meteorite, researchers found in twenty sixteen."
+      ]
+    },
+    "hook": {
+      "en": "A meteorite once crashed through a woman's roof."
+    }
+  },
+  {
+    "id": "potatoes",
+    "category": "Food",
+    "title": {
+      "en": "potatoes"
+    },
+    "keywords": [
+      "potato field",
+      "potatoes harvest",
+      "potato plant",
+      "farm vegetables"
+    ],
+    "hashtags": {
+      "en": "#potatoes #food #history #plants"
+    },
+    "facts": {
+      "en": [
+        "Potatoes were first domesticated in the Andes Mountains of South America, near Lake Titicaca, about eight thousand years ago. Peru is still home to thousands of native types, in colors ranging from purple to yellow to red.",
+        "In eighteen forty five, a disease called potato blight destroyed Ireland's crops. Many poor families depended almost entirely on potatoes, and the Great Famine that followed killed about a million people, while another million left the country.",
+        "Potato plants grow poisonous berries and leaves. Green potatoes, which have been exposed to light, also contain a toxin called solanine. This is why you should cut off green parts and store potatoes in a dark place.",
+        "In nineteen ninety five, potatoes were grown in space aboard the space shuttle Columbia. The experiment, run by a space agency and a university, aimed to find ways to feed astronauts on long missions."
+      ]
+    },
+    "hook": {
+      "en": "Potatoes came from the Andes, not from Ireland."
+    }
+  },
+  {
+    "id": "carnivorous-plants",
+    "category": "Plants",
+    "title": {
+      "en": "carnivorous plants"
+    },
+    "keywords": [
+      "pitcher plant",
+      "carnivorous plant",
+      "sundew plant",
+      "jungle plants"
+    ],
+    "hashtags": {
+      "en": "#carnivorousplants #plants #nature #jungle"
+    },
+    "facts": {
+      "en": [
+        "There are more than eight hundred kinds of carnivorous plants. They usually live in soils that are poor in nitrogen, so they catch insects to get the nutrients that the ground cannot provide.",
+        "Sundew plants are covered in sticky, glittering droplets. An insect that lands on one gets stuck, and the tentacles slowly curl around it. Charles Darwin wrote a whole book on carnivorous plants in eighteen seventy five.",
+        "The giant pitcher plant Nepenthes rajah of Borneo has pitchers big enough to catch small mammals. Rats have been found digested inside them. Another species is shaped like a toilet and attracts tree shrews, which drop their waste inside.",
+        "Bladderworts are water plants with tiny bladder shaped traps. When a small creature touches a trigger hair, the trap opens and sucks the animal in within a few thousandths of a second, among the fastest plant movements."
+      ]
+    },
+    "hook": {
+      "en": "One pitcher plant can trap and digest rats."
+    }
+  },
+  {
+    "id": "the-incas",
+    "category": "History",
+    "title": {
+      "en": "the Incas"
+    },
+    "keywords": [
+      "machu picchu",
+      "andes mountains",
+      "peru ruins",
+      "inca stone wall"
+    ],
+    "hashtags": {
+      "en": "#incas #peru #history #ancientcivilizations"
+    },
+    "facts": {
+      "en": [
+        "The Incas had no written alphabet, but they kept records with knotted strings called quipus. The position and type of each knot stood for numbers. Specialists called quipu keepers used them to track taxes, harvests, and people.",
+        "Machu Picchu was built around fourteen fifty high in the Andes in Peru. It was abandoned about a century later, and the Spanish conquerors never found it, which is one reason why it is so well preserved today.",
+        "Inca builders cut stones so precisely that they fit together without mortar. Many of these walls have survived powerful earthquakes, because the stones can shake slightly and settle back into place without falling apart.",
+        "The Incas built a road network of tens of thousands of kilometers across mountains and deserts. Messengers ran along it in relay, passing messages from runner to runner. Some Inca surgeons even performed skull operations, and many patients survived."
+      ]
+    },
+    "hook": {
+      "en": "The Incas recorded numbers using knotted ropes."
+    }
+  },
+  {
+    "id": "the-grand-canyon",
+    "category": "Places",
+    "title": {
+      "en": "the Grand Canyon"
+    },
+    "keywords": [
+      "grand canyon",
+      "canyon landscape",
+      "colorado river",
+      "desert canyon"
+    ],
+    "hashtags": {
+      "en": "#grandcanyon #nature #usa #geology"
+    },
+    "facts": {
+      "en": [
+        "The Grand Canyon is about four hundred forty six kilometers long and up to about eighteen hundred meters deep. In some places it is more than twenty kilometers wide, and it was made by the Colorado River cutting downward.",
+        "The oldest rocks at the bottom of the Grand Canyon are almost two billion years old. The canyon itself is much younger, and scientists still debate exactly when the river carved it, with most estimates within a few million years.",
+        "At the bottom of the Grand Canyon, the Havasupai people live in Supai, reached only on foot, by horse, or by helicopter. It is the only place in the United States where mail is still delivered by mule.",
+        "The Grand Canyon became a national park in nineteen nineteen. Its rock layers hold fossils of sea creatures, because the area was once under a shallow sea. Geologists can read Earth's history there like a book."
+      ]
+    },
+    "hook": {
+      "en": "The Grand Canyon has rocks nearly two billion years old."
+    }
+  },
+  {
+    "id": "gold",
+    "category": "Science",
+    "title": {
+      "en": "gold"
+    },
+    "keywords": [
+      "gold bars",
+      "gold nuggets",
+      "gold jewelry",
+      "gold coins"
+    ],
+    "hashtags": {
+      "en": "#gold #science #space #history"
+    },
+    "facts": {
+      "en": [
+        "Scientists think most of the gold in the universe was created when two neutron stars smashed together. In twenty seventeen, astronomers saw such a collision and detected signs that heavy elements like gold were being made.",
+        "All the gold ever mined would fit inside a cube about twenty two meters wide. That is smaller than you might expect, because gold is so dense that the cube would weigh over two hundred thousand tons.",
+        "Gold is so easy to shape that one gram can be hammered into a sheet covering around a square meter. Gold leaf is so thin that light can pass through it, and edible gold leaf is used to decorate food.",
+        "Scientists think that most of the gold that arrived on Earth during its formation sank into the planet's core, because it is heavy and dissolves in iron. The gold we mine came later, from space rocks that hit Earth."
+      ]
+    },
+    "hook": {
+      "en": "Scientists think gold was made when stars collided."
+    }
+  },
+  {
+    "id": "platypuses",
+    "category": "Animals",
+    "title": {
+      "en": "platypuses"
+    },
+    "keywords": [
+      "platypus",
+      "australian wildlife",
+      "river wildlife",
+      "echidna"
+    ],
+    "hashtags": {
+      "en": "#platypus #australia #animalfacts #mammals"
+    },
+    "facts": {
+      "en": [
+        "When scientists first saw a platypus specimen in seventeen ninety nine, they suspected a hoax. Some thought that a clever taxidermist had stitched a duck's bill onto a beaver like body, and they even cut the skin to check.",
+        "The platypus is one of the few mammals that lay eggs. It shares this unusual trait with the echidnas, together forming the group called monotremes. The mother curls around her eggs for about ten days until they hatch.",
+        "A platypus hunts underwater with its eyes, ears, and nostrils shut. Its bill detects the tiny electric fields made by shrimp and other prey. In twenty twenty, scientists found that its fur glows blue green under ultraviolet light.",
+        "Male platypuses have a venomous spur on each hind leg. The venom can cause severe pain in humans. Platypuses also have no stomach, so food moves directly from the throat into the intestine."
+      ]
+    },
+    "hook": {
+      "en": "Platypus fur glows under ultraviolet light."
+    }
+  },
+  {
+    "id": "radio",
+    "category": "Inventions",
+    "title": {
+      "en": "radio"
+    },
+    "keywords": [
+      "radio tower",
+      "old radio",
+      "radio antenna",
+      "radio telescope"
+    ],
+    "hashtags": {
+      "en": "#radio #technology #history #space"
+    },
+    "facts": {
+      "en": [
+        "In nineteen oh one, Guglielmo Marconi said he received the letter S in Morse code across the Atlantic Ocean, sent from England to Newfoundland. Some experts still doubt that the faint signal was really heard.",
+        "When the Titanic sank in nineteen twelve, its radio operators sent distress calls that were heard by the ship Carpathia. The Carpathia rushed to the scene and rescued about seven hundred survivors, and laws about ship radios soon changed.",
+        "Radio waves from Earth have been traveling into space since the early twentieth century. They are now more than one hundred light years away and have passed many nearby stars, though they are probably too weak for aliens to detect.",
+        "In nineteen thirty two, engineer Karl Jansky discovered that the Milky Way itself gives off radio waves. He was investigating static on telephone lines, and his discovery started the science of radio astronomy."
+      ]
+    },
+    "hook": {
+      "en": "Radio signals from Earth have reached other stars."
+    }
+  },
+  {
+    "id": "the-liver",
+    "category": "Human body",
+    "title": {
+      "en": "the liver"
+    },
+    "keywords": [
+      "human anatomy",
+      "doctor medical",
+      "organ model",
+      "healthy food"
+    ],
+    "hashtags": {
+      "en": "#liver #humanbody #health #bodyfacts"
+    },
+    "facts": {
+      "en": [
+        "The liver is the heaviest organ inside your body, weighing about one and a half kilograms. Only your skin is heavier. It sits on the right side under your ribs and carries out hundreds of different jobs.",
+        "The liver cleans your blood, makes bile to help digest fat, stores sugar for later energy, and builds many proteins. At any moment, roughly a quarter of the blood your heart pumps out passes through it.",
+        "The liver can regrow. If part of it is removed, the remaining cells multiply, and it can grow back to nearly its original size within weeks or months. Living donors can give a piece of liver to a patient.",
+        "Ancient Greeks told a story about Prometheus, who was punished by having an eagle eat his liver each day, and it grew back each night. Some people think the Greeks noticed that the liver can regenerate."
+      ]
+    },
+    "hook": {
+      "en": "Your liver can regrow to its full size."
+    }
   }
 ]
