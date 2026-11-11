@@ -27,12 +27,13 @@
     "elephants",
     "tornadoes",
     "sharks",
-    "the-titanic"
+    "the-titanic",
+    "the-eyes",
+    "saturn",
+    "pizza"
   ],
   "slots": {
     "en": {
-      "2026-11-03 08:00": "cats",
-      "2026-11-03 20:00": "mars",
       "2026-11-04 08:00": "coffee",
       "2026-11-04 20:00": "the-vikings",
       "2026-11-05 08:00": "volcanoes",
@@ -48,7 +49,10 @@
       "2026-11-09 02:00": "elephants",
       "2026-11-10 17:00": "tornadoes",
       "2026-11-10 21:30": "sharks",
-      "2026-11-10 02:00": "the-titanic"
+      "2026-11-10 02:00": "the-titanic",
+      "2026-11-11 17:00": "the-eyes",
+      "2026-11-11 21:30": "saturn",
+      "2026-11-11 02:00": "pizza"
     }
   },
   "posts": [
@@ -241,21 +245,45 @@
       "lang": "en",
       "topic": "tornadoes",
       "title": "tornadoes",
-      "when": "2026-11-10T17:32:00"
+      "when": "2026-11-10T17:32:00",
+      "checked": true
     },
     {
       "id": "6af28970087e725576b09e7c",
       "lang": "en",
       "topic": "sharks",
       "title": "sharks",
-      "when": "2026-11-10T20:55:00"
+      "when": "2026-11-10T20:55:00",
+      "checked": true
     },
     {
       "id": "6af28a52a086e5ec4948fc1d",
       "lang": "en",
       "topic": "the-titanic",
       "title": "the Titanic",
-      "when": "2026-11-11T01:57:00"
+      "when": "2026-11-11T01:57:00",
+      "checked": true
+    },
+    {
+      "id": "6af3da68e05f448d7e1b9434",
+      "lang": "en",
+      "topic": "the-eyes",
+      "title": "the eyes",
+      "when": "2026-11-11T16:34:00"
+    },
+    {
+      "id": "6af3db93225d98dd47cb83c6",
+      "lang": "en",
+      "topic": "saturn",
+      "title": "Saturn",
+      "when": "2026-11-11T21:14:00"
+    },
+    {
+      "id": "6af3dcbc557cc6f8cc326104",
+      "lang": "en",
+      "topic": "pizza",
+      "title": "pizza",
+      "when": "2026-11-12T01:32:00"
     }
   ]
 }
