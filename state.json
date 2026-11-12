@@ -30,12 +30,13 @@
     "the-titanic",
     "the-eyes",
     "saturn",
-    "pizza"
+    "pizza",
+    "the-amazon-rainforest",
+    "owls",
+    "icebergs"
   ],
   "slots": {
     "en": {
-      "2026-11-04 08:00": "coffee",
-      "2026-11-04 20:00": "the-vikings",
       "2026-11-05 08:00": "volcanoes",
       "2026-11-05 20:00": "dolphins",
       "2026-11-06 08:00": "the-deep-sea",
@@ -52,26 +53,13 @@
       "2026-11-10 02:00": "the-titanic",
       "2026-11-11 17:00": "the-eyes",
       "2026-11-11 21:30": "saturn",
-      "2026-11-11 02:00": "pizza"
+      "2026-11-11 02:00": "pizza",
+      "2026-11-12 17:00": "the-amazon-rainforest",
+      "2026-11-12 21:30": "owls",
+      "2026-11-12 02:00": "icebergs"
     }
   },
   "posts": [
-    {
-      "id": "6ae41f18a4e859f1a91862f7",
-      "lang": "en",
-      "topic": "chocolate",
-      "title": "chocolate",
-      "when": "2026-10-30T08:18:00",
-      "checked": true
-    },
-    {
-      "id": "6ae41fa40a59b1a24d0ee4b5",
-      "lang": "en",
-      "topic": "the-brain",
-      "title": "the brain",
-      "when": "2026-10-30T19:28:00",
-      "checked": true
-    },
     {
       "id": "6ae5706701283f7bd7d43ddc",
       "lang": "en",
@@ -269,21 +257,45 @@
       "lang": "en",
       "topic": "the-eyes",
       "title": "the eyes",
-      "when": "2026-11-11T16:34:00"
+      "when": "2026-11-11T16:34:00",
+      "checked": true
     },
     {
       "id": "6af3db93225d98dd47cb83c6",
       "lang": "en",
       "topic": "saturn",
       "title": "Saturn",
-      "when": "2026-11-11T21:14:00"
+      "when": "2026-11-11T21:14:00",
+      "checked": true
     },
     {
       "id": "6af3dcbc557cc6f8cc326104",
       "lang": "en",
       "topic": "pizza",
       "title": "pizza",
-      "when": "2026-11-12T01:32:00"
+      "when": "2026-11-12T01:32:00",
+      "checked": true
+    },
+    {
+      "id": "6af52c564457ec6b0561c742",
+      "lang": "en",
+      "topic": "the-amazon-rainforest",
+      "title": "the Amazon rainforest",
+      "when": "2026-11-12T17:16:00"
+    },
+    {
+      "id": "6af52dd30ca9ab32847b9bcf",
+      "lang": "en",
+      "topic": "owls",
+      "title": "owls",
+      "when": "2026-11-12T21:51:00"
+    },
+    {
+      "id": "6af52f615f410b305eb3479e",
+      "lang": "en",
+      "topic": "icebergs",
+      "title": "icebergs",
+      "when": "2026-11-13T02:10:00"
     }
   ]
 }
