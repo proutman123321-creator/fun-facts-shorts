@@ -33,12 +33,13 @@
     "pizza",
     "the-amazon-rainforest",
     "owls",
-    "icebergs"
+    "icebergs",
+    "sunflowers",
+    "the-fastest-animals",
+    "dogs"
   ],
   "slots": {
     "en": {
-      "2026-11-05 08:00": "volcanoes",
-      "2026-11-05 20:00": "dolphins",
       "2026-11-06 08:00": "the-deep-sea",
       "2026-11-06 20:00": "the-eiffel-tower",
       "2026-11-07 08:00": "sleep",
@@ -56,34 +57,13 @@
       "2026-11-11 02:00": "pizza",
       "2026-11-12 17:00": "the-amazon-rainforest",
       "2026-11-12 21:30": "owls",
-      "2026-11-12 02:00": "icebergs"
+      "2026-11-12 02:00": "icebergs",
+      "2026-11-13 17:00": "sunflowers",
+      "2026-11-13 21:30": "the-fastest-animals",
+      "2026-11-13 02:00": "dogs"
     }
   },
   "posts": [
-    {
-      "id": "6ae5706701283f7bd7d43ddc",
-      "lang": "en",
-      "topic": "ancient-egypt",
-      "title": "ancient Egypt",
-      "when": "2026-10-31T07:53:00",
-      "checked": true
-    },
-    {
-      "id": "6ae571896af735bec2ba10af",
-      "lang": "en",
-      "topic": "lightning",
-      "title": "lightning",
-      "when": "2026-10-31T20:07:00",
-      "checked": true
-    },
-    {
-      "id": "6ae6c36316304fefc660d836",
-      "lang": "en",
-      "topic": "penguins",
-      "title": "penguins",
-      "when": "2026-11-01T07:48:00",
-      "checked": true
-    },
     {
       "id": "6ae6c43df927171078a3349e",
       "lang": "en",
@@ -281,21 +261,45 @@
       "lang": "en",
       "topic": "the-amazon-rainforest",
       "title": "the Amazon rainforest",
-      "when": "2026-11-12T17:16:00"
+      "when": "2026-11-12T17:16:00",
+      "checked": true
     },
     {
       "id": "6af52dd30ca9ab32847b9bcf",
       "lang": "en",
       "topic": "owls",
       "title": "owls",
-      "when": "2026-11-12T21:51:00"
+      "when": "2026-11-12T21:51:00",
+      "checked": true
     },
     {
       "id": "6af52f615f410b305eb3479e",
       "lang": "en",
       "topic": "icebergs",
       "title": "icebergs",
-      "when": "2026-11-13T02:10:00"
+      "when": "2026-11-13T02:10:00",
+      "checked": true
+    },
+    {
+      "id": "6af67d1c8bfc32c7d32e5fbd",
+      "lang": "en",
+      "topic": "sunflowers",
+      "title": "sunflowers",
+      "when": "2026-11-13T16:46:00"
+    },
+    {
+      "id": "6af67e6eb01a72619554ad53",
+      "lang": "en",
+      "topic": "the-fastest-animals",
+      "title": "the fastest animals",
+      "when": "2026-11-13T20:57:00"
+    },
+    {
+      "id": "6af67fc0607a59141ce1af1c",
+      "lang": "en",
+      "topic": "dogs",
+      "title": "dogs",
+      "when": "2026-11-14T01:59:00"
     }
   ]
 }
