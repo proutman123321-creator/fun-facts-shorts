@@ -36,12 +36,13 @@
     "icebergs",
     "sunflowers",
     "the-fastest-animals",
-    "dogs"
+    "dogs",
+    "black-holes",
+    "the-pyramids",
+    "bones"
   ],
   "slots": {
     "en": {
-      "2026-11-06 08:00": "the-deep-sea",
-      "2026-11-06 20:00": "the-eiffel-tower",
       "2026-11-07 08:00": "sleep",
       "2026-11-07 20:00": "honeybees",
       "2026-11-08 08:00": "the-sun",
@@ -60,34 +61,13 @@
       "2026-11-12 02:00": "icebergs",
       "2026-11-13 17:00": "sunflowers",
       "2026-11-13 21:30": "the-fastest-animals",
-      "2026-11-13 02:00": "dogs"
+      "2026-11-13 02:00": "dogs",
+      "2026-11-14 17:00": "black-holes",
+      "2026-11-14 21:30": "the-pyramids",
+      "2026-11-14 02:00": "bones"
     }
   },
   "posts": [
-    {
-      "id": "6ae6c43df927171078a3349e",
-      "lang": "en",
-      "topic": "coral-reefs",
-      "title": "coral reefs",
-      "when": "2026-11-01T20:35:00",
-      "checked": true
-    },
-    {
-      "id": "6ae7fde75fab91e9ffcbfc26",
-      "lang": "en",
-      "topic": "mount-everest",
-      "title": "Mount Everest",
-      "when": "2026-11-02T08:13:00",
-      "checked": true
-    },
-    {
-      "id": "6ae7ffddb3bb4d812c5fbb6b",
-      "lang": "en",
-      "topic": "the-heart",
-      "title": "the heart",
-      "when": "2026-11-02T20:03:00",
-      "checked": true
-    },
     {
       "id": "6ae94fc2d10c9a3a050c0e54",
       "lang": "en",
@@ -285,21 +265,45 @@
       "lang": "en",
       "topic": "sunflowers",
       "title": "sunflowers",
-      "when": "2026-11-13T16:46:00"
+      "when": "2026-11-13T16:46:00",
+      "checked": true
     },
     {
       "id": "6af67e6eb01a72619554ad53",
       "lang": "en",
       "topic": "the-fastest-animals",
       "title": "the fastest animals",
-      "when": "2026-11-13T20:57:00"
+      "when": "2026-11-13T20:57:00",
+      "checked": true
     },
     {
       "id": "6af67fc0607a59141ce1af1c",
       "lang": "en",
       "topic": "dogs",
       "title": "dogs",
-      "when": "2026-11-14T01:59:00"
+      "when": "2026-11-14T01:59:00",
+      "checked": true
+    },
+    {
+      "id": "6af7cef1dc83af75cebae802",
+      "lang": "en",
+      "topic": "black-holes",
+      "title": "black holes",
+      "when": "2026-11-14T16:46:00"
+    },
+    {
+      "id": "6af7d03c4b685d388decb5db",
+      "lang": "en",
+      "topic": "the-pyramids",
+      "title": "the pyramids",
+      "when": "2026-11-14T22:01:00"
+    },
+    {
+      "id": "6af7d184b2d7e8eb8cbc6f2b",
+      "lang": "en",
+      "topic": "bones",
+      "title": "bones",
+      "when": "2026-11-15T01:42:00"
     }
   ]
 }
