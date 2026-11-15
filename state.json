@@ -39,12 +39,13 @@
     "dogs",
     "black-holes",
     "the-pyramids",
-    "bones"
+    "bones",
+    "strawberries",
+    "snowflakes",
+    "butterflies"
   ],
   "slots": {
     "en": {
-      "2026-11-07 08:00": "sleep",
-      "2026-11-07 20:00": "honeybees",
       "2026-11-08 08:00": "the-sun",
       "2026-11-08 20:00": "bananas",
       "2026-11-09 17:00": "the-roman-empire",
@@ -64,34 +65,13 @@
       "2026-11-13 02:00": "dogs",
       "2026-11-14 17:00": "black-holes",
       "2026-11-14 21:30": "the-pyramids",
-      "2026-11-14 02:00": "bones"
+      "2026-11-14 02:00": "bones",
+      "2026-11-15 17:00": "strawberries",
+      "2026-11-15 21:30": "snowflakes",
+      "2026-11-15 02:00": "butterflies"
     }
   },
   "posts": [
-    {
-      "id": "6ae94fc2d10c9a3a050c0e54",
-      "lang": "en",
-      "topic": "cats",
-      "title": "cats",
-      "when": "2026-11-03T08:34:00",
-      "checked": true
-    },
-    {
-      "id": "6ae951e7283c2ea6fb985213",
-      "lang": "en",
-      "topic": "mars",
-      "title": "Mars",
-      "when": "2026-11-03T19:46:00",
-      "checked": true
-    },
-    {
-      "id": "6aeaa0ecf92a4fe75c7ad264",
-      "lang": "en",
-      "topic": "coffee",
-      "title": "coffee",
-      "when": "2026-11-04T07:50:00",
-      "checked": true
-    },
     {
       "id": "6aeaa304c38660bdb33ebab8",
       "lang": "en",
@@ -289,21 +269,45 @@
       "lang": "en",
       "topic": "black-holes",
       "title": "black holes",
-      "when": "2026-11-14T16:46:00"
+      "when": "2026-11-14T16:46:00",
+      "checked": true
     },
     {
       "id": "6af7d03c4b685d388decb5db",
       "lang": "en",
       "topic": "the-pyramids",
       "title": "the pyramids",
-      "when": "2026-11-14T22:01:00"
+      "when": "2026-11-14T22:01:00",
+      "checked": true
     },
     {
       "id": "6af7d184b2d7e8eb8cbc6f2b",
       "lang": "en",
       "topic": "bones",
       "title": "bones",
-      "when": "2026-11-15T01:42:00"
+      "when": "2026-11-15T01:42:00",
+      "checked": true
+    },
+    {
+      "id": "6af920a14aaef2da08163e6a",
+      "lang": "en",
+      "topic": "strawberries",
+      "title": "strawberries",
+      "when": "2026-11-15T16:51:00"
+    },
+    {
+      "id": "6af921fdc11baf591baa18c1",
+      "lang": "en",
+      "topic": "snowflakes",
+      "title": "snowflakes",
+      "when": "2026-11-15T21:13:00"
+    },
+    {
+      "id": "6af92353845e53d247590866",
+      "lang": "en",
+      "topic": "butterflies",
+      "title": "butterflies",
+      "when": "2026-11-16T01:46:00"
     }
   ]
 }
