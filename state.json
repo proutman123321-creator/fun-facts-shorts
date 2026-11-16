@@ -42,12 +42,13 @@
     "bones",
     "strawberries",
     "snowflakes",
-    "butterflies"
+    "butterflies",
+    "the-great-wall-of-china",
+    "antarctica",
+    "smartphones"
   ],
   "slots": {
     "en": {
-      "2026-11-08 08:00": "the-sun",
-      "2026-11-08 20:00": "bananas",
       "2026-11-09 17:00": "the-roman-empire",
       "2026-11-09 21:30": "airplanes",
       "2026-11-09 02:00": "elephants",
@@ -68,34 +69,13 @@
       "2026-11-14 02:00": "bones",
       "2026-11-15 17:00": "strawberries",
       "2026-11-15 21:30": "snowflakes",
-      "2026-11-15 02:00": "butterflies"
+      "2026-11-15 02:00": "butterflies",
+      "2026-11-16 17:00": "the-great-wall-of-china",
+      "2026-11-16 21:30": "antarctica",
+      "2026-11-16 02:00": "smartphones"
     }
   },
   "posts": [
-    {
-      "id": "6aeaa304c38660bdb33ebab8",
-      "lang": "en",
-      "topic": "the-vikings",
-      "title": "the Vikings",
-      "when": "2026-11-04T19:49:00",
-      "checked": true
-    },
-    {
-      "id": "6aebf2df07d8bd9bc0a58dce",
-      "lang": "en",
-      "topic": "volcanoes",
-      "title": "volcanoes",
-      "when": "2026-11-05T08:17:00",
-      "checked": true
-    },
-    {
-      "id": "6aebf44e987a348ee89591ad",
-      "lang": "en",
-      "topic": "dolphins",
-      "title": "dolphins",
-      "when": "2026-11-05T19:48:00",
-      "checked": true
-    },
     {
       "id": "6aed44a8f3fb1201c3be1d9b",
       "lang": "en",
@@ -293,21 +273,45 @@
       "lang": "en",
       "topic": "strawberries",
       "title": "strawberries",
-      "when": "2026-11-15T16:51:00"
+      "when": "2026-11-15T16:51:00",
+      "checked": true
     },
     {
       "id": "6af921fdc11baf591baa18c1",
       "lang": "en",
       "topic": "snowflakes",
       "title": "snowflakes",
-      "when": "2026-11-15T21:13:00"
+      "when": "2026-11-15T21:13:00",
+      "checked": true
     },
     {
       "id": "6af92353845e53d247590866",
       "lang": "en",
       "topic": "butterflies",
       "title": "butterflies",
-      "when": "2026-11-16T01:46:00"
+      "when": "2026-11-16T01:46:00",
+      "checked": true
+    },
+    {
+      "id": "6afa72e4b05f1065cfad36a0",
+      "lang": "en",
+      "topic": "the-great-wall-of-china",
+      "title": "the Great Wall of China",
+      "when": "2026-11-16T16:27:00"
+    },
+    {
+      "id": "6afa73c0cf4d9304ee342831",
+      "lang": "en",
+      "topic": "antarctica",
+      "title": "Antarctica",
+      "when": "2026-11-16T21:29:00"
+    },
+    {
+      "id": "6afa7499add61380c67b357e",
+      "lang": "en",
+      "topic": "smartphones",
+      "title": "smartphones",
+      "when": "2026-11-17T01:48:00"
     }
   ]
 }
