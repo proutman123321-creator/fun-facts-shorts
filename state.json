@@ -45,13 +45,13 @@
     "butterflies",
     "the-great-wall-of-china",
     "antarctica",
-    "smartphones"
+    "smartphones",
+    "jellyfish",
+    "jupiter",
+    "cheese"
   ],
   "slots": {
     "en": {
-      "2026-11-09 17:00": "the-roman-empire",
-      "2026-11-09 21:30": "airplanes",
-      "2026-11-09 02:00": "elephants",
       "2026-11-10 17:00": "tornadoes",
       "2026-11-10 21:30": "sharks",
       "2026-11-10 02:00": "the-titanic",
@@ -72,34 +72,13 @@
       "2026-11-15 02:00": "butterflies",
       "2026-11-16 17:00": "the-great-wall-of-china",
       "2026-11-16 21:30": "antarctica",
-      "2026-11-16 02:00": "smartphones"
+      "2026-11-16 02:00": "smartphones",
+      "2026-11-17 17:00": "jellyfish",
+      "2026-11-17 21:30": "jupiter",
+      "2026-11-17 02:00": "cheese"
     }
   },
   "posts": [
-    {
-      "id": "6aed44a8f3fb1201c3be1d9b",
-      "lang": "en",
-      "topic": "the-deep-sea",
-      "title": "the deep sea",
-      "when": "2026-11-06T08:12:00",
-      "checked": true
-    },
-    {
-      "id": "6aed46c1f98df0d6cb151a00",
-      "lang": "en",
-      "topic": "the-eiffel-tower",
-      "title": "the Eiffel Tower",
-      "when": "2026-11-06T20:17:00",
-      "checked": true
-    },
-    {
-      "id": "6aee94d8ac6d2103a4856801",
-      "lang": "en",
-      "topic": "sleep",
-      "title": "sleep",
-      "when": "2026-11-07T07:54:00",
-      "checked": true
-    },
     {
       "id": "6aee96a06d3867ca091f88ad",
       "lang": "en",
@@ -297,21 +276,45 @@
       "lang": "en",
       "topic": "the-great-wall-of-china",
       "title": "the Great Wall of China",
-      "when": "2026-11-16T16:27:00"
+      "when": "2026-11-16T16:27:00",
+      "checked": true
     },
     {
       "id": "6afa73c0cf4d9304ee342831",
       "lang": "en",
       "topic": "antarctica",
       "title": "Antarctica",
-      "when": "2026-11-16T21:29:00"
+      "when": "2026-11-16T21:29:00",
+      "checked": true
     },
     {
       "id": "6afa7499add61380c67b357e",
       "lang": "en",
       "topic": "smartphones",
       "title": "smartphones",
-      "when": "2026-11-17T01:48:00"
+      "when": "2026-11-17T01:48:00",
+      "checked": true
+    },
+    {
+      "id": "6afbc34cd57782170ed7f775",
+      "lang": "en",
+      "topic": "jellyfish",
+      "title": "jellyfish",
+      "when": "2026-11-17T17:02:00"
+    },
+    {
+      "id": "6afbc42fe402befbc1ecd07a",
+      "lang": "en",
+      "topic": "jupiter",
+      "title": "Jupiter",
+      "when": "2026-11-17T22:02:00"
+    },
+    {
+      "id": "6afbc50ce5d86def3ed20d8b",
+      "lang": "en",
+      "topic": "cheese",
+      "title": "cheese",
+      "when": "2026-11-18T02:05:00"
     }
   ]
 }
