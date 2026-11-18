@@ -48,13 +48,13 @@
     "smartphones",
     "jellyfish",
     "jupiter",
-    "cheese"
+    "cheese",
+    "dreams",
+    "rainbows",
+    "kangaroos"
   ],
   "slots": {
     "en": {
-      "2026-11-10 17:00": "tornadoes",
-      "2026-11-10 21:30": "sharks",
-      "2026-11-10 02:00": "the-titanic",
       "2026-11-11 17:00": "the-eyes",
       "2026-11-11 21:30": "saturn",
       "2026-11-11 02:00": "pizza",
@@ -75,34 +75,13 @@
       "2026-11-16 02:00": "smartphones",
       "2026-11-17 17:00": "jellyfish",
       "2026-11-17 21:30": "jupiter",
-      "2026-11-17 02:00": "cheese"
+      "2026-11-17 02:00": "cheese",
+      "2026-11-18 17:00": "dreams",
+      "2026-11-18 21:30": "rainbows",
+      "2026-11-18 02:00": "kangaroos"
     }
   },
   "posts": [
-    {
-      "id": "6aee96a06d3867ca091f88ad",
-      "lang": "en",
-      "topic": "honeybees",
-      "title": "honeybees",
-      "when": "2026-11-07T20:02:00",
-      "checked": true
-    },
-    {
-      "id": "6aefe6b5b257bd9879d4c887",
-      "lang": "en",
-      "topic": "the-sun",
-      "title": "the Sun",
-      "when": "2026-11-08T07:30:00",
-      "checked": true
-    },
-    {
-      "id": "6aefe88caf6ed191905817d4",
-      "lang": "en",
-      "topic": "bananas",
-      "title": "bananas",
-      "when": "2026-11-08T19:37:00",
-      "checked": true
-    },
     {
       "id": "6af137e172d4404efaa93719",
       "lang": "en",
@@ -300,21 +279,45 @@
       "lang": "en",
       "topic": "jellyfish",
       "title": "jellyfish",
-      "when": "2026-11-17T17:02:00"
+      "when": "2026-11-17T17:02:00",
+      "checked": true
     },
     {
       "id": "6afbc42fe402befbc1ecd07a",
       "lang": "en",
       "topic": "jupiter",
       "title": "Jupiter",
-      "when": "2026-11-17T22:02:00"
+      "when": "2026-11-17T22:02:00",
+      "checked": true
     },
     {
       "id": "6afbc50ce5d86def3ed20d8b",
       "lang": "en",
       "topic": "cheese",
       "title": "cheese",
-      "when": "2026-11-18T02:05:00"
+      "when": "2026-11-18T02:05:00",
+      "checked": true
+    },
+    {
+      "id": "6afd14dc56c5e60086318013",
+      "lang": "en",
+      "topic": "dreams",
+      "title": "dreams",
+      "when": "2026-11-18T17:23:00"
+    },
+    {
+      "id": "6afd15bf56c5e60086318123",
+      "lang": "en",
+      "topic": "rainbows",
+      "title": "rainbows",
+      "when": "2026-11-18T21:04:00"
+    },
+    {
+      "id": "6afd1698ad13db5620af820b",
+      "lang": "en",
+      "topic": "kangaroos",
+      "title": "kangaroos",
+      "when": "2026-11-19T01:31:00"
     }
   ]
 }
