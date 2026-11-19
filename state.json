@@ -51,13 +51,13 @@
     "cheese",
     "dreams",
     "rainbows",
-    "kangaroos"
+    "kangaroos",
+    "venice",
+    "the-mariana-trench",
+    "samurai"
   ],
   "slots": {
     "en": {
-      "2026-11-11 17:00": "the-eyes",
-      "2026-11-11 21:30": "saturn",
-      "2026-11-11 02:00": "pizza",
       "2026-11-12 17:00": "the-amazon-rainforest",
       "2026-11-12 21:30": "owls",
       "2026-11-12 02:00": "icebergs",
@@ -78,34 +78,13 @@
       "2026-11-17 02:00": "cheese",
       "2026-11-18 17:00": "dreams",
       "2026-11-18 21:30": "rainbows",
-      "2026-11-18 02:00": "kangaroos"
+      "2026-11-18 02:00": "kangaroos",
+      "2026-11-19 17:00": "venice",
+      "2026-11-19 21:30": "the-mariana-trench",
+      "2026-11-19 02:00": "samurai"
     }
   },
   "posts": [
-    {
-      "id": "6af137e172d4404efaa93719",
-      "lang": "en",
-      "topic": "the-roman-empire",
-      "title": "the Roman Empire",
-      "when": "2026-11-09T17:04:00",
-      "checked": true
-    },
-    {
-      "id": "6af1391ab0ab6cef91f0e031",
-      "lang": "en",
-      "topic": "airplanes",
-      "title": "airplanes",
-      "when": "2026-11-09T21:41:00",
-      "checked": true
-    },
-    {
-      "id": "6af13a55d00036950c037c2e",
-      "lang": "en",
-      "topic": "elephants",
-      "title": "elephants",
-      "when": "2026-11-10T02:17:00",
-      "checked": true
-    },
     {
       "id": "6af288830d8f2c8789cbf1c2",
       "lang": "en",
@@ -303,21 +282,45 @@
       "lang": "en",
       "topic": "dreams",
       "title": "dreams",
-      "when": "2026-11-18T17:23:00"
+      "when": "2026-11-18T17:23:00",
+      "checked": true
     },
     {
       "id": "6afd15bf56c5e60086318123",
       "lang": "en",
       "topic": "rainbows",
       "title": "rainbows",
-      "when": "2026-11-18T21:04:00"
+      "when": "2026-11-18T21:04:00",
+      "checked": true
     },
     {
       "id": "6afd1698ad13db5620af820b",
       "lang": "en",
       "topic": "kangaroos",
       "title": "kangaroos",
-      "when": "2026-11-19T01:31:00"
+      "when": "2026-11-19T01:31:00",
+      "checked": true
+    },
+    {
+      "id": "6afe6765ce88787f35d87c28",
+      "lang": "en",
+      "topic": "venice",
+      "title": "Venice",
+      "when": "2026-11-19T17:13:00"
+    },
+    {
+      "id": "6afe68ca6cdf63312000045e",
+      "lang": "en",
+      "topic": "the-mariana-trench",
+      "title": "the Mariana Trench",
+      "when": "2026-11-19T21:46:00"
+    },
+    {
+      "id": "6afe6a35bc6eaeb395fb854b",
+      "lang": "en",
+      "topic": "samurai",
+      "title": "samurai",
+      "when": "2026-11-20T02:09:00"
     }
   ]
 }
