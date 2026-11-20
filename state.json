@@ -54,13 +54,13 @@
     "kangaroos",
     "venice",
     "the-mariana-trench",
-    "samurai"
+    "samurai",
+    "bamboo",
+    "the-english-language",
+    "giraffes"
   ],
   "slots": {
     "en": {
-      "2026-11-12 17:00": "the-amazon-rainforest",
-      "2026-11-12 21:30": "owls",
-      "2026-11-12 02:00": "icebergs",
       "2026-11-13 17:00": "sunflowers",
       "2026-11-13 21:30": "the-fastest-animals",
       "2026-11-13 02:00": "dogs",
@@ -81,34 +81,13 @@
       "2026-11-18 02:00": "kangaroos",
       "2026-11-19 17:00": "venice",
       "2026-11-19 21:30": "the-mariana-trench",
-      "2026-11-19 02:00": "samurai"
+      "2026-11-19 02:00": "samurai",
+      "2026-11-20 17:00": "bamboo",
+      "2026-11-20 21:30": "the-english-language",
+      "2026-11-20 02:00": "giraffes"
     }
   },
   "posts": [
-    {
-      "id": "6af288830d8f2c8789cbf1c2",
-      "lang": "en",
-      "topic": "tornadoes",
-      "title": "tornadoes",
-      "when": "2026-11-10T17:32:00",
-      "checked": true
-    },
-    {
-      "id": "6af28970087e725576b09e7c",
-      "lang": "en",
-      "topic": "sharks",
-      "title": "sharks",
-      "when": "2026-11-10T20:55:00",
-      "checked": true
-    },
-    {
-      "id": "6af28a52a086e5ec4948fc1d",
-      "lang": "en",
-      "topic": "the-titanic",
-      "title": "the Titanic",
-      "when": "2026-11-11T01:57:00",
-      "checked": true
-    },
     {
       "id": "6af3da68e05f448d7e1b9434",
       "lang": "en",
@@ -306,21 +285,45 @@
       "lang": "en",
       "topic": "venice",
       "title": "Venice",
-      "when": "2026-11-19T17:13:00"
+      "when": "2026-11-19T17:13:00",
+      "checked": true
     },
     {
       "id": "6afe68ca6cdf63312000045e",
       "lang": "en",
       "topic": "the-mariana-trench",
       "title": "the Mariana Trench",
-      "when": "2026-11-19T21:46:00"
+      "when": "2026-11-19T21:46:00",
+      "checked": true
     },
     {
       "id": "6afe6a35bc6eaeb395fb854b",
       "lang": "en",
       "topic": "samurai",
       "title": "samurai",
-      "when": "2026-11-20T02:09:00"
+      "when": "2026-11-20T02:09:00",
+      "checked": true
+    },
+    {
+      "id": "6affb892fb1dba614148ef29",
+      "lang": "en",
+      "topic": "bamboo",
+      "title": "bamboo",
+      "when": "2026-11-20T16:28:00"
+    },
+    {
+      "id": "6affb9dc501a552456d97c84",
+      "lang": "en",
+      "topic": "the-english-language",
+      "title": "the English language",
+      "when": "2026-11-20T21:51:00"
+    },
+    {
+      "id": "6affbb2dfb1dba614148f6fd",
+      "lang": "en",
+      "topic": "giraffes",
+      "title": "giraffes",
+      "when": "2026-11-21T02:29:00"
     }
   ]
 }
