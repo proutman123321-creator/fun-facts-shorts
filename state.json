@@ -60,13 +60,13 @@
     "giraffes",
     "the-northern-lights",
     "laughter",
-    "wombats"
+    "wombats",
+    "cleopatra",
+    "blood",
+    "mercury"
   ],
   "slots": {
     "en": {
-      "2026-11-14 17:00": "black-holes",
-      "2026-11-14 21:30": "the-pyramids",
-      "2026-11-14 02:00": "bones",
       "2026-11-15 17:00": "strawberries",
       "2026-11-15 21:30": "snowflakes",
       "2026-11-15 02:00": "butterflies",
@@ -87,34 +87,13 @@
       "2026-11-20 02:00": "giraffes",
       "2026-11-21 17:00": "the-northern-lights",
       "2026-11-21 21:30": "laughter",
-      "2026-11-21 02:00": "wombats"
+      "2026-11-21 02:00": "wombats",
+      "2026-11-22 17:00": "cleopatra",
+      "2026-11-22 21:30": "blood",
+      "2026-11-22 02:00": "mercury"
     }
   },
   "posts": [
-    {
-      "id": "6af52c564457ec6b0561c742",
-      "lang": "en",
-      "topic": "the-amazon-rainforest",
-      "title": "the Amazon rainforest",
-      "when": "2026-11-12T17:16:00",
-      "checked": true
-    },
-    {
-      "id": "6af52dd30ca9ab32847b9bcf",
-      "lang": "en",
-      "topic": "owls",
-      "title": "owls",
-      "when": "2026-11-12T21:51:00",
-      "checked": true
-    },
-    {
-      "id": "6af52f615f410b305eb3479e",
-      "lang": "en",
-      "topic": "icebergs",
-      "title": "icebergs",
-      "when": "2026-11-13T02:10:00",
-      "checked": true
-    },
     {
       "id": "6af67d1c8bfc32c7d32e5fbd",
       "lang": "en",
@@ -312,21 +291,45 @@
       "lang": "en",
       "topic": "the-northern-lights",
       "title": "the Northern Lights",
-      "when": "2026-11-21T16:35:00"
+      "when": "2026-11-21T16:35:00",
+      "checked": true
     },
     {
       "id": "6b010ac68d95d16526183b84",
       "lang": "en",
       "topic": "laughter",
       "title": "laughter",
-      "when": "2026-11-21T20:59:00"
+      "when": "2026-11-21T20:59:00",
+      "checked": true
     },
     {
       "id": "6b010c9cccb96af41cc2f53e",
       "lang": "en",
       "topic": "wombats",
       "title": "wombats",
-      "when": "2026-11-22T02:31:00"
+      "when": "2026-11-22T02:31:00",
+      "checked": true
+    },
+    {
+      "id": "6b025b35f12a06a8b9c5c24f",
+      "lang": "en",
+      "topic": "cleopatra",
+      "title": "Cleopatra",
+      "when": "2026-11-22T17:26:00"
+    },
+    {
+      "id": "6b025c3d946fcebea646fb8e",
+      "lang": "en",
+      "topic": "blood",
+      "title": "blood",
+      "when": "2026-11-22T21:53:00"
+    },
+    {
+      "id": "6b025d564607f8e8ae7d0eaa",
+      "lang": "en",
+      "topic": "mercury",
+      "title": "Mercury",
+      "when": "2026-11-23T01:43:00"
     }
   ]
 }
