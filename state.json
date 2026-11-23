@@ -63,13 +63,13 @@
     "wombats",
     "cleopatra",
     "blood",
-    "mercury"
+    "mercury",
+    "paris",
+    "water",
+    "the-wheel"
   ],
   "slots": {
     "en": {
-      "2026-11-15 17:00": "strawberries",
-      "2026-11-15 21:30": "snowflakes",
-      "2026-11-15 02:00": "butterflies",
       "2026-11-16 17:00": "the-great-wall-of-china",
       "2026-11-16 21:30": "antarctica",
       "2026-11-16 02:00": "smartphones",
@@ -90,34 +90,13 @@
       "2026-11-21 02:00": "wombats",
       "2026-11-22 17:00": "cleopatra",
       "2026-11-22 21:30": "blood",
-      "2026-11-22 02:00": "mercury"
+      "2026-11-22 02:00": "mercury",
+      "2026-11-23 17:00": "paris",
+      "2026-11-23 21:30": "water",
+      "2026-11-23 02:00": "the-wheel"
     }
   },
   "posts": [
-    {
-      "id": "6af67d1c8bfc32c7d32e5fbd",
-      "lang": "en",
-      "topic": "sunflowers",
-      "title": "sunflowers",
-      "when": "2026-11-13T16:46:00",
-      "checked": true
-    },
-    {
-      "id": "6af67e6eb01a72619554ad53",
-      "lang": "en",
-      "topic": "the-fastest-animals",
-      "title": "the fastest animals",
-      "when": "2026-11-13T20:57:00",
-      "checked": true
-    },
-    {
-      "id": "6af67fc0607a59141ce1af1c",
-      "lang": "en",
-      "topic": "dogs",
-      "title": "dogs",
-      "when": "2026-11-14T01:59:00",
-      "checked": true
-    },
     {
       "id": "6af7cef1dc83af75cebae802",
       "lang": "en",
@@ -315,21 +294,45 @@
       "lang": "en",
       "topic": "cleopatra",
       "title": "Cleopatra",
-      "when": "2026-11-22T17:26:00"
+      "when": "2026-11-22T17:26:00",
+      "checked": true
     },
     {
       "id": "6b025c3d946fcebea646fb8e",
       "lang": "en",
       "topic": "blood",
       "title": "blood",
-      "when": "2026-11-22T21:53:00"
+      "when": "2026-11-22T21:53:00",
+      "checked": true
     },
     {
       "id": "6b025d564607f8e8ae7d0eaa",
       "lang": "en",
       "topic": "mercury",
       "title": "Mercury",
-      "when": "2026-11-23T01:43:00"
+      "when": "2026-11-23T01:43:00",
+      "checked": true
+    },
+    {
+      "id": "6b03adf86dae400ff16af0d4",
+      "lang": "en",
+      "topic": "paris",
+      "title": "Paris",
+      "when": "2026-11-23T16:54:00"
+    },
+    {
+      "id": "6b03af1be80ef5008d3f4817",
+      "lang": "en",
+      "topic": "water",
+      "title": "water",
+      "when": "2026-11-23T21:36:00"
+    },
+    {
+      "id": "6b03b05bd956fb9941c2fd74",
+      "lang": "en",
+      "topic": "the-wheel",
+      "title": "the wheel",
+      "when": "2026-11-24T02:25:00"
     }
   ]
 }
