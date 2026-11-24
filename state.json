@@ -66,13 +66,13 @@
     "mercury",
     "paris",
     "water",
-    "the-wheel"
+    "the-wheel",
+    "the-great-barrier-reef",
+    "tea",
+    "trees"
   ],
   "slots": {
     "en": {
-      "2026-11-16 17:00": "the-great-wall-of-china",
-      "2026-11-16 21:30": "antarctica",
-      "2026-11-16 02:00": "smartphones",
       "2026-11-17 17:00": "jellyfish",
       "2026-11-17 21:30": "jupiter",
       "2026-11-17 02:00": "cheese",
@@ -93,34 +93,13 @@
       "2026-11-22 02:00": "mercury",
       "2026-11-23 17:00": "paris",
       "2026-11-23 21:30": "water",
-      "2026-11-23 02:00": "the-wheel"
+      "2026-11-23 02:00": "the-wheel",
+      "2026-11-24 17:00": "the-great-barrier-reef",
+      "2026-11-24 21:30": "tea",
+      "2026-11-24 02:00": "trees"
     }
   },
   "posts": [
-    {
-      "id": "6af7cef1dc83af75cebae802",
-      "lang": "en",
-      "topic": "black-holes",
-      "title": "black holes",
-      "when": "2026-11-14T16:46:00",
-      "checked": true
-    },
-    {
-      "id": "6af7d03c4b685d388decb5db",
-      "lang": "en",
-      "topic": "the-pyramids",
-      "title": "the pyramids",
-      "when": "2026-11-14T22:01:00",
-      "checked": true
-    },
-    {
-      "id": "6af7d184b2d7e8eb8cbc6f2b",
-      "lang": "en",
-      "topic": "bones",
-      "title": "bones",
-      "when": "2026-11-15T01:42:00",
-      "checked": true
-    },
     {
       "id": "6af920a14aaef2da08163e6a",
       "lang": "en",
@@ -318,21 +297,45 @@
       "lang": "en",
       "topic": "paris",
       "title": "Paris",
-      "when": "2026-11-23T16:54:00"
+      "when": "2026-11-23T16:54:00",
+      "checked": true
     },
     {
       "id": "6b03af1be80ef5008d3f4817",
       "lang": "en",
       "topic": "water",
       "title": "water",
-      "when": "2026-11-23T21:36:00"
+      "when": "2026-11-23T21:36:00",
+      "checked": true
     },
     {
       "id": "6b03b05bd956fb9941c2fd74",
       "lang": "en",
       "topic": "the-wheel",
       "title": "the wheel",
-      "when": "2026-11-24T02:25:00"
+      "when": "2026-11-24T02:25:00",
+      "checked": true
+    },
+    {
+      "id": "6b0505165c02de39dfd9e67d",
+      "lang": "en",
+      "topic": "the-great-barrier-reef",
+      "title": "the Great Barrier Reef",
+      "when": "2026-11-24T16:42:00"
+    },
+    {
+      "id": "6b05065ba92288e4d237db61",
+      "lang": "en",
+      "topic": "tea",
+      "title": "tea",
+      "when": "2026-11-24T21:20:00"
+    },
+    {
+      "id": "6b0507893bce6e8d7ee751f9",
+      "lang": "en",
+      "topic": "trees",
+      "title": "trees",
+      "when": "2026-11-25T01:34:00"
     }
   ]
 }
