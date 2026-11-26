@@ -72,13 +72,13 @@
     "trees",
     "sloths",
     "the-tallest-buildings",
-    "the-alphabet"
+    "the-alphabet",
+    "gladiators",
+    "koalas",
+    "the-skeleton"
   ],
   "slots": {
     "en": {
-      "2026-11-18 17:00": "dreams",
-      "2026-11-18 21:30": "rainbows",
-      "2026-11-18 02:00": "kangaroos",
       "2026-11-19 17:00": "venice",
       "2026-11-19 21:30": "the-mariana-trench",
       "2026-11-19 02:00": "samurai",
@@ -99,34 +99,13 @@
       "2026-11-24 02:00": "trees",
       "2026-11-25 17:00": "sloths",
       "2026-11-25 21:30": "the-tallest-buildings",
-      "2026-11-25 02:00": "the-alphabet"
+      "2026-11-25 02:00": "the-alphabet",
+      "2026-11-26 17:00": "gladiators",
+      "2026-11-26 21:30": "koalas",
+      "2026-11-26 02:00": "the-skeleton"
     }
   },
   "posts": [
-    {
-      "id": "6afa72e4b05f1065cfad36a0",
-      "lang": "en",
-      "topic": "the-great-wall-of-china",
-      "title": "the Great Wall of China",
-      "when": "2026-11-16T16:27:00",
-      "checked": true
-    },
-    {
-      "id": "6afa73c0cf4d9304ee342831",
-      "lang": "en",
-      "topic": "antarctica",
-      "title": "Antarctica",
-      "when": "2026-11-16T21:29:00",
-      "checked": true
-    },
-    {
-      "id": "6afa7499add61380c67b357e",
-      "lang": "en",
-      "topic": "smartphones",
-      "title": "smartphones",
-      "when": "2026-11-17T01:48:00",
-      "checked": true
-    },
     {
       "id": "6afbc34cd57782170ed7f775",
       "lang": "en",
@@ -324,21 +303,45 @@
       "lang": "en",
       "topic": "sloths",
       "title": "sloths",
-      "when": "2026-11-25T16:47:00"
+      "when": "2026-11-25T16:47:00",
+      "checked": true
     },
     {
       "id": "6b065237261670ca24c35996",
       "lang": "en",
       "topic": "the-tallest-buildings",
       "title": "the tallest buildings",
-      "when": "2026-11-25T21:06:00"
+      "when": "2026-11-25T21:06:00",
+      "checked": true
     },
     {
       "id": "6b065370388ddccc8ed8bca7",
       "lang": "en",
       "topic": "the-alphabet",
       "title": "the alphabet",
-      "when": "2026-11-26T01:53:00"
+      "when": "2026-11-26T01:53:00",
+      "checked": true
+    },
+    {
+      "id": "6b07a269cf9b9314ade33bd9",
+      "lang": "en",
+      "topic": "gladiators",
+      "title": "gladiators",
+      "when": "2026-11-26T16:47:00"
+    },
+    {
+      "id": "6b07a3ddf8ea51d01817def1",
+      "lang": "en",
+      "topic": "koalas",
+      "title": "koalas",
+      "when": "2026-11-26T21:01:00"
+    },
+    {
+      "id": "6b07a52e8b26cdc47f66796d",
+      "lang": "en",
+      "topic": "the-skeleton",
+      "title": "the skeleton",
+      "when": "2026-11-27T02:06:00"
     }
   ]
 }
