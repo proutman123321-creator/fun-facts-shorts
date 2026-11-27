@@ -75,13 +75,13 @@
     "the-alphabet",
     "gladiators",
     "koalas",
-    "the-skeleton"
+    "the-skeleton",
+    "venus",
+    "yawning",
+    "new-york"
   ],
   "slots": {
     "en": {
-      "2026-11-19 17:00": "venice",
-      "2026-11-19 21:30": "the-mariana-trench",
-      "2026-11-19 02:00": "samurai",
       "2026-11-20 17:00": "bamboo",
       "2026-11-20 21:30": "the-english-language",
       "2026-11-20 02:00": "giraffes",
@@ -102,34 +102,13 @@
       "2026-11-25 02:00": "the-alphabet",
       "2026-11-26 17:00": "gladiators",
       "2026-11-26 21:30": "koalas",
-      "2026-11-26 02:00": "the-skeleton"
+      "2026-11-26 02:00": "the-skeleton",
+      "2026-11-27 17:00": "venus",
+      "2026-11-27 21:30": "yawning",
+      "2026-11-27 02:00": "new-york"
     }
   },
   "posts": [
-    {
-      "id": "6afbc34cd57782170ed7f775",
-      "lang": "en",
-      "topic": "jellyfish",
-      "title": "jellyfish",
-      "when": "2026-11-17T17:02:00",
-      "checked": true
-    },
-    {
-      "id": "6afbc42fe402befbc1ecd07a",
-      "lang": "en",
-      "topic": "jupiter",
-      "title": "Jupiter",
-      "when": "2026-11-17T22:02:00",
-      "checked": true
-    },
-    {
-      "id": "6afbc50ce5d86def3ed20d8b",
-      "lang": "en",
-      "topic": "cheese",
-      "title": "cheese",
-      "when": "2026-11-18T02:05:00",
-      "checked": true
-    },
     {
       "id": "6afd14dc56c5e60086318013",
       "lang": "en",
@@ -327,21 +306,45 @@
       "lang": "en",
       "topic": "gladiators",
       "title": "gladiators",
-      "when": "2026-11-26T16:47:00"
+      "when": "2026-11-26T16:47:00",
+      "checked": true
     },
     {
       "id": "6b07a3ddf8ea51d01817def1",
       "lang": "en",
       "topic": "koalas",
       "title": "koalas",
-      "when": "2026-11-26T21:01:00"
+      "when": "2026-11-26T21:01:00",
+      "checked": true
     },
     {
       "id": "6b07a52e8b26cdc47f66796d",
       "lang": "en",
       "topic": "the-skeleton",
       "title": "the skeleton",
-      "when": "2026-11-27T02:06:00"
+      "when": "2026-11-27T02:06:00",
+      "checked": true
+    },
+    {
+      "id": "6b08f39533a793b20449f1c1",
+      "lang": "en",
+      "topic": "venus",
+      "title": "Venus",
+      "when": "2026-11-27T17:05:00"
+    },
+    {
+      "id": "6b08f49f75d7b91babec99ea",
+      "lang": "en",
+      "topic": "yawning",
+      "title": "yawning",
+      "when": "2026-11-27T21:43:00"
+    },
+    {
+      "id": "6b08f5aa5aa8c65e4d61e426",
+      "lang": "en",
+      "topic": "new-york",
+      "title": "New York",
+      "when": "2026-11-28T02:08:00"
     }
   ]
 }
